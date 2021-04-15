@@ -1,29 +1,26 @@
 library(votesys)
-#Suppose we have the following ballot data
- 
-raw <- list2ballot(x = list(c('m','n','c','k'), 
-                                 c('n','c','k','m'),
-                                 c('c','k','n','m'), 
-                                 c('k','c','n','m'),
-                                 c(NA, NA, NA, NA)) ,
-                        n = c(42, 26, 15, 17, 3))
- 
- 
- # Step 1: check validity of ballots. Delete# some of them, if needed.
-check_validity <- check_dup_wrong(raw,
-                                 xtype = 3,
-                                 candidate = c("m", "n", "k", "c"))
-raw <- raw[- check_validity$row_all_na]
- 
- 
- # Step 2: create a vote object
-vote <- create_vote(raw, xtype = 3, candidate = c("m", "n", "k", "c"))
-# Step 3: use one or more methods
-y <- plurality_method(vote) # winner is m
-y$winner
-y <- irv_method(vote) # winner is k
-y$winner
-y <- cdc_simple(vote) # winner is n
-y$winner
-y <- cdc_rankedpairs(vote) # winnner is n
-y$winner
+library(data.table)
+
+sujets <- fread("S01E02/sujets.csv")
+nbSujets <- nrow(sujets)
+
+#votes <- as.matrix(fread("S01E02/votes.csv"))
+votes <- matrix(nrow = 100,ncol=nbSujets)
+votes <- t(mapply(1:nrow(votes), FUN=function(x)
+  sample(1:nbSujets,nbSujets,replace=FALSE)))
+colnames(votes) <- sujets$Sujet
+votes
+
+vote <- create_vote(votes, xtype = 1)
+resultatVote <- irv_method(vote)
+resultatVote$winner
+
+#check_dup_wrong()
+
+#https://en.wikipedia.org/wiki/Instant-runoff_voting
+#https://fr.wikipedia.org/wiki/Vote_%C3%A0_second_tour_instantan%C3%A9
+
+#y <- cdc_simple(vote)
+#y <- cdc_rankedpairs(vote)
+
+
