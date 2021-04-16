@@ -4,26 +4,20 @@
 library(votesys)
 library(data.table)
 
-sujets <- fread("S01E02/sujets.csv")
-nbSujets <- nrow(sujets)
-
+#nbSujets <- nrow(sujets)
 #votes <- matrix(nrow = 100,ncol=nbSujets)
 #votes <- t(mapply(1:nrow(votes), FUN=function(x)
 #  sample(1:nbSujets,nbSujets,replace=FALSE)))
 
+sujets <- fread("S01E02/sujets.csv")
 votes <- as.matrix(fread("S01E02/votes.csv"))
 colnames(votes) <- sujets$Sujet
-votes
 
 vote <- create_vote(votes, xtype = 1)
-resultatVote <- irv_method(vote)
-resultatVote$winner
+resultatVote <- cdc_schulze(vote)
+Winner <- resultatVote$winner
+OrderedWinners <- resultatVote$summary_m[,3]
+OrderedWinners <- OrderedWinners[order(OrderedWinners,decreasing = T)]
 
-#check_dup_wrong()
-
-
-
-#y <- cdc_simple(vote)
-#y <- cdc_rankedpairs(vote)
-
-
+votes
+OrderedWinners
