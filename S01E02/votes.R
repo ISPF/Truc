@@ -9,7 +9,7 @@ library(data.table)
 #votes <- t(mapply(1:nrow(votes), FUN=function(x)
 #  sample(1:nbSujets,nbSujets,replace=FALSE)))
 
-sujets <- fread("S01E02/sujets.csv")
+sujets <- fread("S01E02/sujets.csv", encoding = "UTF-8")
 votes <- as.matrix(fread("S01E02/votes.csv"))
 colnames(votes) <- sujets$Sujet
 
@@ -19,5 +19,7 @@ Winner <- resultatVote$winner
 OrderedWinners <- resultatVote$summary_m[,3]
 OrderedWinners <- OrderedWinners[order(OrderedWinners,decreasing = T)]
 
-votes
+Winner
 OrderedWinners
+t(t(OrderedWinners))
+X

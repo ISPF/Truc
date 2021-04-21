@@ -1,9 +1,14 @@
 library(leaflet)
 library(rgdal)
-
+library(sf)
 #http://rstudio.github.io/leaflet/
 
-Comas <-readOGR("S01E02/shp", "Comas")
+#Comas <-readOGR("S01E02/shp", "Comas")
+# Préférer sf à rgdal qui crée undata frame enrichi d'une colonne géométrie
+Comas <- st_read("S01E02/shp/Comas.shp")
+
+
+
 #Comas <- readOGR("S01E02/geojson/comas.GeoJSON") # tres tres long
 
 pal <- colorNumeric(palette = "Reds",domain = Comas$Rsdncpr)
