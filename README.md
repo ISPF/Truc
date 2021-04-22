@@ -26,3 +26,68 @@ Documentation sur le vote alternatif
 [Vote à second tour instantané](https://fr.wikipedia.org/wiki/Vote_%C3%A0_second_tour_instantan%C3%A9)
 
 [Vote à second tour instantané (en)](https://en.wikipedia.org/wiki/Instant-runoff_voting)
+
+
+[[Mail liste des utilisateurs du TRUC]{.ul}](https://docs.google.com/spreadsheets/d/1gPdIxBFNqHY299Ywfv-UrSkJrIULryD5BuiP12cHExA/edit?usp=sharing)
+
+[[Fichier de contact]{.ul}](https://drive.google.com/file/d/1Rp7t79xnojTQmYXv89hKy-vRhSEJkjdE/view?usp=sharing) (pour importation directement dans vos contacts google)
+
+# Organisation de la communauté :
+
+La Tahitien R User Community est née dans le cadre du datalab et coordonnée par l'ISPF. Les membres de ce groupe d'échange sont des codeurs R et le but est de partager nos connaissances, notre savoir faire et de tester des nouveautés.
+
+Pour cela, plusieurs outils sont à disposition des participants et sont recensés sur le [[Blog ISPF]{.ul}](https://blog.ispf.pf/) :
+
+-   les rendez vous sont annoncés sur le blog et sur le [[Meetup de Tahitidevops]{.ul}](https://www.meetup.com/fr-FR/TahitiDevOps)
+
+-   le contenu des réunions est partagé sur le blof et sur le [[github]{.ul}](https://github.com/ISPF/Truc) de la communauté
+
+Le choix des sujets est soumis au vote des participants.
+
+Le lieu de rencontre est modulable : ISPF - CPS - CHPF
+
+Horaires : dépendants des lieux de rencontre
+
+# Déroulement de la rencontre
+
+## Présentation du package votesys 
+
+Le package permet de générer un processus de vote pour sélectionner les sujets à aborder lors des prochaines sessions.
+
+Application aux sujets de la communauté et planification des interventions
+
+> \- 1^er^ : Shiny / Plotly : Hubert -- Laurent.R -- Jean ⇒ S01 E03
+>
+> \- 2^ème^ : Modèle linéraire / Modèle de gravité : Géraldine -- Mathieu -- Ariinui ⇒ S01 E04
+>
+> \- 3^ème^ : SIG (suite) : *intervenant ?*
+>
+> \- 4^ème^ : tests unitaires : *intervenant ?*
+>
+> \- 5^ème^ : Notebook Rmd / Jupiter : Philippe - Laurent P. ⇒ S01 E0X
+>
+> Autres sujets soumis au vote:
+
+-   langage Julia
+
+-   différentiel de base de données
+
+-   
+
+> Autres sujets non soumis au vote:
+
+-   intervention de la société ThinkR sur la création de package
+
+-   analyse multivariée (ACP, AFM, ACM): intervenant Philippe
+
+-   dojo
+
+-   algorithme de détection de fraude
+
+## Présentation des packages leaflet, rgdal, sf
+
+Démonstration de l'utilisation de ces packages en utilisant des données de cartographie disponibles en [[open data]{.ul}](https://www.data.gouv.fr/fr/organizations/institut-de-la-statistique-de-la-polynesie-francaise/) pour la réalisation de carte :
+
+-   leaflet situer des emplacements sur une carte type google maps
+
+-   rgdal / sf visualiser des données sur une carte
