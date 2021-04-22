@@ -54,7 +54,33 @@ Horaires : dépendants des lieux de rencontre
 
 Le package permet de générer un processus de vote pour sélectionner les sujets à aborder lors des prochaines sessions.
 
-Application aux sujets de la communauté et planification des interventions
+
+### Sujets proposés au vote
+- Data.table vs DPLYR
+- SIG suite
+- Encodage UTF-8 et les autres
+- Shiny/Plotly
+- Dates et lubridate
+- modèles GLM
+- Tests unitaires en R
+- Julia
+- Notebooks Jupyter/RMD
+
+### Résultats du vote
+
+- Shiny/Plotly                    8
+- modèles GLM                     7
+- SIG suite                       5
+- Tests unitaires en R            5
+- Notebooks Jupyter/RMD           4
+- Data.table vs DPLYR             2
+- Dates et lubridate              1
+- Encodage UTF-8 et les autres    0
+- Julia                           0
+
+
+### Planification des interventions
+
 
 > \- 1^er^ : Shiny / Plotly : Hubert -- Laurent.R -- Jean ⇒ S01 E03
 >
@@ -66,15 +92,8 @@ Application aux sujets de la communauté et planification des interventions
 >
 > \- 5^ème^ : Notebook Rmd / Jupiter : Philippe - Laurent P. ⇒ S01 E0X
 >
-> Autres sujets soumis au vote:
 
--   langage Julia
-
--   différentiel de base de données
-
--   
-
-> Autres sujets non soumis au vote:
+#### Autres sujets non soumis au vote:
 
 -   intervention de la société ThinkR sur la création de package
 
