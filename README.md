@@ -110,3 +110,16 @@ Démonstration de l'utilisation de ces packages en utilisant des données de car
 -   leaflet situer des emplacements sur une carte type google maps
 
 -   rgdal / sf visualiser des données sur une carte
+
+# S01E03 - Shiny et Plotly - Hubert, Laurent et Jean
+
+## Présentation d'une application shiny en ligne et session codage d'une nouvelle appli
+
+### FLARES - Shiny app poour l'analyse de freelists
+Démonstration de l'application FLARES à titre d'illustration pour montrer ce qu'on peut faire avec shiny. 
+[Lien vers l'appli](http://anthrocogs.com/shiny/flares)
+Jeu de données dispo [ici](http://anthrocogs.com) pour faire tourner l'application
+
+### Session codage : appli type dashboard pour explorer les données du MCR-LTER (Moorea Coral Reef Long-Term Ecological Research Programme)
+A partir de données écologiques sur les comptages de poissons et relevés substrats autour de Moorea mis en accès libre par le MCR-LTER création d'une application pour visualiser les données avec un line chart et une carte.
+Code et données (retravaillées) dispo dans sur GitHub
