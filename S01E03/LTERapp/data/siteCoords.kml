@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>siteCoords.csv</name>
+	<Schema name="siteCoords" id="S_siteCoords_SDD">
+		<SimpleField type="string" name="siteID"><displayName>&lt;b&gt;siteID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Lon"><displayName>&lt;b&gt;Lon&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Lat"><displayName>&lt;b&gt;Lat&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="msn_placemark_circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_placemark_circle">
+		<IconStyle>
+			<color>ffe7ebef</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffe7ebef</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight">
+		<IconStyle>
+			<color>ffe7ebef</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffe7ebef</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>siteCoords</name>
+		<Placemark>
+			<name>1_FO</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">1_FO</SimpleData>
+					<SimpleData name="Lon">-149.837</SimpleData>
+					<SimpleData name="Lat">-17.475</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.8387580845783,-17.47512495499034,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2_FO</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">2_FO</SimpleData>
+					<SimpleData name="Lon">-149.808</SimpleData>
+					<SimpleData name="Lat">-17.4714</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.8052825917114,-17.47190086055348,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3_FO</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">3_FO</SimpleData>
+					<SimpleData name="Lon">-149.761</SimpleData>
+					<SimpleData name="Lat">-17.5146</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.761174106077,-17.51119405019454,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4_FO</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">4_FO</SimpleData>
+					<SimpleData name="Lon">-149.769</SimpleData>
+					<SimpleData name="Lat">-17.5475</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.7708294757124,-17.54923544580858,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5_FO</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">5_FO</SimpleData>
+					<SimpleData name="Lon">-149.875</SimpleData>
+					<SimpleData name="Lat">-17.5815</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.8693091652581,-17.58793793002534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6_FO</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">6_FO</SimpleData>
+					<SimpleData name="Lon">-149.924</SimpleData>
+					<SimpleData name="Lat">-17.5189</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.9261557714084,-17.51562909702627,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1_BA</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">1_BA</SimpleData>
+					<SimpleData name="Lon">-149.842</SimpleData>
+					<SimpleData name="Lat">-17.4782</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.8379881416958,-17.47830686805714,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2_BA</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">2_BA</SimpleData>
+					<SimpleData name="Lon">-149.802</SimpleData>
+					<SimpleData name="Lat">-17.4772</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.8082326032676,-17.47516466323829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3_BA</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">3_BA</SimpleData>
+					<SimpleData name="Lon">-149.764</SimpleData>
+					<SimpleData name="Lat">-17.5138</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.7633825798449,-17.51073960100194,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4_BA</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">4_BA</SimpleData>
+					<SimpleData name="Lon">-149.769</SimpleData>
+					<SimpleData name="Lat">-17.5436</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.7727554477694,-17.54711505054942,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5_BA</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">5_BA</SimpleData>
+					<SimpleData name="Lon">-149.871</SimpleData>
+					<SimpleData name="Lat">-17.5793</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.8661850091911,-17.58467509552521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6_BA</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">6_BA</SimpleData>
+					<SimpleData name="Lon">-149.921</SimpleData>
+					<SimpleData name="Lat">-17.5209</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.922262624288,-17.51481479889378,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1_FR</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">1_FR</SimpleData>
+					<SimpleData name="Lon">-149.834</SimpleData>
+					<SimpleData name="Lat">-17.485</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.83862939347,-17.48385452773219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2_FR</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">2_FR</SimpleData>
+					<SimpleData name="Lon">-149.8</SimpleData>
+					<SimpleData name="Lat">-17.4803</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.8078894058104,-17.48050814204642,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3_FR</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">3_FR</SimpleData>
+					<SimpleData name="Lon">-149.767</SimpleData>
+					<SimpleData name="Lat">-17.513</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.7664564951581,-17.51020005958009,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4_FR</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">4_FR</SimpleData>
+					<SimpleData name="Lon">-149.774</SimpleData>
+					<SimpleData name="Lat">-17.543</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.7760504144905,-17.54466880982654,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5_FR</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">5_FR</SimpleData>
+					<SimpleData name="Lon">-149.864</SimpleData>
+					<SimpleData name="Lat">-17.579</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.8631894267413,-17.58161621121798,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6_FR</name>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_siteCoords_SDD">
+					<SimpleData name="siteID">6_FR</SimpleData>
+					<SimpleData name="Lon">-149.915</SimpleData>
+					<SimpleData name="Lat">-17.5155</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-149.9164020004592,-17.51371566413579,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
