@@ -1,0 +1,20 @@
+.msgInfo {
+  color : blue;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.msgSucces {
+  color : green;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.msgErreur {
+  color : red;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}

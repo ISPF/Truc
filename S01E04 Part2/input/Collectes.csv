@@ -1,0 +1,9 @@
+IdCollecte,Libelle,DateDebut,DateFin,Description,CollectePrec,Reporting
+1,SOC18,2018-05-14,2018-09-09,Collecte Iles de la Société 2018,,0
+2,ARC18,2018-09-10,2018-12-31,Collecte Archipels 2018,,0
+3,SOC19,2019-04-29,2019-08-06,Collecte Iles de la Société 2019,SOC18,0
+4,MAR19,2020-09-02,2019-11-30,Collecte Marquises 2019,ARC18,0
+5,SOC20,2020-06-29,2020-09-30,Collecte Iles de la Société 2020,SOC19,0
+6,TMG20,2020-08-31,2020-12-01,Collecte Tuamotu-Gambier 2020,,1
+7,SOC21,2021-03-22,2021-06-30,Collecte Iles de la Societe 2021,SOC20,2
+8,AUS21,2021-04-19,2021-07-20,Collecte Iles de la Societe 2021,,1
