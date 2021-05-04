@@ -123,3 +123,6 @@ Jeu de données dispo [ici](http://anthrocogs.com) pour faire tourner l'applicat
 ### Session codage : appli type dashboard pour explorer les données du MCR-LTER (Moorea Coral Reef Long-Term Ecological Research Programme)
 A partir de données écologiques sur les comptages de poissons et relevés substrats autour de Moorea mis en accès libre par le MCR-LTER création d'une application pour visualiser les données avec un line chart et une carte.
 Code et données (retravaillées) dispo dans sur GitHub
+
+
+# S01E04 - Modèle linéaires - Mathieu Géraldine
