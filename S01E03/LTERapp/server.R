@@ -17,7 +17,6 @@ names(siteCoords)[1]<-"siteID"
 
 server <- function(input, output,session){
 # reactive Objects --------------------------------------------------------
-  
   lterData<-reactive({
     if(input$selDataset=="fish")
       return(fishData)
@@ -26,9 +25,7 @@ server <- function(input, output,session){
   })
   
   lineChart<-reactive({
-    if(is.null(input$selFamily))
-      return(NULL)
-    if(is.na(input$selFamily[1]))
+    if(is.null(input$selFamily) || is.na(input$selFamily[1]))
       return(NULL)
 
     lterDataPlot<-filterPlotData(mData = lterData(),
@@ -51,9 +48,7 @@ server <- function(input, output,session){
   leafMapData<-reactive({
     if(is.null(input$selYear))
       return(NULL)
-    if(is.null(input$selFamily))
-      return(NULL)
-    if(is.na(input$selFamily[1]) | "Toutes"%in%input$selFamily)
+    if(is.null(input$selFamily) || (is.na(input$selFamily[1]) || "Toutes"%in%input$selFamily))
       return(NULL)
 
     lterDataMap<-filterMapData(mData = lterData(),
@@ -129,7 +124,6 @@ server <- function(input, output,session){
     return(sliderInput(inputId = "selYear",label = "Choisissez l'année d'intérêt",min = minYear,max=2019,value = 2005,step=1,width='80%'))
   })
 
-  
   observe({
     if(!is.null(leafMapData())){
       leafletProxy("map",data=leafMapData())%>%
