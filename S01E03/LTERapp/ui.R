@@ -30,7 +30,6 @@ ui <- fluidPage(
                                         sliderInput(inputId = "selSize",label="Ajustez taille relative des points",value = 1,min = 0.2,max=5,step=0.1)
                                         )# end conditionalPanel == 'Map'
                         )#end conditionalPanel !='Table'
-       
     ),#end sidebarPanel
     
     
@@ -46,7 +45,6 @@ ui <- fluidPage(
                  ),#end tab table
         tabPanel("Line Chart",
                  br(),br(),
-
                  plotlyOutput("lineChartPlot")
                  ),#end tab lineChart
         tabPanel("Map",
