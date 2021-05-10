@@ -1,0 +1,973 @@
+﻿En01;216088;1;BA10a;Profession principale;PCLCA;MENUISIER;MENUISIER;RC*;632D - Menuisiers qualifiés du bâtiment;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;1;BA22b;Nom de l'employeur;NOMSOC;EQUIPEMENT;TRAVAUX PUBLIC;-;-;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;1;BA29;Nom de l'employeur;EMPL;EQUIPEMENT;-;-;-;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;TRAVAUX PUBLIC;TRAVAUX PUBLIC;CCS;NULL;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;1;BB3;Echelle / échelon / niveau / indice;GRADEC;CATEGORIE D;-;-;-;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;1;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;NULL;5000234s;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;1;D21;Spécialité du diplôme;DIPSCDA;MENUISERIE;MENUISERIE;-;0732;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;1;E12a;Activité principale année précédente;EACTIV;TRAVAUX PUBLIC;NULL;NULL;NULL;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;2;C6a;Profession antérieure;APCLCA;ARTISANE;ARTISANE;RC*;214F;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;2;C8;Activité principale employeur;AACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;2;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216088;2;G5a;Profession du père;FPCLCA;ENTREPRNEUR;ENTREPRNEUR;RC*;214F;47;Gestionnaire 01;03;0;Enquêteur 01
+En01;216104;1;C6a;Profession antérieure;APCLCA;MATELOT;MATELOT;RC*;532B - Sergents et sous-officiers de grade équivalent des Armées (sauf pompiers militaires)*;19;Gestionnaire 01;03;0;Enquêteur 01
+En01;216104;1;C8;Activité principale employeur;AACTIV;TRANSPORT MARITIME;TRANSPORT MARITIME;CCS;NULL;19;Gestionnaire 01;03;0;Enquêteur 01
+En01;216104;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;19;Gestionnaire 01;03;0;Enquêteur 01
+En01;216104;2;C6a;Profession antérieure;APCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;19;Gestionnaire 01;03;0;Enquêteur 01
+En01;216104;2;C8;Activité principale employeur;AACTIV;COMMERCE;COMMERCE;CCS;4711F - Hypermarchés;19;Gestionnaire 01;03;0;Enquêteur 01
+En01;216104;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;19;Gestionnaire 01;03;0;Enquêteur 01
+En01;216104;2;G15a;Profession de la mère;MPCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;19;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;1;C6a;Profession antérieure;APCLCA;MACON;MACON;RC*;632A - Maçons qualifiés;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;1;C8;Activité principale employeur;AACTIV;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM1;CM1;CCS;79991;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;2;C6a;Profession antérieure;APCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;2;C8;Activité principale employeur;AACTIV;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;2;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT;CERTIFICAT;NULL;7510100a;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;4EME;4EME;CCS;79993;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;2;G5a;Profession du père;FPCLCA;ELEVEUR;ELEVEUR;RC*;111E;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;3;D20;Diplôme le plus élevé;DIPINTA;CFG;CFG;NULL;7510100a;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;3;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;3;D38;Année d'études atteinte et diplôme préparé;NIVINTA;2EME ANNEE CAP;2EME ANNEE CAP;RCS;50000;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;3;G5a;Profession du père;FPCLCA;AGENT COMMUNAL;AGENT COMMUNAL;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;4;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;4;BA23a;Activité économique de l'entreprise / patente;ACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;4;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;4;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216112;4;D38;Année d'études atteinte et diplôme préparé;NIVINTA;2EME ANNEE BACPRO;2EME ANNEE BACPRO;RCS;58884;11;Gestionnaire 01;03;0;Enquêteur 01
+En01;216114;1;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;91;Gestionnaire 01;03;0;Enquêteur 01
+En01;216114;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;91;Gestionnaire 01;03;0;Enquêteur 01
+En01;216114;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;3EME;3EME;CCS;64000;91;Gestionnaire 01;03;0;Enquêteur 01
+En01;216114;2;C6a;Profession antérieure;APCLCA;ARTISANE;ARTISANE;RC*;214F;91;Gestionnaire 01;03;0;Enquêteur 01
+En01;216114;2;C8;Activité principale employeur;AACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;91;Gestionnaire 01;03;0;Enquêteur 01
+En01;216114;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;3EME;3EME;CCS;64000;91;Gestionnaire 01;03;0;Enquêteur 01
+En01;216114;2;G5a;Profession du père;FPCLCA;BRICOLEUR;BRICOLEUR;RC*;223B;91;Gestionnaire 01;03;0;Enquêteur 01
+En01;216119;1;BA10a;Profession principale;PCLCA;PATISSIERE;PATISSIERE;RC*;636C - Boulangers, pâtissiers (sauf activité industrielle);15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;1;BA22b;Nom de l'employeur;NOMSOC;NATACHA;PATISSERIE;-;-;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;PATISSERIE;PATISSERIE;CCS;1071D - Pâtisserie;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;1;C6a;Profession antérieure;APCLCA;PATISSIERE;PATISSIERE;RC*;636C - Boulangers, pâtissiers (sauf activité industrielle);15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;1;C8;Activité principale employeur;AACTIV;HOTELLERIE;HOTELLERIE;CCS;5510Z - Hôtels et hébergement similaire;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;5EME;5EME;CCS;79992;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;1;G5a;Profession du père;FPCLCA;OUVRIER AGRICOLE;OUVRIER AGRICOLE;RC*;691E - Ouvriers agricoles sans spécialisation particulière;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;BA10a;Profession principale;PCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;BA22b;Nom de l'employeur;NOMSOC;COMMUNE DE RURUTU;MAIRIE;-;-;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;BA29;Nom de l'employeur;EMPL;COMMUNE DE RURUTU;-;-;-;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;BB3;Echelle / échelon / niveau / indice;GRADEC;CHAUFFEUR;-;-;-;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;D20;Diplôme le plus élevé;DIPINTA;BAC PRO;BAC PRO;NULL;4000233s;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;D21;Spécialité du diplôme;DIPSCDA;BATIMENT FINITIONS;BATIMENT FINITIONS;-;0732;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;D60;Spécialité formation non-formelle;ETMSPA;REMISE A NIVEAU EN FORMATION GÉNÉRALE;-;-;-;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;G15a;Profession de la mère;MPCLCA;PATISSIERE;PATISSIERE;RC*;636C - Boulangers, pâtissiers (sauf activité industrielle);15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;2;G5a;Profession du père;FPCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;3;BA10a;Profession principale;PCLCA;PATISSIERE;PATISSIERE;RC*;636C - Boulangers, pâtissiers (sauf activité industrielle);15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;3;BA23a;Activité économique de l'entreprise / patente;ACTIV;PATISSERIE;PATISSERIE;CCS;1071D - Pâtisserie;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;3;D20;Diplôme le plus élevé;DIPINTA;BACCALAUREAT;BACCALAUREAT;NULL;4000221s;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216119;3;D21;Spécialité du diplôme;DIPSCDA;HOTELLERIE CUISINE;HOTELLERIE CUISINE;-;1013;15;Gestionnaire 01;02;0;Enquêteur 01
+En01;216120;1;BA10a;Profession principale;PCLCA;FEMME DE SERVICE;FEMME DE SERVICE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);7;Gestionnaire 01;02;0;Enquêteur 01
+En01;216120;1;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;7;Gestionnaire 01;02;0;Enquêteur 01
+En01;216120;1;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;7;Gestionnaire 01;02;0;Enquêteur 01
+En01;216120;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;7;Gestionnaire 01;02;0;Enquêteur 01
+En01;216120;1;BB3;Echelle / échelon / niveau / indice;GRADEC;ECHELON 5;-;-;-;7;Gestionnaire 01;02;0;Enquêteur 01
+En01;216120;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;4EME;4EME;CCS;79993;7;Gestionnaire 01;02;0;Enquêteur 01
+En01;216120;1;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;7;Gestionnaire 01;02;0;Enquêteur 01
+En01;216120;1;G5a;Profession du père;FPCLCA;AGENT ENTRETIEN;AGENT ENTRETIEN;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);7;Gestionnaire 01;02;0;Enquêteur 01
+En01;216121;1;C6a;Profession antérieure;APCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);47;Gestionnaire 01;02;0;Enquêteur 01
+En01;216121;1;C8;Activité principale employeur;AACTIV;SANTE;SANTE;CCS;8610Z - Activités hospitalières;47;Gestionnaire 01;02;0;Enquêteur 01
+En01;216121;1;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;47;Gestionnaire 01;02;0;Enquêteur 01
+En01;216121;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;47;Gestionnaire 01;02;0;Enquêteur 01
+En01;216121;2;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;47;Gestionnaire 01;02;0;Enquêteur 01
+En01;216121;2;BA23a;Activité économique de l'entreprise / patente;ACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;47;Gestionnaire 01;02;0;Enquêteur 01
+En01;216121;2;BA51;Profession dans autre activité;SPCLCA;VENDEUR;VENDEUR;RC*;222A;47;Gestionnaire 01;02;0;Enquêteur 01
+En01;216121;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;4EME;4EME;CCS;79993;47;Gestionnaire 01;02;0;Enquêteur 01
+En01;216121;2;G5a;Profession du père;FPCLCA;MACON;MACON;RC*;632A - Maçons qualifiés;47;Gestionnaire 01;02;0;Enquêteur 01
+En01;216123;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;23;Gestionnaire 01;02;0;Enquêteur 01
+En01;216123;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;23;Gestionnaire 01;02;0;Enquêteur 01
+En02;216124;1;C6a;Profession antérieure;APCLCA;MACONNERIE;MACONNERIE;RC*;632A - Maçons qualifiés;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216124;1;C8;Activité principale employeur;AACTIV;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216124;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;6EME GENERALE;6EME GENERALE;CCS;79992;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216124;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216124;1;G5a;Profession du père;FPCLCA;AGRICULTURE;AGRICULTURE;RC*;111F;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216124;2;C6a;Profession antérieure;APCLCA;AGENT D'ENTRETIEN;AGENT D'ENTRETIEN;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216124;2;C8;Activité principale employeur;AACTIV;FEMME DE MENAGE;FEMME DE MENAGE;CCS;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216124;2;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT D'ETUDE;CERTIFICAT D'ETUDE;NULL;7400100a;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216124;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216124;2;G15a;Profession de la mère;MPCLCA;AGENT D'ENTRETIEN;AGENT D'ENTRETIEN;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216124;2;G5a;Profession du père;FPCLCA;CONSTRUCTION BATIMENT;CONSTRUCTION BATIMENT;RC*;211A;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;1;BA10a;Profession principale;PCLCA;ARTISANE;ARTISANE;ER3;NULL;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;COUTURE;COUTURE;CCS;1413Z - Fabrication de vêtements de dessus;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;1;G5a;Profession du père;FPCLCA;AGENT ENTRETIEN;AGENT ENTRETIEN;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;2;BA10a;Profession principale;PCLCA;MAGASINIER;MAGASINIER;RC*;653A - Magasiniers qualifiés;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;2;BA22b;Nom de l'employeur;NOMSOC;MAGASIN SINN;COMMERCE;-;-;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;2;BA29;Nom de l'employeur;EMPL;MAGASIN SINN;-;-;-;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;COMMERCE;COMMERCE;CCS;4711F - Hypermarchés;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;2;BE6a;Activité économique établissement;CACTIV;COMMERCE;COMMERCE;CCS;4711F;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;2;D20;Diplôme le plus élevé;DIPINTA;BAC TECHNOLOGIE;BAC TECHNOLOGIE;NULL;4300231s;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;2;D21;Spécialité du diplôme;DIPSCDA;GENIE CIVIL;GENIE CIVIL;-;0732;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;2;E12a;Activité principale année précédente;EACTIV;COMMERCE;NULL;NULL;NULL;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;2;G15a;Profession de la mère;MPCLCA;COUTURE;COUTURE;RC*;635A - Tailleurs et couturières qualifiés, ouvriers qualifiés du travail des étoffes (sauf fabrication de vêtements), ouvriers qualifiés de type artisanal du travail du cuir;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216125;2;G5a;Profession du père;FPCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;87;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;1;BA10a;Profession principale;PCLCA;ARTISANE;ARTISANE;RC*;214F;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;1;C6a;Profession antérieure;APCLCA;AGRICULTURE;AGRICULTURE;RC*;691E - Ouvriers agricoles sans spécialisation particulière;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;1;E12a;Activité principale année précédente;EACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;1;E9a;Profession année dernière;EPCLCA;ARTISANE;ARTISANE;RC*;227D;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;2;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;2;BA23a;Activité économique de l'entreprise / patente;ACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216127;2;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;19;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;1;BA10a;Profession principale;PCLCA;VENDEUR;VENDEUR;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;COMMERCE;COMMERCE;ER3;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;1;D20;Diplôme le plus élevé;DIPINTA;2EME ANNEE BEP;2EME ANNEE BEP;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;1;D21;Spécialité du diplôme;DIPSCDA;SANITAIRE ET SOCIAL;SANITAIRE ET SOCIAL;-;0910;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;1;D23;Diplôme le plus élevé (2e essai);DIPINTB;BEP;BEP;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;1;D24;Spécialité du diplôme (2e essai);DIPSCDB;SANITAIRE ET SOCIAL;SANITAIRE ET SOCIAL;-;0910;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;1;G15a;Profession de la mère;MPCLCA;VENDEUR;VENDEUR;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;1;G5a;Profession du père;FPCLCA;AGENT COMMUNAL;AGENT COMMUNAL;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;BA10a;Profession principale;PCLCA;BAGAGISTE;BAGAGISTE;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;BA22b;Nom de l'employeur;NOMSOC;AIR TAHITI;TRANSPORT AERIEN;-;-;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;BA29;Nom de l'employeur;EMPL;AIR TAHITI;-;-;-;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;TRANSPORT AERIEN;TRANSPORT AERIEN;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;BA51;Profession dans autre activité;SPCLCA;PECHEUR;PECHEUR;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;D20;Diplôme le plus élevé;DIPINTA;BAC TECHNOLOGIE;BAC TECHNOLOGIE;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;D21;Spécialité du diplôme;DIPSCDA;STI2D ENERGIE ENVIRONNEMENT;STI2D ENERGIE ENVIRONNEMENT;-;0710;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;D23;Diplôme le plus élevé (2e essai);DIPINTB;STI2D;STI2D;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;D24;Spécialité du diplôme (2e essai);DIPSCDB;STI2D ENERGIE ENVIRONNEMENT;STI2D ENERGIE ENVIRONNEMENT;-;0710;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;E12a;Activité principale année précédente;EACTIV;TRANSPORT AERIEN;NULL;NULL;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;G15a;Profession de la mère;MPCLCA;AGRICULTEUR;AGRICULTEUR;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;2;G5a;Profession du père;FPCLCA;PECHEUR;PECHEUR;ER1;NULL;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;3;D09;Année d'études en cours et diplôme préparé;FORNIVA;3EME;3EME;CCS;64000;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216129;3;D12;Spécialité suivie;FORSCD;FORMATION GENERALE;0011;-;-;31;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;1;BA10a;Profession principale;PCLCA;ARTISANE;ARTISANE;RC*;214F;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;1;BA22b;Nom de l'employeur;NOMSOC;ASSOCIATION OMIRI;ARTISANAT;-;-;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;1;BA29;Nom de l'employeur;EMPL;ASSOCIATION OMIRI;-;-;-;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;BEP SANITAIRE ET SOCIAL;BEP SANITAIRE ET SOCIAL;CCS;51000;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;1;E12a;Activité principale année précédente;EACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;1;E9a;Profession année dernière;EPCLCA;ARTISANE;ARTISANE;RC*;227D;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;2;BA10a;Profession principale;PCLCA;ARTISANE;ARTISANE;RC*;214F;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;2;BA23a;Activité économique de l'entreprise / patente;ACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;2;C6a;Profession antérieure;APCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;2;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT D'ETUDE;CERTIFICAT D'ETUDE;NULL;7400100a;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;3EME GENERALE;3EME GENERALE;CCS;64000;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;2;E12a;Activité principale année précédente;EACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;2;E9a;Profession année dernière;EPCLCA;ARTISANE;ARTISANE;RC*;227D;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216130;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;47;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;1;BA10a;Profession principale;PCLCA;ARTISANE;ARTISANE;RC*;214F;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;1;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT D'ETUDE;CERTIFICAT D'ETUDE;NULL;7400100a;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;2;BA10a;Profession principale;PCLCA;AGENT COMMUNAL;AGENT COMMUNAL;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;2;BA22b;Nom de l'employeur;NOMSOC;MAIRIE DE RURUTU;MAIRIE;-;-;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;2;BA29;Nom de l'employeur;EMPL;MAIRIE DE RURUTU;-;-;-;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;2;D20;Diplôme le plus élevé;DIPINTA;DIPLOME NATIONAL BREVET;DIPLOME NATIONAL BREVET;NULL;6400100a;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;TERMINALE;TERMINALE;C_C;NULL;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;2;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;2;G5a;Profession du père;FPCLCA;AGENT COMMUNAL;AGENT COMMUNAL;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;3;BA10a;Profession principale;PCLCA;JARDINIER;JARDINIER;RC*;631A - Jardiniers;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;3;BA22b;Nom de l'employeur;NOMSOC;ENTREPRISE TEPA;JARDINAGE;-;-;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;3;BA22b;Nom de l'entreprise ou du patenté;NOMSOC;ENTREPRISE TEPA;-;-;-;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;3;BA23a;Activité économique de l'entreprise / patente;ACTIV;JARDINAGE;JARDINAGE;CCS;8130Z - Services d'aménagement paysager;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;3;D20;Diplôme le plus élevé;DIPINTA;BEP;BEP;NULL;5100231s;23;Gestionnaire 01;02;0;Enquêteur 02
+En02;216131;3;D21;Spécialité du diplôme;DIPSCDA;BATIMENT (SAI);BATIMENT (SAI);-;0732;23;Gestionnaire 01;02;0;Enquêteur 02
+En01;216135;1;C6a;Profession antérieure;APCLCA;FEMME DE SERVICE;FEMME DE SERVICE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);27;Gestionnaire 01;01;0;Enquêteur 01
+En01;216135;1;C8;Activité principale employeur;AACTIV;SANTE;SANTE;CCS;8610Z - Activités hospitalières;27;Gestionnaire 01;01;0;Enquêteur 01
+En01;216135;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;27;Gestionnaire 01;01;0;Enquêteur 01
+En01;216135;1;G5a;Profession du père;FPCLCA;MATELOT;MATELOT;RC*;HORS;27;Gestionnaire 01;01;0;Enquêteur 01
+En01;216135;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;3 ANNEE CAP;3 ANNEE CAP;CCS;50000;27;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;1;BA10a;Profession principale;PCLCA;AGENT TECHNIQUE;AGENT TECHNIQUE;RC*;479B - Experts salariés de niveau technicien, techniciens divers;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;1;BA22b;Nom de l'employeur;NOMSOC;EQUIPEMENT;TRAVAUX PUBLIC;-;-;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;1;BA29;Nom de l'employeur;EMPL;EQUIPEMENT;-;-;-;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;TRAVAUX PUBLIC;TRAVAUX PUBLIC;CCS;NULL;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;1;BA51;Profession dans autre activité;SPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;1;BE6a;Activité économique établissement;CACTIV;ADMINISTRATION;ADMINISTRATION;CCS;8411Z;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;1;BE8a;Profession à l'entrée dans l'entreprise;CPCLCA;PERSONNEL NAVIGUANT;PERSONNEL NAVIGUANT;RC*;546D - Hôtesses de l'air et stewards;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;1;E12a;Activité principale année précédente;EACTIV;TRAVAUX PUBLIC;NULL;NULL;NULL;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;2;C6a;Profession antérieure;APCLCA;AGENT TECHNIQUE;AGENT TECHNIQUE;RC*;479B - Experts salariés de niveau technicien, techniciens divers;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;2;C8;Activité principale employeur;AACTIV;TRANSPORT AERIEN;TRANSPORT AERIEN;CCS;5110Z - Transports aériens de passagers;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;2;D20;Diplôme le plus élevé;DIPINTA;BEPC;BEPC;NULL;6400100a;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;TERMINALE BAC GENERAL;TERMINALE BAC GENERAL;CCS;47000;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;2;G15a;Profession de la mère;MPCLCA;AGENT DE DOUANE;AGENT DE DOUANE;RC*;522A - Agents de constatation ou de recouvrement des Impôts, du Trésor, des Douanes*;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216136;2;G5a;Profession du père;FPCLCA;AGENT DE DOUANE;AGENT DE DOUANE;RC*;522A - Agents de constatation ou de recouvrement des Impôts, du Trésor, des Douanes*;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216137;1;C6a;Profession antérieure;APCLCA;OUVRIER AGRICOLE;OUVRIER AGRICOLE;RC*;691E - Ouvriers agricoles sans spécialisation particulière;99;Gestionnaire 01;01;0;Enquêteur 01
+En01;216137;1;C8;Activité principale employeur;AACTIV;ADMINISTRATION;ADMINISTRATION;CCS;8411Z - Administration publique générale;99;Gestionnaire 01;01;0;Enquêteur 01
+En01;216137;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;99;Gestionnaire 01;01;0;Enquêteur 01
+En01;216138;1;C6a;Profession antérieure;APCLCA;AUXILIAIRE DE VIE;AUXILIAIRE DE VIE;RCS;563B - Aides à domicile, aides ménagères, travailleuses familiales;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216138;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;3EME;3EME;CCS;64000;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216138;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216138;2;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216138;2;BA23a;Activité économique de l'entreprise / patente;ACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216138;2;BA51;Profession dans autre activité;SPCLCA;PECHEUR;PECHEUR;RC*;122C;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216138;2;BA52;Profession dans autre activité (2e essai);SPCLCB;MANUTENTIONNAIRE;MANUTENTIONNAIRE;RCS;676A - Manutentionnaires non qualifiés;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216138;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;5EME;5EME;CCS;79992;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216138;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;51;Gestionnaire 01;01;0;Enquêteur 01
+En01;216139;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;75;Gestionnaire 01;02;0;Enquêteur 01
+En01;216139;2;BA10a;Profession principale;PCLCA;MANUTENTIONNAIRE;MANUTENTIONNAIRE;RC*;676A - Manutentionnaires non qualifiés;75;Gestionnaire 01;02;0;Enquêteur 01
+En01;216139;2;BA22b;Nom de l'employeur;NOMSOC;MAGASIN AO;COMMERCE;-;-;75;Gestionnaire 01;02;0;Enquêteur 01
+En01;216139;2;BA29;Nom de l'employeur;EMPL;MAGASIN AO;-;-;-;75;Gestionnaire 01;02;0;Enquêteur 01
+En01;216139;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;COMMERCE;COMMERCE;CCS;4711F - Hypermarchés;75;Gestionnaire 01;02;0;Enquêteur 01
+En01;216139;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;5EME;5EME;CCS;79992;75;Gestionnaire 01;02;0;Enquêteur 01
+En01;216139;2;G5a;Profession du père;FPCLCA;ETALAGISTE;ETALAGISTE;RC*;465A - Concepteurs et assistants techniques des arts graphiques, de la mode et de la décoration salariés;75;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;1;C6a;Profession antérieure;APCLCA;PROFESSEUR DES ECOLES;PROFESSEUR DES ECOLES;RCS;421B - Professeurs des écoles;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;1;C8;Activité principale employeur;AACTIV;ENSEIGNEMENT;ENSEIGNEMENT;CCS;8531Z - Enseignement secondaire général;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;1;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;1ERE ANNEE BEP COMPTA;1ERE ANNEE BEP COMPTA;CCS;68882;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;1;G15a;Profession de la mère;MPCLCA;COMMERCANTE;COMMERCANTE;RC*;227D;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;2;C6a;Profession antérieure;APCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;2;C8;Activité principale employeur;AACTIV;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;2;G5a;Profession du père;FPCLCA;ELEVEUR;ELEVEUR;RC*;111E;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;BA10a;Profession principale;PCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;BB3;Echelle / échelon / niveau / indice;GRADEC;9999999999999999999999999999999999999999;-;-;-;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;D38;Année d'études atteinte et diplôme préparé;NIVINTA;TERMINALE BAC TECHNO;TERMINALE BAC TECHNO;CCS;43000;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;G15a;Profession de la mère;MPCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;3;G5a;Profession du père;FPCLCA;PROFESSEUR DES ECOLES;PROFESSEUR DES ECOLES;RC*;421B - Professeurs des écoles;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;6;BA10a;Profession principale;PCLCA;AUXILIAIRE DE VIE SCOLAIRE;AUXILIAIRE DE VIE SCOLAIRE;RC*;525A - Agents de service des établissements primaires;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;6;BA22b;Nom de l'employeur;NOMSOC;GS DE MOERAI;ENSEIGNEMENT;-;-;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;6;BA29;Nom de l'employeur;EMPL;GS DE MOERAI;-;-;-;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;6;BA32a;Activité économique de l'établissement employeur;ACTIVA;ENSEIGNEMENT;ENSEIGNEMENT;CCS;8531Z - Enseignement secondaire général;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;6;BB3;Echelle / échelon / niveau / indice;GRADEC;ECHELON 6;-;-;-;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;6;D20;Diplôme le plus élevé;DIPINTA;BACCALAUREAT TECHNO;BACCALAUREAT TECHNO;NULL;4300331t;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;6;D21;Spécialité du diplôme;DIPSCDA;SMS;SMS;-;0923;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;6;E12a;Activité principale année précédente;EACTIV;ENSEIGNEMENT;NULL;NULL;NULL;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;6;G15a;Profession de la mère;MPCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;6;G5a;Profession du père;FPCLCA;PROFESSEUR DES ECOLES;PROFESSEUR DES ECOLES;RC*;421B - Professeurs des écoles;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;7;BA10a;Profession principale;PCLCA;AGENT MANUTENTIONNAIRE;AGENT MANUTENTIONNAIRE;RC*;676A - Manutentionnaires non qualifiés;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;7;BA22b;Nom de l'employeur;NOMSOC;AIR TAHITI;TRANSPORT AERIEN;-;-;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;7;BA29;Nom de l'employeur;EMPL;AIR TAHITI;-;-;-;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;7;BA32a;Activité économique de l'établissement employeur;ACTIVA;TRANSPORT AERIEN;TRANSPORT AERIEN;CCS;5110Z - Transports aériens de passagers;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;7;D20;Diplôme le plus élevé;DIPINTA;BAC PRO;BAC PRO;NULL;4000234s;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;7;D21;Spécialité du diplôme;DIPSCDA;MENUISERIE;MENUISERIE;-;0732;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;7;E12a;Activité principale année précédente;EACTIV;TRANSPORT AERIEN;NULL;NULL;NULL;51;Gestionnaire 01;02;0;Enquêteur 01
+En01;216141;7;G5a;Profession du père;FPCLCA;CHAUFFEUR ROUTIER;CHAUFFEUR ROUTIER;RC*;641A - Conducteurs routiers et grands routiers;51;Gestionnaire 01;02;0;Enquêteur 01
+En02;216142;1;C6a;Profession antérieure;APCLCA;INFIRMIERE;INFIRMIERE;RCS;431F - Infirmiers en soins généraux, salariés;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;1;C8;Activité principale employeur;AACTIV;MEDICAUX SOCIAL;MEDICAUX SOCIAL;ER3;NULL;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;1;D20;Diplôme le plus élevé;DIPINTA;DIPLOME D'ETAT D'INFIRMIER;DIPLOME D'ETAT D'INFIRMIER;NULL;3960331t;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;1;D21;Spécialité du diplôme;DIPSCDA;INFIRMIER;INFIRMIER;-;0913;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;1;D60;Spécialité formation non-formelle;ETMSPA;SPORT;-;-;-;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;1;E12a;Activité principale année précédente;EACTIV;MEDICAUX SOCIAL;MEDICAUX SOCIAL;CCS;NULL;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;1;E9a;Profession année dernière;EPCLCA;INFIRMIERE;INFIRMIERE;RCS;431F - Infirmiers en soins généraux, salariés;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;1;G15a;Profession de la mère;MPCLCA;PEINTRE;PEINTRE;RC*;632G - Peintres et ouvriers qualifiés de pose de revêtements sur supports verticaux;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;1;G5a;Profession du père;FPCLCA;MEDECIN;MEDECIN;RC*;311B;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;BA10a;Profession principale;PCLCA;MEDECIN;MEDECIN;RC*;311B;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;BA22b;Nom de l'employeur;NOMSOC;CENTRE MEDICAL DE RURUTU;SANTE;-;-;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;BA29;Nom de l'employeur;EMPL;CENTRE MEDICAL DE RURUTU;-;-;-;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;SANTE;SANTE;CCS;8610Z - Activités hospitalières;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;BB3;Echelle / échelon / niveau / indice;GRADEC;MEDECIN GENERALISTE;-;-;-;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;BE6a;Activité économique établissement;CACTIV;SANTE;SANTE;CCS;8610Z;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;BE8a;Profession à l'entrée dans l'entreprise;CPCLCA;MEDECIN URGENTISTE;MEDECIN URGENTISTE;RCS;344A - Médecins hospitaliers sans activité libérale;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;D20;Diplôme le plus élevé;DIPINTA;DIPLOME D'ETAT MEDECIN;DIPLOME D'ETAT MEDECIN;NULL;1960331t;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;D21;Spécialité du diplôme;DIPSCDA;MEDECINE;MEDECINE;-;0912;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;D60;Spécialité formation non-formelle;ETMSPA;SPORT;-;-;-;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;E12a;Activité principale année précédente;EACTIV;SANTE;SANTE;CCS;8610Z - Activités hospitalières;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;E9a;Profession année dernière;EPCLCA;MEDECIN;MEDECIN;RC*;344A - Médecins hospitaliers sans activité libérale;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;G15a;Profession de la mère;MPCLCA;INFIRMIERE;INFIRMIERE;RC*;431F - Infirmiers en soins généraux, salariés;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216142;2;G5a;Profession du père;FPCLCA;COMPTABLE;COMPTABLE;RC*;543A;63;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;1;BA10a;Profession principale;PCLCA;CUISINE;CUISINE;RC*;636D - Cuisiniers et commis de cuisine;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;1;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;1;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;1;BA51;Profession dans autre activité;SPCLCA;VENDEUSE;VENDEUSE;RC*;227D;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;1;BB3;Echelle / échelon / niveau / indice;GRADEC;CATEGORIE D;-;-;-;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;1;D20;Diplôme le plus élevé;DIPINTA;BAC PROFESSIONNEL;BAC PROFESSIONNEL;NULL;4000334t;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;1;D21;Spécialité du diplôme;DIPSCDA;HOTELLERIE SERVICES;HOTELLERIE SERVICES;-;1013;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;1;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;2;BA10a;Profession principale;PCLCA;AGENT D'ENTRETIENT;AGENT D'ENTRETIENT;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;2;BA22b;Nom de l'employeur;NOMSOC;INFIRMERIE;SANTE;-;-;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;2;BA29;Nom de l'employeur;EMPL;INFIRMERIE;-;-;-;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;SANTE;SANTE;CCS;8610Z - Activités hospitalières;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;2;BA51;Profession dans autre activité;SPCLCA;VENDEUR;VENDEUR;RC*;227D;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;2;D20;Diplôme le plus élevé;DIPINTA;BEP;BEP;NULL;5000254s;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;2;D21;Spécialité du diplôme;DIPSCDA;SOUDURE;SOUDURE;-;0715;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;2;E12a;Activité principale année précédente;EACTIV;TRANSPORT SCOLAIRE;TRANSPORT SCOLAIRE;CCS;4939A - Transports routiers réguliers de voyageurs;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;2;E9a;Profession année dernière;EPCLCA;CONVOYEUR;CONVOYEUR;RC*;676C - Ouvriers du tri, de l'emballage, de l'expédition, non qualifiés;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216143;2;G5a;Profession du père;FPCLCA;TECHNICIEN;TECHNICIEN;RC*;479B - Experts salariés de niveau technicien, techniciens divers;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216145;1;C6a;Profession antérieure;APCLCA;MACONNERIE;MACONNERIE;RC*;632A - Maçons qualifiés;7;Gestionnaire 01;01;0;Enquêteur 02
+En02;216145;1;C8;Activité principale employeur;AACTIV;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;7;Gestionnaire 01;01;0;Enquêteur 02
+En02;216145;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;6EME;6EME;CCS;79992;7;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;1;BA10a;Profession principale;PCLCA;FEMME DE SERVICE;FEMME DE SERVICE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;1;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;1;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;1;BB3;Echelle / échelon / niveau / indice;GRADEC;GROUPE 5;-;-;-;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;6EME GENERALE;6EME GENERALE;CCS;79992;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;1;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;1;G5a;Profession du père;FPCLCA;AGRICULTURE;AGRICULTURE;RC*;111F;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;2;C6a;Profession antérieure;APCLCA;SOUDEUR;SOUDEUR;RC*;623C;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;2;C8;Activité principale employeur;AACTIV;ARMEE;ARMEE;CCS;8422Z - Défense;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;2;G5a;Profession du père;FPCLCA;AGRICULTURE;AGRICULTURE;RC*;111F;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;3;C6a;Profession antérieure;APCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;3;C8;Activité principale employeur;AACTIV;COMMERCE;COMMERCE;CCS;4711F - Hypermarchés;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;3;D20;Diplôme le plus élevé;DIPINTA;BAC PROFESSIONNEL;BAC PROFESSIONNEL;NULL;4000311m;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;3;D21;Spécialité du diplôme;DIPSCDA;LOGISTIQUE;LOGISTIQUE;-;0416;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;3;G15a;Profession de la mère;MPCLCA;VENDEUR;VENDEUR;RC*;553A;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;4;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;4;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;4;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;4;G5a;Profession du père;FPCLCA;SOUDEUR;SOUDEUR;RC*;623C;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;5;BA10a;Profession principale;PCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;5;BA22b;Nom de l'employeur;NOMSOC;COMMUNE DE RURUTU;MAIRIE;-;-;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;5;BA29;Nom de l'employeur;EMPL;COMMUNE DE RURUTU;-;-;-;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;5;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;5;BE6a;Activité économique établissement;CACTIV;COMMERCE;COMMERCE;CCS;4711F;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;5;D20;Diplôme le plus élevé;DIPINTA;BEP;BEP;NULL;5100334t;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;5;D21;Spécialité du diplôme;DIPSCDA;RESTAURANT;RESTAURANT;-;1013;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;5;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216146;5;G5a;Profession du père;FPCLCA;MAGASINIER;MAGASINIER;RC*;653A - Magasiniers qualifiés;31;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;1;BA10a;Profession principale;PCLCA;AGRICULTURE;AGRICULTURE;RC*;111F;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;1;BA51;Profession dans autre activité;SPCLCA;MACON;MACON;RC*;632A - Maçons qualifiés;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;2;BA10a;Profession principale;PCLCA;VENDEUSE;VENDEUSE;RC*;553A;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;2;BA23a;Activité économique de l'entreprise / patente;ACTIV;RESTAURATION RAPIDE;RESTAURATION RAPIDE;CCS;5610C - Restauration de type rapide;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;2;BA51;Profession dans autre activité;SPCLCA;ARTISANE;ARTISANE;RC*;227D;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;2;D60;Spécialité formation non-formelle;ETMSPA;RELIGION;-;-;-;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;2;G15a;Profession de la mère;MPCLCA;AGRICULTRICE;AGRICULTRICE;RC*;111F;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;2;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;3;BA10a;Profession principale;PCLCA;RESTAURATION;RESTAURATION;RC*;561D - Aides de cuisine, apprentis de cuisine et employés polyvalents de la restauration;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;3;BA22b;Nom de l'employeur;NOMSOC;POOMA;RESTAURATION RAPIDE;-;-;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;3;BA23a;Activité économique de l'entreprise / patente;ACTIV;RESTAURATION RAPIDE;RESTAURATION RAPIDE;CCS;5610C - Restauration de type rapide;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;3;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;3;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;3;D38;Année d'études atteinte et diplôme préparé;NIVINTA;2EME ANNEE BEP;2EME ANNEE BEP;CCS;51000;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;3;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;47;Gestionnaire 01;01;0;Enquêteur 02
+En02;216147;3;G5a;Profession du père;FPCLCA;AGRICULTURE;AGRICULTURE;RC*;111F;47;Gestionnaire 01;01;0;Enquêteur 02
+En01;216148;1;BA10a;Profession principale;PCLCA;AGENT MUNICIPALE;AGENT MUNICIPALE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;1;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;1;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;1;BA36a;Fonction principale dans l'emploi;FON10A;POLICIER MUNICIPAL;-;-;-;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;1;BB3;Echelle / échelon / niveau / indice;GRADEC;GARDIEN PRINCIPAL;-;-;-;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;1;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT;CERTIFICAT;NULL;7510100a;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;3EME;3EME;CCS;64000;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;1;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;1;G5a;Profession du père;FPCLCA;MACON;MACON;RC*;632A - Maçons qualifiés;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;2;C6a;Profession antérieure;APCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;2;C8;Activité principale employeur;AACTIV;SANTE;SANTE;CCS;8610Z - Activités hospitalières;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216148;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;3;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;1;C6a;Profession antérieure;APCLCA;CONSEILLERE MUNICIPALE;CONSEILLERE MUNICIPALE;RCS;333F - Personnels administratifs de catégorie A des collectivités locales et hôpitaux publics (hors Enseignement, Patrimoine);63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;1;C8;Activité principale employeur;AACTIV;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;2;C6a;Profession antérieure;APCLCA;AGENT ENTRETIEN;AGENT ENTRETIEN;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;2;C8;Activité principale employeur;AACTIV;TRAVAUX PUBLIC;TRAVAUX PUBLIC;CCS;NULL;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;3;C6a;Profession antérieure;APCLCA;ARTISANT;ARTISANT;RC*;214F;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;3;C8;Activité principale employeur;AACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;3;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT;CERTIFICAT;NULL;7510100a;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;3;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;3;G5a;Profession du père;FPCLCA;AGENT ENTRETIEN;AGENT ENTRETIEN;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;4;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;4;BA23a;Activité économique de l'entreprise / patente;ACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;4;D38;Année d'études atteinte et diplôme préparé;NIVINTA;5EME;5EME;CCS;79992;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;4;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;4;G5a;Profession du père;FPCLCA;AGENT ENTRETIEN;AGENT ENTRETIEN;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;5;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;5;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;5;G5a;Profession du père;FPCLCA;AGENT ENTRETIEN;AGENT ENTRETIEN;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;6;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216149;6;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;63;Gestionnaire 01;01;0;Enquêteur 01
+En01;216150;1;C6a;Profession antérieure;APCLCA;SECRETAIRE;SECRETAIRE;RC*;523A - Adjoints administratifs de la fonction publique (y c. enseignement)*;67;Gestionnaire 01;01;0;Enquêteur 01
+En01;216150;1;C8;Activité principale employeur;AACTIV;SANTE;SANTE;CCS;8610Z - Activités hospitalières;67;Gestionnaire 01;01;0;Enquêteur 01
+En01;216150;1;D20;Diplôme le plus élevé;DIPINTA;BAC PRO;BAC PRO;NULL;4000312t;67;Gestionnaire 01;01;0;Enquêteur 01
+En01;216150;1;D21;Spécialité du diplôme;DIPSCDA;GESTION COMMERCIALE;GESTION COMMERCIALE;-;0416;67;Gestionnaire 01;01;0;Enquêteur 01
+En02;216152;1;BA10a;Profession principale;PCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;1;BA22b;Nom de l'employeur;NOMSOC;EQUIPEMENT;TRAVAUX PUBLICS;-;-;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;1;BA29;Nom de l'employeur;EMPL;EQUIPEMENT;-;-;-;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;TRAVAUX PUBLICS;TRAVAUX PUBLICS;CCS;NULL;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;1;BB3;Echelle / échelon / niveau / indice;GRADEC;ECHELON 5;-;-;-;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;1;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;NULL;5000251s;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;1;D21;Spécialité du diplôme;DIPSCDA;MECANIQUE GENERALE;MECANIQUE GENERALE;-;0715;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;1;E12a;Activité principale année précédente;EACTIV;TRAVAUX PUBLICS;NULL;NULL;NULL;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;1;G5a;Profession du père;FPCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;2;BA10a;Profession principale;PCLCA;ARTISANE;ARTISANE;RC*;214F;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;2;BA23a;Activité économique de l'entreprise / patente;ACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;2;BA36a;Fonction principale dans l'emploi;FON10A;ARTISANE;-;-;-;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;2;BA51;Profession dans autre activité;SPCLCA;GARDE ENFANT;GARDE ENFANT;RCS;563A - Assistantes maternelles, gardiennes d'enfants, familles d'accueil;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;2;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;1ERE ANNE BEP;1ERE ANNE BEP;CCS;68882;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;2;G15a;Profession de la mère;MPCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;3;C6a;Profession antérieure;APCLCA;EMPLOYE HOTEL;EMPLOYE HOTEL;RC*;561E - Employés de l'hôtellerie : réception et hall;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;3;C8;Activité principale employeur;AACTIV;HOTELERIE;HOTELERIE;CCS;5510Z - Hôtels et hébergement similaire;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;3;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT D'ETUDE;CERTIFICAT D'ETUDE;NULL;7400100a;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;3;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;3;D38;Année d'études atteinte et diplôme préparé;NIVINTA;4EME;4EME;CCS;79993;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;3;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216152;3;G5a;Profession du père;FPCLCA;EMPLOYE MUNICIPAL;EMPLOYE MUNICIPAL;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);55;Gestionnaire 01;01;0;Enquêteur 02
+En02;216153;1;BA10a;Profession principale;PCLCA;ARTISANE;ARTISANE;RC*;214F;11;Gestionnaire 01;01;0;Enquêteur 02
+En02;216153;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;11;Gestionnaire 01;01;0;Enquêteur 02
+En02;216153;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;6EME GENERALE;6EME GENERALE;CCS;79992;11;Gestionnaire 01;01;0;Enquêteur 02
+En02;216153;1;D60;Spécialité formation non-formelle;ETMSPA;RELIGION;-;-;-;11;Gestionnaire 01;01;0;Enquêteur 02
+En02;216153;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;11;Gestionnaire 01;01;0;Enquêteur 02
+En02;216153;2;C6a;Profession antérieure;APCLCA;FABRICATION;FABRICATION;RC*;676E - Ouvriers non qualifiés divers de type industriel;11;Gestionnaire 01;01;0;Enquêteur 02
+En02;216153;2;C8;Activité principale employeur;AACTIV;ADMINISTRATION;ADMINISTRATION;CCS;8411Z - Administration publique générale;11;Gestionnaire 01;01;0;Enquêteur 02
+En02;216153;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;6EME;6EME;CCS;79992;11;Gestionnaire 01;01;0;Enquêteur 02
+En02;216153;2;D60;Spécialité formation non-formelle;ETMSPA;RELIGION;-;-;-;11;Gestionnaire 01;01;0;Enquêteur 02
+En02;216153;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;11;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;1;BA10a;Profession principale;PCLCA;INFIRMIERE;INFIRMIERE;RC*;431F - Infirmiers en soins généraux, salariés;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;1;BA22b;Nom de l'employeur;NOMSOC;CENTRE MEDICAL;SANTE;-;-;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;1;BA29;Nom de l'employeur;EMPL;CENTRE MEDICAL;-;-;-;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;SANTE;SANTE;CCS;8610Z - Activités hospitalières;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;1;D20;Diplôme le plus élevé;DIPINTA;DE;DE;NULL;2960331t;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;1;D21;Spécialité du diplôme;DIPSCDA;INFIRMIER;INFIRMIER;-;0913;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;1;D60;Spécialité formation non-formelle;ETMSPA;INFIRMIER;-;-;-;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;1;G15a;Profession de la mère;MPCLCA;INSTITUTRICE;INSTITUTRICE;RC*;421B - Professeurs des écoles;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;1;G5a;Profession du père;FPCLCA;ARCHIVE;ARCHIVE;RC*;543D;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;2;C6a;Profession antérieure;APCLCA;CUISINERE;CUISINERE;RC*;636D - Cuisiniers et commis de cuisine;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;2;C8;Activité principale employeur;AACTIV;RESTAURATION;RESTAURATION;CCS;5610A - Restauration traditionnelle;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;75;Gestionnaire 01;01;0;Enquêteur 02
+En02;216154;2;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;75;Gestionnaire 01;01;0;Enquêteur 02
+En01;216155;1;BA10a;Profession principale;PCLCA;AGENT ENTRETIEN;AGENT ENTRETIEN;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;1;BA22b;Nom de l'employeur;NOMSOC;COLLEGE DE RURUTU;EDUCATION;-;-;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;1;BA29;Nom de l'employeur;EMPL;COLLEGE DE RURUTU;-;-;-;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;EDUCATION;EDUCATION;CCS;8531Z - Enseignement secondaire général;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;1;D20;Diplôme le plus élevé;DIPINTA;CFG;CFG;NULL;7510100a;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;1;D60;Spécialité formation non-formelle;ETMSPA;RELIGION;-;-;-;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;2;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;2;BA22b;Nom de l'employeur;NOMSOC;ENT ARIIRAI;AGRICULTURE;-;-;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;2;BA29;Nom de l'employeur;EMPL;ENT ARIIRAI;-;-;-;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;2;BA51;Profession dans autre activité;SPCLCA;PLOMBERIE;PLOMBERIE;RC*;673C - Ouvriers non qualifiés de montage, contrôle en mécanique et travail des métaux;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;2;D20;Diplôme le plus élevé;DIPINTA;CFG;CFG;NULL;7510100a;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;2;E9a;Profession année dernière;EPCLCA;AGRICULTURE;AGRICULTURE;RC*;691E - Ouvriers agricoles sans spécialisation particulière;87;Gestionnaire 01;01;0;Enquêteur 01
+En01;216155;2;G5a;Profession du père;FPCLCA;TECHNICIEN DE SURFACE;TECHNICIEN DE SURFACE;RC*;684A - Nettoyeurs;87;Gestionnaire 01;01;0;Enquêteur 01
+En03;216318;1;C6a;Profession antérieure;APCLCA;COMPTABLE;COMPTABLE;RC*;451E - Autres personnels administratifs de catégorie B de l'Etat (hors Enseignement, Patrimoine, Impôts, Trésor, Douanes);47;Gestionnaire 01;01;0;Enquêteur 03
+En03;216318;1;C8;Activité principale employeur;AACTIV;SANTE;SANTE;CCS;8610Z - Activités hospitalières;47;Gestionnaire 01;01;0;Enquêteur 03
+En03;216318;1;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;NULL;5000227s;47;Gestionnaire 01;01;0;Enquêteur 03
+En03;216318;1;D21;Spécialité du diplôme;DIPSCDA;FRIGORISTE;FRIGORISTE;-;0713;47;Gestionnaire 01;01;0;Enquêteur 03
+En03;216318;1;G5a;Profession du père;FPCLCA;POLICIER MUNICIPAL;POLICIER MUNICIPAL;RC*;531B - Agents des polices municipales*;47;Gestionnaire 01;01;0;Enquêteur 03
+En03;216318;2;C6a;Profession antérieure;APCLCA;ARTISANE;ARTISANE;RC*;227D;47;Gestionnaire 01;01;0;Enquêteur 03
+En03;216318;2;C8;Activité principale employeur;AACTIV;ARTISANAT;ARTISANAT;CCS;9411Z - Activités des organisations patronales et consulaires;47;Gestionnaire 01;01;0;Enquêteur 03
+En03;216318;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;47;Gestionnaire 01;01;0;Enquêteur 03
+En03;216318;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;47;Gestionnaire 01;01;0;Enquêteur 03
+En03;216318;2;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;47;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;1ERE ANNEE CAP;1ERE ANNEE CAP;CCS;68881;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;1;G5a;Profession du père;FPCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;2;BA10a;Profession principale;PCLCA;MECANICIEN;MECANICIEN;RC*;634D - Mécaniciens qualifiés de maintenance, entretien : équipements non industriels;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;2;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;2;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;2;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;2;G5a;Profession du père;FPCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;3;C6a;Profession antérieure;APCLCA;PREPARATION DES CORPS;PREPARATION DES CORPS;RC*;676C - Ouvriers du tri, de l'emballage, de l'expédition, non qualifiés;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;3;C8;Activité principale employeur;AACTIV;FUNERAIRE;FUNERAIRE;CCS;NULL;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;3;D20;Diplôme le plus élevé;DIPINTA;CEP;CEP;NULL;7400100a;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;3;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;3;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216319;3;G5a;Profession du père;FPCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;99;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;BA10a;Profession principale;PCLCA;CHAUFFEUR CAMION;CHAUFFEUR CAMION;RC*;641A - Conducteurs routiers et grands routiers;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;BA22b;Nom de l'employeur;NOMSOC;COMMUNE DE TUBUAI;MAIRIE;-;-;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;BA29;Nom de l'employeur;EMPL;COMMUNE DE TUBUAI;-;-;-;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;BB3;Echelle / échelon / niveau / indice;GRADEC;9999999999999999999999999999999999999999;-;-;-;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;BE8a;Profession à l'entrée dans l'entreprise;CPCLCA;CUISINIER;CUISINIER;RC*;636D - Cuisiniers et commis de cuisine;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;D60;Spécialité formation non-formelle;ETMSPA;CONDUCTEUR POIDS LOURDS;-;-;-;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216320;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;7;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;1;C6a;Profession antérieure;APCLCA;AIDE SOIGNANTE;AIDE SOIGNANTE;RCS;526A - Aides-soignants;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;1;C8;Activité principale employeur;AACTIV;SANTE;SANTE;CCS;8610Z - Activités hospitalières;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;1;D20;Diplôme le plus élevé;DIPINTA;BAC GENERALE;BAC GENERALE;NULL;4700110a;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;1;D21;Spécialité du diplôme;DIPSCDA;SCIENTIFIQUE;SCIENTIFIQUE;-;0530;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;1ER ANNEE LICENCE;1ER ANNEE LICENCE;RCS;39992;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;1;G15a;Profession de la mère;MPCLCA;INSTITUTRICE;INSTITUTRICE;RC*;421B - Professeurs des écoles;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;1;G5a;Profession du père;FPCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;BA10a;Profession principale;PCLCA;MONITEUR AGRICOLE;MONITEUR AGRICOLE;RC*;422C - Maîtres auxiliaires et professeurs contractuels de l'enseignement secondaire;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;BA22b;Nom de l'employeur;NOMSOC;RSMA;ARMEE;-;-;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;BA29;Nom de l'employeur;EMPL;RSMA;-;-;-;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;ARMEE;ARMEE;CCS;8422Z - Défense;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;BB3;Echelle / échelon / niveau / indice;GRADEC;SERGENT CHEF;-;-;-;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;BE6a;Activité économique établissement;CACTIV;ARMEE;ARMEE;CCS;8422Z;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;BE8a;Profession à l'entrée dans l'entreprise;CPCLCA;MILITAIRE;MILITAIRE;RCS;532C - Hommes du rang (sauf pompiers militaires)*;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;D20;Diplôme le plus élevé;DIPINTA;BEP;BEP;NULL;5100254s;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;D21;Spécialité du diplôme;DIPSCDA;STRUCTURES METALLIQUES;STRUCTURES METALLIQUES;-;0732;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;BAC PROFESSIONNEL;BAC PROFESSIONNEL;CCS;40000;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;D60;Spécialité formation non-formelle;ETMSPA;CONDUITE D'APPAREIL INDUSTRIEL;-;-;-;79;Gestionnaire 01;01;0;Enquêteur 03
+En03;216352;2;E12a;Activité principale année précédente;EACTIV;ARMEE;NULL;NULL;NULL;79;Gestionnaire 01;01;0;Enquêteur 03
+En04;216353;1;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;1;BA22b;Nom de l'employeur;NOMSOC;PARTICULIER;NULL;-;-;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;1;BA29;Nom de l'employeur;EMPL;PARTICULIER;-;-;-;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;1;C6a;Profession antérieure;APCLCA;AGRICULTEUR;AGRICULTEUR;RC*;691E - Ouvriers agricoles sans spécialisation particulière;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CETAD;CETAD;C_C;NULL;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;1;D39;Année d'études atteinte et diplôme préparé (2e essai);NIVINTB;CAP;CAP;CCS;50000;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;2;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;2;BA22b;Nom de l'employeur;NOMSOC;PARTICULIER;NULL;-;-;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;2;BA29;Nom de l'employeur;EMPL;PARTICULIER;-;-;-;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;2;BA51;Profession dans autre activité;SPCLCA;PECHEUR;PECHEUR;RC*;122C;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CETAD;CETAD;C_C;NULL;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216353;2;D39;Année d'études atteinte et diplôme préparé (2e essai);NIVINTB;CAP;CAP;CCS;50000;15;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;BA10a;Profession principale;PCLCA;CONSEILLER MUNICIPALE;CONSEILLER MUNICIPALE;RC*;333F - Personnels administratifs de catégorie A des collectivités locales et hôpitaux publics (hors Enseignement, Patrimoine);27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;BA22b;Nom de l'employeur;NOMSOC;COMMUNE DE TUBUAI;MAIRIE;-;-;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;BA29;Nom de l'employeur;EMPL;COMMUNE DE TUBUAI;-;-;-;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;BA51;Profession dans autre activité;SPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;BB3;Echelle / échelon / niveau / indice;GRADEC;ELUS;-;-;-;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;BE6a;Activité économique établissement;CACTIV;ADMINISTRATION;ADMINISTRATION;CCS;8411Z;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;D20;Diplôme le plus élevé;DIPINTA;BEPC;BEPC;NULL;6400100a;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;D60;Spécialité formation non-formelle;ETMSPA;ADMINISTRATION DES COLLECTIVITES TERRITORIALES;-;-;-;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;2;C6a;Profession antérieure;APCLCA;SECRETAIRE;SECRETAIRE;RC*;523A - Adjoints administratifs de la fonction publique (y c. enseignement)*;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;2;C8;Activité principale employeur;AACTIV;ADMINISTRATION;ADMINISTRATION;CCS;8411Z - Administration publique générale;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;2;D20;Diplôme le plus élevé;DIPINTA;CEPE;CEPE;C_C;NULL;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;2;D23;Diplôme le plus élevé (2e essai);DIPINTB;CEPE;CEPE;C_C;NULL;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;2;D24;Spécialité du diplôme (2e essai);DIPSCDB;FORMATION GENERALE;FORMATION GENERALE;-;0011;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;2;D60;Spécialité formation non-formelle;ETMSPA;RELIGION;-;-;-;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;2;G15a;Profession de la mère;MPCLCA;SECRETAIRE;SECRETAIRE;RC*;542A - Secrétaires;27;Gestionnaire 01;01;0;Enquêteur 04
+En04;216355;2;G5a;Profession du père;FPCLCA;PAYSAGISTE;PAYSAGISTE;RC*;471A - Techniciens d'étude et de conseil en agriculture, eaux et forêt;27;Gestionnaire 01;01;0;Enquêteur 04
+En03;216357;1;BA10a;Profession principale;PCLCA;ANIMATRICE;ANIMATRICE;RC*;435B - Animateurs socioculturels et de loisirs;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;BA22b;Nom de l'employeur;NOMSOC;CPCV;CENTRE DE VACANCE;-;-;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;BA29;Nom de l'employeur;EMPL;CPCV;-;-;-;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;CENTRE DE VACANCE;CENTRE DE VACANCE;CCS;5520Z - Hébergement touristique et autre hébergement de courte durée;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;C6a;Profession antérieure;APCLCA;ANIMATEUR FORMATION;ANIMATEUR FORMATION;RC*;423B - Formateurs et animateurs de formation continue;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;C8;Activité principale employeur;AACTIV;ARMEE;ARMEE;CCS;8422Z - Défense;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;D20;Diplôme le plus élevé;DIPINTA;BAC TECHNOLOGIE;BAC TECHNOLOGIE;NULL;4300310t;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;D21;Spécialité du diplôme;DIPSCDA;STMG;STMG;-;0410;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;1ER ANNEE LICENCE;1ER ANNEE LICENCE;RCS;39992;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;D60;Spécialité formation non-formelle;ETMSPA;RELIGION;-;-;-;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;E12a;Activité principale année précédente;EACTIV;ARMEE;ARMEE;CCS;8422Z - Défense;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;1;E9a;Profession année dernière;EPCLCA;ANIMATEUR DE FORMATION;ANIMATEUR DE FORMATION;RC*;423B - Formateurs et animateurs de formation continue;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;2;C6a;Profession antérieure;APCLCA;AGRICULTEUR;AGRICULTEUR;RC*;691E - Ouvriers agricoles sans spécialisation particulière;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;2;C8;Activité principale employeur;AACTIV;ADMINISTRATION;ADMINISTRATION;CCS;8411Z - Administration publique générale;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;2;D20;Diplôme le plus élevé;DIPINTA;BTA;BTA;NULL;4230212s;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;2;D21;Spécialité du diplôme;DIPSCDA;AGRICULTURE ELEVAGE;AGRICULTURE ELEVAGE;-;0811;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;2;D60;Spécialité formation non-formelle;ETMSPA;RELIGION;-;-;-;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216357;2;G5a;Profession du père;FPCLCA;INSTITUTEUR;INSTITUTEUR;RC*;421B - Professeurs des écoles;31;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;1;BA10a;Profession principale;PCLCA;SECRETAIRE;SECRETAIRE;RC*;542A - Secrétaires;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;1;BA22b;Nom de l'employeur;NOMSOC;TANEPAU ANDRE;ESPACE VERT;-;-;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;ESPACE VERT;ESPACE VERT;CCS;NULL;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;1;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CAP;CAP;CCS;50000;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;1;E12a;Activité principale année précédente;EACTIV;TOURISME;TOURISME;CCS;NULL;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;1;E9a;Profession année dernière;EPCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;1;G15a;Profession de la mère;MPCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;2;BA10a;Profession principale;PCLCA;JARDINIER;JARDINIER;RC*;631A - Jardiniers;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;2;BA23a;Activité économique de l'entreprise / patente;ACTIV;ESPACE VERT;ESPACE VERT;CCS;NULL;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;2;BA51;Profession dans autre activité;SPCLCA;BUCHERON;BUCHERON;RC*;122B;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;3EME;3EME;CCS;64000;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;2;G15a;Profession de la mère;MPCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216358;2;G5a;Profession du père;FPCLCA;CONSEILLER MUNICIPAL;CONSEILLER MUNICIPAL;RC*;333F - Personnels administratifs de catégorie A des collectivités locales et hôpitaux publics (hors Enseignement, Patrimoine);23;Gestionnaire 01;01;0;Enquêteur 03
+En03;216359;1;C6a;Profession antérieure;APCLCA;ENSEIGNANT;ENSEIGNANT;RC*;422A - Professeurs d'enseignement général des collèges;3;Gestionnaire 01;01;0;Enquêteur 03
+En03;216359;1;C8;Activité principale employeur;AACTIV;ENSEIGNEMENT;ENSEIGNEMENT;CCS;8531Z - Enseignement secondaire général;3;Gestionnaire 01;01;0;Enquêteur 03
+En03;216359;1;D20;Diplôme le plus élevé;DIPINTA;BEP;BEP;NULL;5100255s;3;Gestionnaire 01;01;0;Enquêteur 03
+En03;216359;1;D21;Spécialité du diplôme;DIPSCDA;ELECTRICIEN;ELECTRICIEN;-;0713;3;Gestionnaire 01;01;0;Enquêteur 03
+En03;216359;1;G5a;Profession du père;FPCLCA;ARCHITECTE;ARCHITECTE;RC*;312F;3;Gestionnaire 01;01;0;Enquêteur 03
+En04;216361;1;C6a;Profession antérieure;APCLCA;VENDEUSE;VENDEUSE;RC*;553A;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;1;C8;Activité principale employeur;AACTIV;MAGASIN DE JOUET;MAGASIN DE JOUET;CCS;4765Z - Commerce de détail de jeux et jouets en magasin spécialisé;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;1;D20;Diplôme le plus élevé;DIPINTA;CEPE;CEPE;C_C;NULL;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;1;D23;Diplôme le plus élevé (2e essai);DIPINTB;CAP;CAP;CCS;NULL;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;1;D24;Spécialité du diplôme (2e essai);DIPSCDB;FORMATION GENERALE;FORMATION GENERALE;-;0011;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;2EME ANNEE BAC;2EME ANNEE BAC;C_R;58883;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;1;D39;Année d'études atteinte et diplôme préparé (2e essai);NIVINTB;BAC;BAC;C_C;NULL;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;1;G15a;Profession de la mère;MPCLCA;ARTISAN;ARTISAN;RC*;214F;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;1;G5a;Profession du père;FPCLCA;OUVRIER ROUTIER;OUVRIER ROUTIER;RC*;671B;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;2;C6a;Profession antérieure;APCLCA;CONSEILLER MUNICIPALE;CONSEILLER MUNICIPALE;RCS;333F - Personnels administratifs de catégorie A des collectivités locales et hôpitaux publics (hors Enseignement, Patrimoine);11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;2;C8;Activité principale employeur;AACTIV;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;2;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;CCS;5000000m;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;2;D23;Diplôme le plus élevé (2e essai);DIPINTB;CE;CE;CCS;NULL;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;2;D24;Spécialité du diplôme (2e essai);DIPSCDB;FORMATION GENERALE;FORMATION GENERALE;-;0011;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216361;2;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;11;Gestionnaire 01;01;0;Enquêteur 04
+En04;216362;1;C6a;Profession antérieure;APCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;43;Gestionnaire 01;01;0;Enquêteur 04
+En04;216362;1;C8;Activité principale employeur;AACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;43;Gestionnaire 01;01;0;Enquêteur 04
+En04;216362;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;4EME;4EME;CCS;79993;43;Gestionnaire 01;01;0;Enquêteur 04
+En04;216362;1;E9a;Profession année dernière;EPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;691E - Ouvriers agricoles sans spécialisation particulière;43;Gestionnaire 01;01;0;Enquêteur 04
+En04;216362;1;G15a;Profession de la mère;MPCLCA;AGRICULTRICE;AGRICULTRICE;RC*;111F;43;Gestionnaire 01;01;0;Enquêteur 04
+En04;216362;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;43;Gestionnaire 01;01;0;Enquêteur 04
+En04;216362;2;C6a;Profession antérieure;APCLCA;SECRETAIRE;SECRETAIRE;RC*;523A - Adjoints administratifs de la fonction publique (y c. enseignement)*;43;Gestionnaire 01;01;0;Enquêteur 04
+En04;216362;2;C8;Activité principale employeur;AACTIV;SANTE;SANTE;CCS;8610Z - Activités hospitalières;43;Gestionnaire 01;01;0;Enquêteur 04
+En04;216362;2;D20;Diplôme le plus élevé;DIPINTA;BEP;BEP;NULL;5100324t;43;Gestionnaire 01;01;0;Enquêteur 04
+En04;216362;2;D21;Spécialité du diplôme;DIPSCDA;SECRETARIAT;SECRETARIAT;-;0415;43;Gestionnaire 01;01;0;Enquêteur 04
+En03;216363;1;C6a;Profession antérieure;APCLCA;INSTALLATEUR TELEPHONE;INSTALLATEUR TELEPHONE;RC*;681B - Ouvriers non qualifiés du second oeuvre du bâtiment;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;1;C8;Activité principale employeur;AACTIV;TELECOM;TELECOM;CCS;6110Z - Télécommunications filaires;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CE2;CE2;CCS;79991;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;2;BA10a;Profession principale;PCLCA;PROFESSEUR DES ECOLES;PROFESSEUR DES ECOLES;RC*;421B - Professeurs des écoles;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;2;BA22b;Nom de l'employeur;NOMSOC;EDUCATION NATIONAL;ENSEIGNEMENT;-;-;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;2;BA29;Nom de l'employeur;EMPL;EDUCATION NATIONAL;-;-;-;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;ENSEIGNEMENT;ENSEIGNEMENT;CCS;8531Z - Enseignement secondaire général;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;2;BB3;Echelle / échelon / niveau / indice;GRADEC;HORS CLASSE;-;-;-;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;2;BE6a;Activité économique établissement;CACTIV;ENSEIGNEMENT;ENSEIGNEMENT;CCS;8531Z;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;2;D20;Diplôme le plus élevé;DIPINTA;LICENCE;LICENCE;NULL;2000131a;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;2;D21;Spécialité du diplôme;DIPSCDA;LETTRES (SAI);LETTRES (SAI);-;0220;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;2;E12a;Activité principale année précédente;EACTIV;ENSEIGNEMENT;NULL;NULL;NULL;3;Gestionnaire 01;02;0;Enquêteur 03
+En03;216363;2;G15a;Profession de la mère;MPCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;3;Gestionnaire 01;02;0;Enquêteur 03
+En04;216365;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;3EME GENERALE;3EME GENERALE;CCS;64000;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;1;D60;Spécialité formation non-formelle;ETMSPA;CUISINE;-;-;-;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;1;E12a;Activité principale année précédente;EACTIV;ARMEE;ARMEE;CCS;8422Z - Défense;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;1;E9a;Profession année dernière;EPCLCA;CUISINIERE;CUISINIERE;RC*;636D - Cuisiniers et commis de cuisine;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;1;G15a;Profession de la mère;MPCLCA;AIDE MATERNELLE;AIDE MATERNELLE;RC*;563A - Assistantes maternelles, gardiennes d'enfants, familles d'accueil;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;2;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;2;BA22b;Nom de l'employeur;NOMSOC;PARTICULIER;NULL;-;-;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;2;BA29;Nom de l'employeur;EMPL;PARTICULIER;-;-;-;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;2;BA51;Profession dans autre activité;SPCLCA;PECHEUR;PECHEUR;RC*;122C;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CAP;CAP;CCS;50000;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;2;E12a;Activité principale année précédente;EACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;2;E9a;Profession année dernière;EPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216365;2;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;67;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;1;BA10a;Profession principale;PCLCA;AIDE MATERNELLE;AIDE MATERNELLE;RC*;563A - Assistantes maternelles, gardiennes d'enfants, familles d'accueil;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;1;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;1;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CAP;CAP;CCS;50000;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;2;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;2;BA22b;Nom de l'employeur;NOMSOC;PARTICULIER;NULL;-;-;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;2;BA29;Nom de l'employeur;EMPL;PARTICULIER;-;-;-;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;2;BA51;Profession dans autre activité;SPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;2;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;CCS;5000000m;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;2;D23;Diplôme le plus élevé (2e essai);DIPINTB;CAP;CAP;CCS;NULL;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;2;D24;Spécialité du diplôme (2e essai);DIPSCDB;FORMATION GENERALE;FORMATION GENERALE;-;0011;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;2EME ANNEE BEP;2EME ANNEE BEP;CCS;51000;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;3;D38;Année d'études atteinte et diplôme préparé;NIVINTA;3EME GENERALE;3EME GENERALE;CCS;64000;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;3;G15a;Profession de la mère;MPCLCA;AIDE MATERNELLE;AIDE MATERNELLE;RC*;563A - Assistantes maternelles, gardiennes d'enfants, familles d'accueil;63;Gestionnaire 01;01;0;Enquêteur 04
+En04;216366;3;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;63;Gestionnaire 01;01;0;Enquêteur 04
+En03;216367;1;BA10a;Profession principale;PCLCA;JARDINIER;JARDINIER;RC*;631A - Jardiniers;11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216367;1;BA22b;Nom de l'employeur;NOMSOC;MAIRIE;MAIRIE;-;-;11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216367;1;BA29;Nom de l'employeur;EMPL;MAIRIE;-;-;-;11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216367;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216367;1;BB3;Echelle / échelon / niveau / indice;GRADEC;9999999999999999999999999999999999999999;-;-;-;11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216367;1;BE8a;Profession à l'entrée dans l'entreprise;CPCLCA;ACCOMPAGNATEUR;ACCOMPAGNATEUR;RCS;546E - Autres agents et hôtesses d'accompagnement (transports, tourisme);11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216367;1;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;NULL;5030211s;11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216367;1;D21;Spécialité du diplôme;DIPSCDA;AGRICULTURE POLYCULTURE;AGRICULTURE POLYCULTURE;-;0811;11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216367;1;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216367;1;G15a;Profession de la mère;MPCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216367;1;G5a;Profession du père;FPCLCA;ACCOMPAGNATEUR;ACCOMPAGNATEUR;RC*;546E - Autres agents et hôtesses d'accompagnement (transports, tourisme);11;Gestionnaire 01;01;0;Enquêteur 03
+En03;216368;1;C6a;Profession antérieure;APCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;31;Gestionnaire 01;02;0;Enquêteur 03
+En03;216368;1;C8;Activité principale employeur;AACTIV;NETTOYAGE;NETTOYAGE;CCS;8121Z - Nettoyage courant des bâtiments;31;Gestionnaire 01;02;0;Enquêteur 03
+En03;216368;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CE2;CE2;CCS;79991;31;Gestionnaire 01;02;0;Enquêteur 03
+En03;216368;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;31;Gestionnaire 01;02;0;Enquêteur 03
+En03;216368;2;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;31;Gestionnaire 01;02;0;Enquêteur 03
+En03;216368;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;31;Gestionnaire 01;02;0;Enquêteur 03
+En03;216368;2;G15a;Profession de la mère;MPCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;31;Gestionnaire 01;02;0;Enquêteur 03
+En03;216368;2;G5a;Profession du père;FPCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;31;Gestionnaire 01;02;0;Enquêteur 03
+En03;216369;1;BA10a;Profession principale;PCLCA;COUTURIERE;COUTURIERE;RC*;635A - Tailleurs et couturières qualifiés, ouvriers qualifiés du travail des étoffes (sauf fabrication de vêtements), ouvriers qualifiés de type artisanal du travail du cuir;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216369;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216369;1;E12a;Activité principale année précédente;EACTIV;COUTURE;COUTURE;CCS;1413Z - Fabrication de vêtements de dessus;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216369;1;E9a;Profession année dernière;EPCLCA;COUTURIERE;COUTURIERE;RC*;213A;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216369;1;G15a;Profession de la mère;MPCLCA;BLANCHISERIE;BLANCHISERIE;RC*;217D;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216369;2;C6a;Profession antérieure;APCLCA;FRIGORISTE;FRIGORISTE;RC*;628B - Electromécaniciens, électriciens qualifiés d'entretien : équipements industriels;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216369;2;C8;Activité principale employeur;AACTIV;REPARATION;REPARATION;CCS;4520A - Entretien et réparation de véhicules automobiles légers;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216369;2;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;NULL;5000227s;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216369;2;D21;Spécialité du diplôme;DIPSCDA;FRIGORISTE;FRIGORISTE;-;0713;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216369;2;G15a;Profession de la mère;MPCLCA;COUTURIERE;COUTURIERE;RC*;635A - Tailleurs et couturières qualifiés, ouvriers qualifiés du travail des étoffes (sauf fabrication de vêtements), ouvriers qualifiés de type artisanal du travail du cuir;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216370;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CE1;CE1;CCS;79991;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216370;1;G15a;Profession de la mère;MPCLCA;AGRICULTRICE;AGRICULTRICE;RC*;111F;7;Gestionnaire 01;02;0;Enquêteur 03
+En03;216370;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;7;Gestionnaire 01;02;0;Enquêteur 03
+En04;216371;1;BA10a;Profession principale;PCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;1;BA22b;Nom de l'employeur;NOMSOC;EQUIPEMENT;EQUIPEMENT;-;-;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;1;BA29;Nom de l'employeur;EMPL;EQUIPEMENT;-;-;-;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;EQUIPEMENT;EQUIPEMENT;CCS;8413Z - Administration publique (tutelle) des activités économiques;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;1;D20;Diplôme le plus élevé;DIPINTA;CAPD;CAPD;C_C;NULL;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;1;D21;Spécialité du diplôme;DIPSCDA;CUISINE;CUISINE;-;1013;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;1;D23;Diplôme le plus élevé (2e essai);DIPINTB;CAP;CAP;NULL;5000221s;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;1;D24;Spécialité du diplôme (2e essai);DIPSCDB;CUISINE;CUISINE;-;1013;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;1;E12a;Activité principale année précédente;EACTIV;EQUIPEMENT;EQUIPEMENT;CCS;8413Z - Administration publique (tutelle) des activités économiques;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;1;E9a;Profession année dernière;EPCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;1;G5a;Profession du père;FPCLCA;OUVRIER BATIMENT;OUVRIER BATIMENT;RC*;671B;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;2;BA10a;Profession principale;PCLCA;MANUTENTIONISTE;MANUTENTIONISTE;RC*;676A - Manutentionnaires non qualifiés;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;2;BA22b;Nom de l'employeur;NOMSOC;TUBUAI CENTER;MAGASIN;-;-;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;2;BA29;Nom de l'employeur;EMPL;TUBUAI CENTER;-;-;-;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAGASIN;MAGASIN;CCS;4711F - Hypermarchés;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;3EME GENERALE;3EME GENERALE;CCS;64000;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;2;E12a;Activité principale année précédente;EACTIV;MAGASIN;NULL;NULL;NULL;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;2;G5a;Profession du père;FPCLCA;MENUISIER;MENUISIER;RC*;632D - Menuisiers qualifiés du bâtiment;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;3;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CE2;CE2;CCS;79991;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;3;G15a;Profession de la mère;MPCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216371;3;G5a;Profession du père;FPCLCA;OUVRIER ROUTIER;OUVRIER ROUTIER;RC*;671B;11;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;BA10a;Profession principale;PCLCA;ARTISAN CUISINIER;ARTISAN CUISINIER;RC*;636D - Cuisiniers et commis de cuisine;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;BA22b;Nom de l'employeur;NOMSOC;TUBUAI MITIHUE;FABRICATION PRODUITS A BASE DE FRUITS;-;-;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;BA22b;Nom de l'entreprise ou du patenté;NOMSOC;TUBUAI MITIHUE;-;-;-;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;FABRICATION PRODUITS A BASE DE FRUITS;FABRICATION PRODUITS A BASE DE FRUITS;CCS;1200Z - Fabrication de produits à base de tabac;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;C6a;Profession antérieure;APCLCA;PROFESSEUR DE MUSIQUE;PROFESSEUR DE MUSIQUE;RC*;354G - Professeurs d'art (hors établissements scolaires);79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;C8;Activité principale employeur;AACTIV;EDUCATION;EDUCATION;CCS;8531Z - Enseignement secondaire général;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;D20;Diplôme le plus élevé;DIPINTA;BEP;BEP;NULL;5100221s;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;D21;Spécialité du diplôme;DIPSCDA;CUISINE;CUISINE;-;1013;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;D60;Spécialité formation non-formelle;ETMSPA;PROJET PROFESSIONNEL;-;-;-;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;E12a;Activité principale année précédente;EACTIV;PRODUCTION;PRODUCTION;CCS;NULL;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;E9a;Profession année dernière;EPCLCA;PRODUCTION ALIMENTAIRE;PRODUCTION ALIMENTAIRE;RC*;625E;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;1;G5a;Profession du père;FPCLCA;MAGASINIER;MAGASINIER;RC*;653A - Magasiniers qualifiés;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;2;BA10a;Profession principale;PCLCA;PRODUCTION ALIMENTAIRE;PRODUCTION ALIMENTAIRE;RC*;625E;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;2;BA22b;Nom de l'employeur;NOMSOC;TUBUAI MITIHUE;PRODUCTION;-;-;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;2;BA23a;Activité économique de l'entreprise / patente;ACTIV;PRODUCTION;PRODUCTION;CCS;NULL;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;2;BA51;Profession dans autre activité;SPCLCA;JARDINIER;JARDINIER;RC*;211J;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;2;BA52;Profession dans autre activité (2e essai);SPCLCB;CHAUFFEUR;CHAUFFEUR;RC*;218A;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;2;G15a;Profession de la mère;MPCLCA;AGRICULTRICE;AGRICULTRICE;RC*;111F;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;2;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;3;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CAP;CAP;CCS;50000;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;3;G15a;Profession de la mère;MPCLCA;PRODUCTION ALIMENTAIRE;PRODUCTION ALIMENTAIRE;RC*;625E;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216372;3;G5a;Profession du père;FPCLCA;PRODUCTION ALIMENTAIRE;PRODUCTION ALIMENTAIRE;RC*;625E;79;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;BA10a;Profession principale;PCLCA;AGENT EXPLOITATION;AGENT EXPLOITATION;RC*;521A - Employés de la Poste;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;BA22b;Nom de l'employeur;NOMSOC;EDT;ELECTRICITE;-;-;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;BA29;Nom de l'employeur;EMPL;EDT;-;-;-;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;ELECTRICITE;ELECTRICITE;CCS;4321A - Travaux d'installation électrique dans tous locaux;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;BE6a;Activité économique établissement;CACTIV;ELECTRICITE;ELECTRICITE;CCS;4321A;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;BE8a;Profession à l'entrée dans l'entreprise;CPCLCA;AIDE MECANIQUE;AIDE MECANIQUE;C_R;X323;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;BE8b;Profession à l'entrée dans l'entreprise (2e essai);CPCLCB;MECANICIEN;MECANICIEN;-;-;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;E12a;Activité principale année précédente;EACTIV;ELECTRICITE;NULL;NULL;NULL;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;G15a;Profession de la mère;MPCLCA;SERVEUSE;SERVEUSE;RC*;561A;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;1;G5a;Profession du père;FPCLCA;MACON;MACON;RC*;632A - Maçons qualifiés;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;2;C6a;Profession antérieure;APCLCA;CAISSIERE;CAISSIERE;RC*;552A - Caissiers de magasin;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;2;C8;Activité principale employeur;AACTIV;HOTEL BAR;HOTEL BAR;CCS;NULL;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;2;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;NULL;5000314t;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;2;D21;Spécialité du diplôme;DIPSCDA;COMPTABILITE;COMPTABILITE;-;0411;7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216373;2;G5a;Profession du père;FPCLCA;AGENT ENTRETIEN;AGENT ENTRETIEN;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);7;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;1;BA10a;Profession principale;PCLCA;OUVRIER ROUTIER;OUVRIER ROUTIER;RC*;671B;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;1;BA22b;Nom de l'employeur;NOMSOC;EQUIPEMENT;GENIE CIVIL;-;-;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;1;BA29;Nom de l'employeur;EMPL;EQUIPEMENT;-;-;-;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;GENIE CIVIL;GENIE CIVIL;CCS;NULL;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;1;BB3;Echelle / échelon / niveau / indice;GRADEC;OUVRIER;-;-;-;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;1;BE6a;Activité économique établissement;CACTIV;EQUIPEMENT;EQUIPEMENT;CCS;8413Z;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;1;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT DETUDE;CERTIFICAT DETUDE;NULL;7400100a;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;1;E12a;Activité principale année précédente;EACTIV;GENIE CIVIL;NULL;NULL;NULL;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;1;G15a;Profession de la mère;MPCLCA;SERVEUSE;SERVEUSE;RC*;561A;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;2;BA10a;Profession principale;PCLCA;CUISINIERE;CUISINIERE;RC*;636D - Cuisiniers et commis de cuisine;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;2;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;2;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;2;BA51;Profession dans autre activité;SPCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;2;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT DETUDE;CERTIFICAT DETUDE;NULL;7400100a;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;2;E12a;Activité principale année précédente;EACTIV;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216374;2;E9a;Profession année dernière;EPCLCA;CUISINE;CUISINE;RC*;636D - Cuisiniers et commis de cuisine;63;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;1;BA10a;Profession principale;PCLCA;SECRETAIRE;SECRETAIRE;RC*;542A - Secrétaires;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;1;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;1;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;1;BB3;Echelle / échelon / niveau / indice;GRADEC;SECRETAIRE;-;-;-;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;1;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;1;D60;Spécialité formation non-formelle;ETMSPA;SECRETARIAT;-;-;-;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;1;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;1;G5a;Profession du père;FPCLCA;OUVRIER ROUTIER;OUVRIER ROUTIER;RC*;671B;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;BA10a;Profession principale;PCLCA;MANOEUVRE;MANOEUVRE;RC*;676E - Ouvriers non qualifiés divers de type industriel;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;BA22b;Nom de l'employeur;NOMSOC;PARTICULIER;ENTREPRENEUR;-;-;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;BA29;Nom de l'employeur;EMPL;PARTICULIER;-;-;-;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;ENTREPRENEUR;ENTREPRENEUR;CCS;4399C - Travaux de maçonnerie générale et gros œuvre de bâtiment;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;C6a;Profession antérieure;APCLCA;MANOEUVRE;MANOEUVRE;RC*;676E - Ouvriers non qualifiés divers de type industriel;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;C8;Activité principale employeur;AACTIV;BATIMENT;BATIMENT;CCS;NULL;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;D20;Diplôme le plus élevé;DIPINTA;BAC PROFESSIONNEL;BAC PROFESSIONNEL;NULL;4000232s;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;D21;Spécialité du diplôme;DIPSCDA;BATIMENT CONSTRUCTION;BATIMENT CONSTRUCTION;-;0732;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;2EME ANNEE BTS;2EME ANNEE BTS;CCS;32000;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;E12a;Activité principale année précédente;EACTIV;BATIMENT;BATIMENT;CCS;NULL;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;E9a;Profession année dernière;EPCLCA;MANOEUVRE;MANOEUVRE;RC*;676E - Ouvriers non qualifiés divers de type industriel;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216376;2;G15a;Profession de la mère;MPCLCA;SECRETAIRE;SECRETAIRE;RC*;542A - Secrétaires;43;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;1;BA10a;Profession principale;PCLCA;AIDE ADMINISTRATION;AIDE ADMINISTRATION;RC*;543D;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;1;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;1;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;1;D20;Diplôme le plus élevé;DIPINTA;BAC TECHNOLOGIE;BAC TECHNOLOGIE;NULL;4300310t;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;1;D21;Spécialité du diplôme;DIPSCDA;ACTION COMMERCIALE;ACTION COMMERCIALE;-;0416;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;1ERE ANNEE LICENCE;1ERE ANNEE LICENCE;RCS;39992;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;1;G15a;Profession de la mère;MPCLCA;SECRETAIRE;SECRETAIRE;RC*;542A - Secrétaires;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;2;BA10a;Profession principale;PCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;2;BA23a;Activité économique de l'entreprise / patente;ACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;2;D20;Diplôme le plus élevé;DIPINTA;BEP;BEP;NULL;5100251r;47;Gestionnaire 01;02;0;Enquêteur 04
+En04;216377;2;D21;Spécialité du diplôme;DIPSCDA;MAINTENANCE MECANIQUE;MAINTENANCE MECANIQUE;-;0715;47;Gestionnaire 01;02;0;Enquêteur 04
+En03;216379;1;BA10a;Profession principale;PCLCA;SURVEILLANT AU COLLEGE;SURVEILLANT AU COLLEGE;RC*;422E - Surveillants et aides-éducateurs des établissements d'enseignement;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216379;1;BA22b;Nom de l'employeur;NOMSOC;COLLEGE DE TUBUAI;EDUCATION;-;-;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216379;1;BA29;Nom de l'employeur;EMPL;COLLEGE DE TUBUAI;-;-;-;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216379;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;EDUCATION;EDUCATION;CCS;8531Z - Enseignement secondaire général;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216379;1;BB3;Echelle / échelon / niveau / indice;GRADEC;9999999999999999999999999999999999999999;-;-;-;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216379;1;D20;Diplôme le plus élevé;DIPINTA;MASTER RECHERCHE;MASTER RECHERCHE;CCS;1210000a;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216379;1;D21;Spécialité du diplôme;DIPSCDA;METIERS DE L EDUCATION ENSEIGNEMENT FORMATION;METIERS DE L EDUCATION ENSEIGNEMENT FORMATION;-;0110;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216379;1;D23;Diplôme le plus élevé (2e essai);DIPINTB;MASTER RECHERCHE;MASTER RECHERCHE;NULL;1210122a;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216379;1;D24;Spécialité du diplôme (2e essai);DIPSCDB;ECONOMIE;ECONOMIE;-;0311;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216379;1;G15a;Profession de la mère;MPCLCA;SECRETAIRE;SECRETAIRE;RC*;542A - Secrétaires;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216379;1;G5a;Profession du père;FPCLCA;CHAUFFEUR CAMION;CHAUFFEUR CAMION;RC*;641A - Conducteurs routiers et grands routiers;27;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;BA10a;Profession principale;PCLCA;MECANICIEN;MECANICIEN;RC*;634D - Mécaniciens qualifiés de maintenance, entretien : équipements non industriels;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;BA22b;Nom de l'employeur;NOMSOC;RSMA;ARMEE;-;-;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;BA29;Nom de l'employeur;EMPL;RSMA;-;-;-;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;ARMEE;ARMEE;CCS;8422Z - Défense;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;BA51;Profession dans autre activité;SPCLCA;POMPISTE;POMPISTE;RC*;554J - Pompistes et gérants de station-service (salariés ou mandataires);87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;BB3;Echelle / échelon / niveau / indice;GRADEC;SERGENT CHEF;-;-;-;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;BE6a;Activité économique établissement;CACTIV;ARMEE;ARMEE;CCS;8422Z;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;BE8a;Profession à l'entrée dans l'entreprise;CPCLCA;MONITEUR;MONITEUR;RC*;HORS;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;NULL;5000251s;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;D21;Spécialité du diplôme;DIPSCDA;MECANIQUE GENERALE;MECANIQUE GENERALE;-;0715;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;1;E12a;Activité principale année précédente;EACTIV;ARMEE;NULL;NULL;NULL;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;2;D20;Diplôme le plus élevé;DIPINTA;BAC GENERAL;BAC GENERAL;NULL;4700130a;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;2;D21;Spécialité du diplôme;DIPSCDA;L (LITTERAIRE);L (LITTERAIRE);-;0288;87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216380;2;G5a;Profession du père;FPCLCA;GUIDE TOURISTIQUE;GUIDE TOURISTIQUE;RC*;546E - Autres agents et hôtesses d'accompagnement (transports, tourisme);87;Gestionnaire 01;02;0;Enquêteur 03
+En03;216381;1;BA10a;Profession principale;PCLCA;ETALAGISTE;ETALAGISTE;RC*;465A - Concepteurs et assistants techniques des arts graphiques, de la mode et de la décoration salariés;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216381;1;BA22b;Nom de l'employeur;NOMSOC;MAGASIN ANTOINETTE;MAGASIN;-;-;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216381;1;BA29;Nom de l'employeur;EMPL;MAGASIN ANTOINETTE;-;-;-;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216381;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAGASIN;MAGASIN;CCS;4711F - Hypermarchés;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216381;1;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;NULL;5000255s;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216381;1;D21;Spécialité du diplôme;DIPSCDA;ELECTRICIEN;ELECTRICIEN;-;0713;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216381;1;E12a;Activité principale année précédente;EACTIV;ALIMENTATION;ALIMENTATION;CCS;4711D - Supermarchés;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216381;1;E9a;Profession année dernière;EPCLCA;JARDINIER;JARDINIER;RCS;631A - Jardiniers;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216381;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216381;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;87;Gestionnaire 01;03;0;Enquêteur 03
+En04;216384;1;C6a;Profession antérieure;APCLCA;ETALAGISTE;ETALAGISTE;RCS;465A - Concepteurs et assistants techniques des arts graphiques, de la mode et de la décoration salariés;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;1;C8;Activité principale employeur;AACTIV;MAGASIN;MAGASIN;CCS;4711F - Hypermarchés;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;1ERE ANNE BEP;1ERE ANNE BEP;CCS;68882;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;2;BA10a;Profession principale;PCLCA;AGENT TECHNIQUE;AGENT TECHNIQUE;RC*;479B - Experts salariés de niveau technicien, techniciens divers;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;2;BA22b;Nom de l'employeur;NOMSOC;IJSPF;ADMINISTRATION TERRITORIALE;-;-;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;2;BA29;Nom de l'employeur;EMPL;IJSPF;-;-;-;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;ADMINISTRATION TERRITORIALE;ADMINISTRATION TERRITORIALE;CCS;8411Z - Administration publique générale;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;2;BB3;Echelle / échelon / niveau / indice;GRADEC;AGENT TECHNIQUE PRINCIPALE;-;-;-;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;2;BE6a;Activité économique établissement;CACTIV;ENTRETIEN;ENTRETIEN;CCS;NULL;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;2;D20;Diplôme le plus élevé;DIPINTA;BAC TECHNOLOGIE;BAC TECHNOLOGIE;NULL;4300251s;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;2;D21;Spécialité du diplôme;DIPSCDA;F1 GENIE MECANIQUE;F1 GENIE MECANIQUE;-;0715;83;Gestionnaire 01;02;0;Enquêteur 04
+En04;216384;2;E12a;Activité principale année précédente;EACTIV;ADMINISTRATION TERRITORIALE;NULL;NULL;NULL;83;Gestionnaire 01;02;0;Enquêteur 04
+En03;216385;1;BA10a;Profession principale;PCLCA;AGRICULTRICE;AGRICULTRICE;RC*;111F;67;Gestionnaire 01;02;0;Enquêteur 03
+En03;216385;1;BA23a;Activité économique de l'entreprise / patente;ACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;67;Gestionnaire 01;02;0;Enquêteur 03
+En03;216385;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;67;Gestionnaire 01;02;0;Enquêteur 03
+En03;216385;1;G15a;Profession de la mère;MPCLCA;AGRICULTRICE;AGRICULTRICE;RC*;111F;67;Gestionnaire 01;02;0;Enquêteur 03
+En03;216385;1;G5a;Profession du père;FPCLCA;OUVRIER ROUTIER;OUVRIER ROUTIER;RC*;671B;67;Gestionnaire 01;02;0;Enquêteur 03
+En04;216386;1;BA10a;Profession principale;PCLCA;AGENT CUISINE;AGENT CUISINE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;BA22b;Nom de l'employeur;NOMSOC;EDUCATION;EDUCATION;-;-;35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;BA29;Nom de l'employeur;EMPL;EDUCATION;-;-;-;35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;EDUCATION;EDUCATION;CCS;8531Z - Enseignement secondaire général;35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;BB3;Echelle / échelon / niveau / indice;GRADEC;C1;-;-;-;35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;BE6a;Activité économique établissement;CACTIV;EDUCATION;EDUCATION;CCS;8531Z;35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;BE8a;Profession à l'entrée dans l'entreprise;CPCLCA;AGENT TECHNIQUE;AGENT TECHNIQUE;RC*;479B - Experts salariés de niveau technicien, techniciens divers;35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT DETUDE;CERTIFICAT DETUDE;NULL;7400100a;35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;E12a;Activité principale année précédente;EACTIV;EDUCATION;NULL;NULL;NULL;35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;G15a;Profession de la mère;MPCLCA;SERVEUSE;SERVEUSE;RC*;561A;35;Gestionnaire 01;02;0;Enquêteur 04
+En04;216386;1;G5a;Profession du père;FPCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;35;Gestionnaire 01;02;0;Enquêteur 04
+En03;216389;1;C6a;Profession antérieure;APCLCA;AGRICULTEUR;AGRICULTEUR;RC*;691E - Ouvriers agricoles sans spécialisation particulière;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216389;1;C8;Activité principale employeur;AACTIV;AGRICULTURE;AGRICULTURE;CCS;0111Z - Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216389;1;D20;Diplôme le plus élevé;DIPINTA;CEP;CEP;NULL;7400100a;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216389;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216389;1;G15a;Profession de la mère;MPCLCA;ARTISANE;ARTISANE;RC*;214F;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;1;C6a;Profession antérieure;APCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;1;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;1;G5a;Profession du père;FPCLCA;ELECTRICIEN;ELECTRICIEN;RC*;622B;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;2;BA10a;Profession principale;PCLCA;MAÇON;MAÇON;RC*;632A - Maçons qualifiés;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;2;BA22b;Nom de l'employeur;NOMSOC;commune;MAIRIE;-;-;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;2;BA29;Nom de l'employeur;EMPL;commune;-;-;-;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;2;BA51;Profession dans autre activité;SPCLCA;PECHEUR;PECHEUR;RC*;122C;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;2;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT D'ETUDE;CERTIFICAT D'ETUDE;NULL;7400100a;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;2;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;2;E12a;Activité principale année précédente;EACTIV;COMMUNE;COMMUNE;CCS;8411Z - Administration publique générale;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;2;E9a;Profession année dernière;EPCLCA;MACON;MACON;RC*;632A - Maçons qualifiés;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216391;2;G5a;Profession du père;FPCLCA;POLICE MUNICIPAL;POLICE MUNICIPAL;RC*;531B - Agents des polices municipales*;87;Gestionnaire 01;03;0;Enquêteur 03
+En03;216392;1;C6a;Profession antérieure;APCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216392;1;C8;Activité principale employeur;AACTIV;BANQUE;BANQUE;CCS;6419Z - Autres intermédiations monétaires;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216392;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216392;1;G15a;Profession de la mère;MPCLCA;AGRICULTRICE;AGRICULTRICE;RC*;111F;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216392;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216392;2;C6a;Profession antérieure;APCLCA;OUVRIER ROUTIER;OUVRIER ROUTIER;RCS;671B;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216392;2;C8;Activité principale employeur;AACTIV;CONSTRUCTION ROUTIERE;CONSTRUCTION ROUTIERE;CCS;4211Z - Construction de routes et autoroutes;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216392;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216392;2;G15a;Profession de la mère;MPCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;83;Gestionnaire 01;03;0;Enquêteur 03
+En03;216392;2;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;83;Gestionnaire 01;03;0;Enquêteur 03
+En04;216393;1;BA10a;Profession principale;PCLCA;ENSEIGNANTE;ENSEIGNANTE;RC*;422A - Professeurs d'enseignement général des collèges;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;BA22b;Nom de l'employeur;NOMSOC;EDUCATION NATIONALE;EDUCATION;-;-;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;BA29;Nom de l'employeur;EMPL;EDUCATION NATIONALE;-;-;-;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;EDUCATION;EDUCATION;CCS;8531Z - Enseignement secondaire général;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;BB3;Echelle / échelon / niveau / indice;GRADEC;PLP COMMERCIALISATION ET SERVICE;-;-;-;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;BE6a;Activité économique établissement;CACTIV;EDUCATION;EDUCATION;CCS;8531Z;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;BE8a;Profession à l'entrée dans l'entreprise;CPCLCA;ENSEIGNANTE;ENSEIGNANTE;RC*;422A - Professeurs d'enseignement général des collèges;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;D20;Diplôme le plus élevé;DIPINTA;LICENCE;LICENCE;CCS;2000000a;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;D21;Spécialité du diplôme;DIPSCDA;LANGUES REGIONALES;LANGUES REGIONALES;-;0231;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;D23;Diplôme le plus élevé (2e essai);DIPINTB;LICENCE;LICENCE;NULL;2000136a;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;D24;Spécialité du diplôme (2e essai);DIPSCDB;LANGUES ETRANGERES;LANGUES ETRANGERES;-;0231;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;D60;Spécialité formation non-formelle;ETMSPA;METEO;-;-;-;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;E12a;Activité principale année précédente;EACTIV;EDUCATION;EDUCATION;CCS;8531Z - Enseignement secondaire général;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;G15a;Profession de la mère;MPCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216393;1;G5a;Profession du père;FPCLCA;CHAUFFEUR;CHAUFFEUR;RC*;641A - Conducteurs routiers et grands routiers;23;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;BA10a;Profession principale;PCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;BA22b;Nom de l'employeur;NOMSOC;DISPENSAIRE TUBUAI;SANTE;-;-;47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;BA29;Nom de l'employeur;EMPL;DISPENSAIRE TUBUAI;-;-;-;47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;SANTE;SANTE;CCS;8610Z - Activités hospitalières;47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CAP;CAP;CCS;50000;47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;E12a;Activité principale année précédente;EACTIV;SANTE;SANTE;CCS;8610Z - Activités hospitalières;47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;E9a;Profession année dernière;EPCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;G15a;Profession de la mère;MPCLCA;TECHNICIENNE DE SURFACE;TECHNICIENNE DE SURFACE;RC*;684A - Nettoyeurs;47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216394;1;G5a;Profession du père;FPCLCA;CUISINIER;CUISINIER;RC*;636D - Cuisiniers et commis de cuisine;47;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;1;BA10a;Profession principale;PCLCA;AIDE MATERNELLE;AIDE MATERNELLE;RC*;563A - Assistantes maternelles, gardiennes d'enfants, familles d'accueil;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;1;BA22b;Nom de l'employeur;NOMSOC;ECOLE TEINA MAHU;EDUCATION;-;-;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;1;BA29;Nom de l'employeur;EMPL;ECOLE TEINA MAHU;-;-;-;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;1;BA32a;Activité économique de l'établissement employeur;ACTIVA;EDUCATION;EDUCATION;CCS;8531Z - Enseignement secondaire général;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;1;D20;Diplôme le plus élevé;DIPINTA;DNB;DNB;NULL;6400100a;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;2EME ANNEE BEP;2EME ANNEE BEP;CCS;51000;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;1;E12a;Activité principale année précédente;EACTIV;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;1;E9a;Profession année dernière;EPCLCA;AIDE MATERNELLE;AIDE MATERNELLE;RC*;563A - Assistantes maternelles, gardiennes d'enfants, familles d'accueil;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;1;G5a;Profession du père;FPCLCA;CHEF;CHEF;RC*;HORS;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;2;BA10a;Profession principale;PCLCA;AGENT COMMUNALE;AGENT COMMUNALE;RC*;525C - Agents de service de la fonction publique (sauf écoles, hôpitaux);7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;2;BA22b;Nom de l'employeur;NOMSOC;COMMUNE;MAIRIE;-;-;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;2;BA29;Nom de l'employeur;EMPL;COMMUNE;-;-;-;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;2;BA32a;Activité économique de l'établissement employeur;ACTIVA;MAIRIE;MAIRIE;CCS;8411Z - Administration publique générale;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;2;BA36a;Fonction principale dans l'emploi;FON10A;AGENT COMMUNALE;-;-;-;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;2;BB3;Echelle / échelon / niveau / indice;GRADEC;AGENT;-;-;-;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;2;BE8a;Profession à l'entrée dans l'entreprise;CPCLCA;CONVOYEUR;CONVOYEUR;RC*;676C - Ouvriers du tri, de l'emballage, de l'expédition, non qualifiés;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;2;D38;Année d'études atteinte et diplôme préparé;NIVINTA;6EME;6EME;CCS;79992;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;2;E12a;Activité principale année précédente;EACTIV;MAIRIE;NULL;NULL;NULL;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216395;2;G5a;Profession du père;FPCLCA;MECANICIEN;MECANICIEN;RC*;634D - Mécaniciens qualifiés de maintenance, entretien : équipements non industriels;7;Gestionnaire 01;03;0;Enquêteur 04
+En04;216396;1;D38;Année d'études atteinte et diplôme préparé;NIVINTA;CM2;CM2;CCS;79991;55;Gestionnaire 01;03;0;Enquêteur 04
+En04;216396;1;G5a;Profession du père;FPCLCA;BOUCHERIE;BOUCHERIE;RC*;215B;55;Gestionnaire 01;03;0;Enquêteur 04
+En04;216398;1;C6a;Profession antérieure;APCLCA;CAISSIERE;CAISSIERE;RC*;552A - Caissiers de magasin;59;Gestionnaire 01;03;0;Enquêteur 04
+En04;216398;1;C8;Activité principale employeur;AACTIV;CINEMA;CINEMA;CCS;5914Z - Projection de films cinématographiques;59;Gestionnaire 01;03;0;Enquêteur 04
+En04;216398;1;D20;Diplôme le plus élevé;DIPINTA;CERTIFICAT DETUDE;CERTIFICAT DETUDE;NULL;7400100a;59;Gestionnaire 01;03;0;Enquêteur 04
+En04;216398;1;D21;Spécialité du diplôme;DIPSCDA;FORMATION GENERALE;FORMATION GENERALE;-;0011;59;Gestionnaire 01;03;0;Enquêteur 04
+En04;216398;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;59;Gestionnaire 01;03;0;Enquêteur 04
+En03;216402;1;C6a;Profession antérieure;APCLCA;GARDIEN PRISON;GARDIEN PRISON;RCS;531C - Surveillants de l'administration pénitentiaire*;67;Gestionnaire 01;03;0;Enquêteur 03
+En03;216402;1;C8;Activité principale employeur;AACTIV;GARDIENNAGE;GARDIENNAGE;CCS;8010Z - Activités de sécurité privée;67;Gestionnaire 01;03;0;Enquêteur 03
+En03;216402;1;D20;Diplôme le plus élevé;DIPINTA;BAC GENERAL;BAC GENERAL;NULL;4700120a;67;Gestionnaire 01;03;0;Enquêteur 03
+En03;216402;1;D21;Spécialité du diplôme;DIPSCDA;ECONOMIQUE ET SOCIAL;ECONOMIQUE ET SOCIAL;-;0310;67;Gestionnaire 01;03;0;Enquêteur 03
+En03;216402;1;G15a;Profession de la mère;MPCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;67;Gestionnaire 01;03;0;Enquêteur 03
+En03;216402;1;G5a;Profession du père;FPCLCA;AGRICULTEUR;AGRICULTEUR;RC*;111F;67;Gestionnaire 01;03;0;Enquêteur 03
+En03;216402;2;C6a;Profession antérieure;APCLCA;CUISINIERE;CUISINIERE;RC*;636D - Cuisiniers et commis de cuisine;67;Gestionnaire 01;03;0;Enquêteur 03
+En03;216402;2;C8;Activité principale employeur;AACTIV;ENSEIGNEMENT;ENSEIGNEMENT;CCS;8531Z - Enseignement secondaire général;67;Gestionnaire 01;03;0;Enquêteur 03
+En03;216402;2;D20;Diplôme le plus élevé;DIPINTA;CAP;CAP;NULL;5000221s;67;Gestionnaire 01;03;0;Enquêteur 03
+En03;216402;2;D21;Spécialité du diplôme;DIPSCDA;HOTELLERIE CUISINE;HOTELLERIE CUISINE;-;1013;67;Gestionnaire 01;03;0;Enquêteur 03
+En03;216402;2;G15a;Profession de la mère;MPCLCA;FEMME DE MENAGE;FEMME DE MENAGE;RC*;563C - Employés de maison et personnels de ménage chez des particuliers;67;Gestionnaire 01;03;0;Enquêteur 03

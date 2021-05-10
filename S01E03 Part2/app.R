@@ -105,7 +105,7 @@ ui <- fluidPage(
 )
 
 # Wrap your UI with secure_app
-# ui <- secure_app(ui)
+ui <- secure_app(ui)
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
