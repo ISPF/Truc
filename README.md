@@ -2,12 +2,18 @@
 
 Quelques précisions sur celle-ci ... 
 L'objectif est de se réunir et échanger sur les bonnes pratiques, les nouveautés, les nouveaux packages, les réalisations de chacun sur le logiciel R.
-Ces rencontres ont lieu les 1er mardis de chaque mois de 14h à 16h, il se peut qu'il y ait des exceptions donc restez connectés au groupe linkedin TRUC, tous les rendez vous y seront postés. Les sessions peuvent être organisées à différents endroits et l'accueil peut se faire par différents organismes sur volontariat.
+Ces rencontres ont lieu les 1er mardis de chaque mois de 14h à 16h, il se peut qu'il y ait des exceptions donc restez connectés au groupe [LinkedIn TRUC](https://www.linkedin.com/groups/13966558/), tous les rendez vous y seront postés. Les sessions peuvent être organisées à différents endroits et l'accueil peut se faire par différents organismes sur volontariat.
 
-Le mode de fonctionnement est collaboratif, c'est-à-dire que chacun amène ses connaissances et son expertise afin d'échanger et d'enrichir le collectif. Le programme des sessions est soumis à un vote: on retient les 5 premiers sujets afin de rythmer les prochaines séances. Les sujets sont conservés si au moins un intervenant se propose pour présenter du contenu. Un récapitulatif des sujets abordés se trouve sur le blog de l'ISPF.
-Après chaque réunion, le contenu est poussé sur le GitHub du TRUC et accessible à tous.
+Le mode de fonctionnement est collaboratif, c'est-à-dire que chacun amène ses connaissances et son expertise afin d'échanger et d'enrichir le collectif. Le programme des sessions est soumis à un vote: on retient les 5 premiers sujets afin de rythmer les prochaines séances. Les sujets sont conservés si au moins un intervenant se propose pour présenter du contenu. Un récapitulatif des sujets abordés se trouve sur le [[Blog de l'ISPF]{.ul}](https://blog.ispf.pf/).
+Après chaque réunion, le contenu est poussé sur le [[GitHub]{.ul}](https://github.com/ISPF/Truc) du TRUC et accessible à tous.
 
 A bientôt pour de nouvelles aventuRes,
+
+
+
+Le lieu de rencontre est modulable : ISPF - CPS - CHPF
+
+Horaires : dépendants des lieux de rencontre
 
 
 
@@ -42,21 +48,7 @@ Documentation sur le vote alternatif
 
 [[Fichier de contact]{.ul}](https://drive.google.com/file/d/1Rp7t79xnojTQmYXv89hKy-vRhSEJkjdE/view?usp=sharing) (pour importation directement dans vos contacts google)
 
-# Organisation de la communauté :
 
-La Tahitien R User Community est née dans le cadre du datalab et coordonnée par l'ISPF. Les membres de ce groupe d'échange sont des codeurs R et le but est de partager nos connaissances, notre savoir faire et de tester des nouveautés.
-
-Pour cela, plusieurs outils sont à disposition des participants et sont recensés sur le [[Blog ISPF]{.ul}](https://blog.ispf.pf/) :
-
--   les rendez vous sont annoncés sur le blog et sur le [[Meetup de Tahitidevops]{.ul}](https://www.meetup.com/fr-FR/TahitiDevOps)
-
--   le contenu des réunions est partagé sur le blof et sur le [[github]{.ul}](https://github.com/ISPF/Truc) de la communauté
-
-Le choix des sujets est soumis au vote des participants.
-
-Le lieu de rencontre est modulable : ISPF - CPS - CHPF
-
-Horaires : dépendants des lieux de rencontre
 
 # Déroulement de la rencontre
 
