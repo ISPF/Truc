@@ -1,5 +1,15 @@
-# Truc
-Tahiti R User Community
+# Bienvenue dans la Tahitian R User Community !
+
+Quelques précisions sur celle-ci ... 
+L'objectif est de se réunir et échanger sur les bonnes pratiques, les nouveautés, les nouveaux packages, les réalisations de chacun sur le logiciel R.
+Ces rencontres ont lieu les 1er mardis de chaque mois de 14h à 16h, il se peut qu'il y ait des exceptions donc restez connectés au groupe linkedin TRUC, tous les rendez vous y seront postés. Les sessions peuvent être organisées à différents endroits et l'accueil peut se faire par différents organismes sur volontariat.
+
+Le mode de fonctionnement est collaboratif, c'est-à-dire que chacun amène ses connaissances et son expertise afin d'échanger et d'enrichir le collectif. Le programme des sessions est soumis à un vote: on retient les 5 premiers sujets afin de rythmer les prochaines séances. Les sujets sont conservés si au moins un intervenant se propose pour présenter du contenu. Un récapitulatif des sujets abordés se trouve sur le blog de l'ISPF.
+Après chaque réunion, le contenu est poussé sur le GitHub du TRUC et accessible à tous.
+
+A bientôt pour de nouvelles aventuRes,
+
+
 
 # S01E01 - Première rencontre
 
