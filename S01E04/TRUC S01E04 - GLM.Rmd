@@ -1,0 +1,605 @@
+---
+title: "TRUC S01E04 - GLM"
+author: |
+  | Par Géraldine LO SIOU (CPS), Ariinui TERIITEHAU, Mathieu BOLDUC (ISPF)
+  
+date: "Le 18 mai 2021"
+output:
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scoll: no
+  word_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.path="Figs/",dev="png",echo=T, warning=F, message=F)
+```
+
+
+# Modèle linéaire généralisé
+
+## Simple Linear Regression {.tabset .tabset-fade .tabset-pills}
+Y = B0 + B1 X + E  
+Assumptions : E = these errors are independent, normal with mean 0 and common variance squared(sigma)  
+
+### Le Dataset
+```{r ImportData}
+# Importing the dataset
+dataset = read.csv("DATA/Salary_Data.csv")
+print(dataset)
+```
+
+### Echantillons d'apprentissage et test
+Splitting the dataset into the Training set and Test set  
+  
+Reminder : 
+
+*  The training set is a subset of data on which the model will learn how to predict the dependent variable given the independent variables. 
+*  The test set is the remaining subset of data, on which we can evaluate the model to see if it predicts correctly, given the independent variables.
+
+
+```{r ech}
+# install.packages('caTools')
+library(caTools)
+set.seed(123)
+# Splitting on the dependent variable : to have well distributed values of the dependent variable in the training and test sets.
+split = sample.split(dataset$Salary, SplitRatio = 2/3)
+training_set = subset(dataset, split == TRUE)
+test_set = subset(dataset, split == FALSE)
+
+# Echantillon d'apprentissage
+print(training_set)
+# Echantillon test
+print(test_set)
+```
+
+
+### Régression
+Fitting Simple Linear Regression to the Training set
+
+```{r reglin}
+regressor = lm(formula = Salary ~ YearsExperience,
+               data = training_set)
+summary(regressor)
+```
+
+### Prediction
+Predicting the Test set results
+
+```{r predlin}
+y_pred = predict(regressor, newdata = test_set)
+print(y_pred)
+```
+
+### Visualisation des résultats
+
+```{r vizlin}
+# Visualising the Training set results
+# install.packages("rlang")
+# install.packages("ggplot2")
+library(ggplot2)
+ggplot() +
+  geom_point(aes(x = training_set$YearsExperience, y = training_set$Salary),
+             colour = 'red') +
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
+            colour = 'blue') +
+  ggtitle('Salary vs Experience (Training set)') +
+  xlab('Years of experience') +
+  ylab('Salary')
+
+# Visualising the Test set results
+library(ggplot2)
+ggplot() +
+  geom_point(aes(x = test_set$YearsExperience, y = test_set$Salary),
+             colour = 'red') +
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
+            colour = 'blue') +
+  ggtitle('Salary vs Experience (Test set)') +
+  xlab('Years of experience') +
+  ylab('Salary')
+
+
+```
+
+
+## Polynomial Regression   {.tabset .tabset-fade .tabset-pills}
+Y = B0 + B1 X1 + B2 X1^2 + B3 X1^3 + B4 X1^4 + E
+
+### Le Dataset
+```{r ImportDataPol}
+# Importing the dataset
+dataset = read.csv("DATA/Position_Salaries.csv")
+dataset = dataset[2:3]
+print(dataset)
+
+```
+
+### Régression
+In this example, we are not splitting the dataset, just because we just want to show the difference between the linear regression vs polynomial regression.
+
+```{r regPol}
+# Fitting Linear Regression to the dataset
+lin_reg = lm(formula = Salary ~ .,
+             data = dataset)
+summary(lin_reg)
+
+# Fitting Polynomial Regression to the dataset
+dataset$Level2 = dataset$Level^2
+dataset$Level3 = dataset$Level^3
+dataset$Level4 = dataset$Level^4
+poly_reg = lm(formula = Salary ~ .,
+              data = dataset)
+summary(poly_reg)
+
+```
+
+
+### Visualisation des résultats
+
+```{r vizPol}
+# Visualising the Linear Regression results
+# install.packages('ggplot2')
+library(ggplot2)
+ggplot() +
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
+             colour = 'red') +
+  geom_line(aes(x = dataset$Level, y = predict(lin_reg, newdata = dataset)),
+            colour = 'blue') +
+  ggtitle('Linear Regression') +
+  xlab('Level') +
+  ylab('Salary')
+
+# Visualising the Polynomial Regression results
+# install.packages('ggplot2')
+library(ggplot2)
+ggplot() +
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
+             colour = 'red') +
+  geom_line(aes(x = dataset$Level, y = predict(poly_reg, newdata = dataset)),
+            colour = 'blue') +
+  ggtitle('Polynomial Regression') +
+  xlab('Level') +
+  ylab('Salary')
+
+
+```
+
+
+
+## Logistic Regression  {.tabset .tabset-fade .tabset-pills}
+
+### Le Dataset
+```{r ImportDataLog}
+# Importing the dataset
+dataset = read.csv("DATA/Social_Network_Ads.csv")
+dataset = dataset[3:5]
+
+# Encoding the target feature as factor
+dataset$Purchased = factor(dataset$Purchased, levels = c(0, 1))
+
+head(dataset)
+```
+
+### Echantillons d'apprentissage et test
+Splitting the dataset into the Training set and Test set
+
+```{r echLog}
+# install.packages('caTools')
+library(caTools)
+library(data.table)
+set.seed(123)
+split = sample.split(dataset$Purchased, SplitRatio = 0.75)
+training_set = subset(dataset, split == TRUE)
+test_set = subset(dataset, split == FALSE)
+
+# Feature Scaling : Feature scaling is applied here on both the training and test sets as features could be on different scales. Indeed in some machine learning models, feature scaling is used to avoid some features to be dominated by others features in such a way that the dominated features are not considered in the machine learning models
+training_set[-3] = scale(training_set[-3])
+test_set[-3] = scale(test_set[-3])
+
+# Echantillon d'apprentissage
+head(training_set)
+# Echantillon test
+head(test_set)
+```
+
+
+### Régression
+Fitting Logistic Regression to the Training set
+```{r regLog}
+classifier = glm(formula = Purchased ~ .,
+                 family = binomial,
+                 data = training_set)
+summary(classifier)
+```
+
+### Prediction
+Predicting the Test set results
+
+```{r predLog}
+prob_pred = predict(classifier, type = 'response', newdata = test_set[-3])
+
+# inclure la courbe ROC afin de choisir où couper pour la probabilité
+
+y_pred = ifelse(prob_pred > 0.5, 1, 0)
+
+# Making the Confusion Matrix
+cm = table(test_set[, 3], y_pred > 0.5)
+print(cm)
+
+```
+
+### Visualisation des résultats
+
+On doit revoir la viz
+
+```{r vizLog}
+# Visualising the Training set results
+# Library « ElemStatLearn » got archived :
+# go to : https://cran.r-project.org/src/contrib/Archive/ElemStatLearn/
+# download latest version
+# in Rstudio, go to « tools » > « install packages »
+# library(ElemStatLearn)
+set = training_set
+X1 = seq(min(set[, 1]) - 1, max(set[, 1]) + 1, by = 0.01)
+X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
+grid_set = expand.grid(X1, X2)
+colnames(grid_set) = c('Age', 'EstimatedSalary')
+prob_set = predict(classifier, type = 'response', newdata = grid_set)
+y_grid = ifelse(prob_set > 0.5, 1, 0)
+plot(set[, -3],
+     main = 'Logistic Regression (Training set)',
+     xlab = 'Age', ylab = 'Estimated Salary',
+     xlim = range(X1), ylim = range(X2))
+contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
+points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
+points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
+
+# Visualising the Test set results
+# library(ElemStatLearn)
+set = test_set
+X1 = seq(min(set[, 1]) - 1, max(set[, 1]) + 1, by = 0.01)
+X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
+grid_set = expand.grid(X1, X2)
+colnames(grid_set) = c('Age', 'EstimatedSalary')
+prob_set = predict(classifier, type = 'response', newdata = grid_set)
+y_grid = ifelse(prob_set > 0.5, 1, 0)
+plot(set[, -3],
+     main = 'Logistic Regression (Test set)',
+     xlab = 'Age', ylab = 'Estimated Salary',
+     xlim = range(X1), ylim = range(X2))
+contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
+points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
+points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
+
+```
+
+
+## Modèle de gravité/Panel {.tabset .tabset-fade .tabset-pills}
+
+### Le Dataset
+
+**Variables**    
+j pour le pays d'origine et t pour le mois entre 2007-2019  
+
+*   **Variable Y**  
+    -   Y_{j,t} = nombre d'arrivées touristiques (j,t)  
+  
+*   **Variables X**  
+    -   Taux de change $/€, t
+    -   Distance * prix de Brent, (j,t)
+    -   Indices des cours des actions, (j,t) 
+
+Variable binaire :
+
+-   Europe, Asie, Amerique, Pacific / Pacific --> référence
+-   1er vol de French Bee en Mai 2018
+-   Hub : France, USA, Japon et NZ
+-   Mois --> Tendance et saison / Mois de janvier --> référence
+-   Expedia, accord entre Tahiti Tourism et Expedia depuis Mai 2012
+
+
+```{r ImportDataGrav}
+library(dplyr)
+library(gravity)
+library(caret)
+library(tidyverse)
+library(ggplot2)
+library(plotly)
+library(reshape2) 
+library(zoo)
+library(gridExtra)
+library(lmtest) 
+
+#importation donnees panel 
+df         <- read.csv("DATA/data_gravity.csv",  sep=";", header = TRUE )
+df$period  <- as.yearmon(df$period,format="%m/%Y")
+
+
+```
+
+### Visualisation des données
+
+```{r graphGrav}
+graph1<- ggplot(data = df[df$id=="USA"|df$id=="Italie"|df$id=="Japon"
+                 |df$id=="France",], 
+       aes(x = period, y = nb_tourism, group = id, colour = id)) +
+  geom_line()+
+  labs(title = "Fréquentation Touristiques",
+       subtitle = "Données ISPF, 15 avril 2021",
+       y = "nb de touriste", x = "date")
+#ggplotly()
+
+graph2 <- ggplot(data = df[df$id=="USA"|df$id=="Italie"|df$id=="Japon"
+                 |df$id=="France",], 
+       aes(x = period, y = price, group = id, colour = id)) +
+  geom_line()+
+  labs(title = "Indices des cours des actions",
+       subtitle = "Données OECD, 25 avril 2021",
+       y = "Share prices", x = "date")
+
+graph3 <- ggplot(data = df[df$id=="USA"|df$id=="Italie"|df$id=="Japon"
+                           |df$id=="France",], 
+                 aes(x = period, y = dist_oil, group = id, colour = id)) +
+  geom_line()+
+  labs(title = "Distance * brent_j",
+       subtitle = "Données Brent, 15 avril 2021",
+       y = "", x = "date")
+#ggplotly()
+
+
+grid.arrange(graph1, graph2,graph3,
+             ncol=1, nrow=3)
+
+graph1<- ggplot(data = df[df$id=="USA"|df$id=="Italie"|df$id=="Japon"
+                 |df$id=="France",], 
+       aes(x = period, y = nb_tourism, group = id, colour = id)) +
+  geom_line()+
+  labs(title = "Fréquentation Touristiques",
+       subtitle = "Données ISPF, 15 avril 2021",
+       y = "nb de touriste", x = "date")
+ggplotly()
+
+```
+
+
+### Régression MCO simple 
+
+```{r reglinMCO}
+#---modele MCO simple
+fit_mco <- lm(log(nb_tourism+1)~ log(dist_oil)+log(price)+Tx_change+
+                as.factor(mois)+ europe+asia+america+
+                hub,data=df) 
+summary(fit_mco)
+
+```
+
+```{r verifHyp}
+#Vérification des hypothèses statistiques 
+
+#Si les résidus suivent une loi normal 
+shapiro.test(resid(fit_mco)) #p-value < 5% on accepte la normalité des residus 
+
+#test de RAMSEY --> RESET : consiste à vérifier si le modèle sélectionné est linéaire ou non
+reset(fit_mco)
+#p_value 7.801e-05<0.05 le test de linearite est valide 
+
+#verifier l'hypothèse d'homoscédacticité 
+bptest(fit_mco) #pvalue<0.05
+#Refus de l’hypothèse d’homoscédacticité des résidus au seuil de risque de 5%
+#----
+```
+
+
+### Régression modèle Gravité / Panel 
+
+```{r ModGrav}
+#---- Modele de gravite ----
+#Poisson pseudo maximum likelihood W/ fixed effects
+#modele de gravite avec ppml avec regression sous forme log-log
+fit <- ppml(
+  dependent_variable = "lnb_tourism",
+  distance = "dist_oil",
+  additional_regressors = c("lprice","Tx_change","europe","asia",
+                            "america","hub","french_bee","expedia",
+                            "fev","mar","avr","mai","jui","juil",
+                            "aou","sep","oct","nov","dec"),
+  data = df
+)
+summary(fit)
+
+```
+
+## PLSR
+**PLSR : Partial Least Square Regression**  
+https://rchailan.github.io/assets/lectures/anamultidim/tp3-pcr-pls.html
+
+# Modèle de survie {.tabset .tabset-fade .tabset-pills}
+
+## Le Dataset
+Base Dialyse.xls (5 317 patients), analyse de la survie de patients atteints d’insuffisance rénale traités par hémodialyse
+
+*   Temps : délai de participation au traitement (en mois)
+*   Status =1 si la personne décède lors du traitement, 0 sinon
+*   Centre = A ou B ou C selon le centre où le patient est traité
+*   Age : âge du patient au début du traitement : Moins de 25, [25-50[, [50-70[, Plus de 70
+*   Homme = 1 si le patient est un homme, 0 sinon
+*   Maladie = diabète ou hypertension ou renal (calculs rénaux) : cause de l’insuffisance rénale du patient nécessitant le traitement par hémodialyse
+
+```{r ImportDataSurvie}
+library(readxl)
+library(survival)
+path_base <- "DATA/Dialyse.xls"
+Dialyse   <- read_excel(path_base)
+BASE      <- Dialyse
+
+BASE$Maladie1 <- as.factor(BASE$Maladie)
+BASE$Centre   <- as.factor(BASE$Centre)
+BASE$Age      <- as.factor(BASE$Age)
+BASE$Homme    <- factor(BASE$Homme,labels=c("Femme","Homme"))
+
+summary(BASE)
+
+```
+
+## Courbe de survie de Kaplan-Meier
+
+```{r graphSurv}
+library(ggplot2)
+library(ggfortify)
+
+fit<-survfit(Surv(Temps,Status)~1,data=BASE)
+# summary(fit)
+autoplot(fit) + 
+  ggtitle("Courbe de survie") +
+  xlab("Durée")+
+  ylab("Probabilité de survie") +
+  geom_line(aes(y = 0.5), col=6) +
+  geom_line(aes(y = 0.75), col=5)
+
+fit1<-survfit(Surv(Temps,Status)~Age,data=BASE)
+# summary(fit1)
+autoplot(fit1) + 
+  ggtitle("Courbe de survie en fonction de l'âge") +
+  xlab("Durée")+
+  ylab("Probabilité de survie")
+
+fit2<-survfit(Surv(Temps,Status)~Centre,data=BASE)
+# summary(fit2)
+autoplot(fit2) + 
+  ggtitle("Courbe de survie en fonction des centres") +
+  xlab("Durée")+
+  ylab("Probabilité de survie")
+
+fit3<-survfit(Surv(Temps,Status)~Homme,data=BASE)
+# summary(fit3)
+autoplot(fit3) + 
+  ggtitle("Courbe de survie en fonction des genres") +
+  xlab("Durée")+
+  ylab("Probabilité de survie")
+
+fit4<-survfit(Surv(Temps,Status)~Maladie,data=BASE)
+# summary(fit4)
+autoplot(fit4) + 
+  ggtitle("Courbe de survie en fonction des maladies") +
+  xlab("Durée")+
+  ylab("Probabilité de survie")
+
+```
+
+
+## test du Logrank
+Il existe une différence significative entre les groupes des trois variables ci dessous sauf pour la variable Homme.
+
+```{r LogRank}
+diff = survdiff(Surv(Temps,Status)~Age, data= BASE)
+pchisq(diff$chisq, length(diff$n)-1, lower.tail = FALSE)
+
+diff1 = survdiff(Surv(Temps,Status)~Centre, data= BASE)
+pchisq(diff1$chisq, length(diff1$n)-1, lower.tail = FALSE)
+
+diff2 = survdiff(Surv(Temps,Status)~Maladie, data= BASE)
+pchisq(diff2$chisq, length(diff2$n)-1, lower.tail = FALSE)
+
+diff2 = survdiff(Surv(Temps,Status)~Homme, data= BASE)
+pchisq(diff2$chisq, length(diff2$n)-1, lower.tail = FALSE)
+
+```
+
+## Modèle de Cox à risque proportionnel
+
+```{r ModCox}
+#choisir les criteres les plus faibles 
+cfit1       <- coxph(Surv(Temps,Status) ~ Centre + Age + Maladie, data=BASE)
+result.step <- step(cfit1,scope=list(upper = ~Centre + Age + Maladie, lower = ~1))
+summary(cfit1)
+```
+
+Il y a une variable significative au seuil de 5% Age moins de 25 
+Le fait que le patient est âgée de plus de 70, la prob de deces d'un 
+facteur de 3.9, age entre 25 et 50 ans, soit une augmentation de 2,9 fois 
+
+meme deduction pour les personnes age entre 50-70 ans
+
+**test de concordance**
+% de paires dans la base où les observations avec le temps de survie le plus
+élevé ont la plus grande probabilité de survie prédite par le modèle
+
+**test de ratio de vraisemblance**
+
+```{r HypProp}
+#Verification H des risque de proportionnels
+(res.zph1 <- cox.zph(cfit1))
+```
+
+P_value > 5% 
+CentreB, Moins de 25, Plus de 70, Hypertension, renale 
+On peut stratifier avec les centre malgre que l'un des deux centre 
+nest pas signi dans le modele 
+
+p < 5% 
+CentreC, Age[50-70[ , 
+
+Si l’hypothèse des risques proportionnels n’est pas vérifiée pour une variable du modèle
+il est possible de stratifier le risque de base par rapport à cette variable
+
+
+```{r strate}
+# choisir les variables avec p_value > 5% :
+# CentreB, Moins de 25, Plus de 70, Hypertension, renale 
+
+cfit2 <- coxph(Surv(Temps,Status) ~ Age+ Maladie + strata(Centre) , data=BASE)
+summary(cfit2)
+```
+
+logique dans le test, la majorité ont les mêmes caractéristiques par rapport à l'age et les maladies dans les centre de traitement 
+voir si les p_value sont supérieur a 5% et on remarque qu'en on stratifie  avec le centre, les p_value sont supérieur a 5% donc on accepte l'H Hazard proportionnel au seuil de 5% 
+
+```{r strate2}
+cfit3 <- coxph(Surv(Temps,Status) ~ Age+ Centre + strata(Maladie) , data=BASE)
+str(BASE)
+
+# on interprete les variables par rapport a la variable de reference
+
+(res.zph <- cox.zph(cfit2))
+(res.zph <- cox.zph(cfit3))
+```
+
+avec stratifier pour la variables Centre, pour les pourcentage 
+Le fait que l'ind est 
+meme conclusion que celui d'avant 
+```
+
+<!-- #  {.tabset .tabset-fade .tabset-pills} -->
+
+<!-- ## Le Dataset -->
+<!-- ```{r ImportData} -->
+<!-- ``` -->
+
+<!-- ## Echantillons d'apprentissage et test -->
+
+<!-- ```{r ech} -->
+<!-- ``` -->
+
+
+<!-- ## Régression -->
+
+<!-- ```{r reglin} -->
+<!-- ``` -->
+
+<!-- ## Prediction -->
+<!-- Predicting the Test set results -->
+
+<!-- ```{r predlin} -->
+<!-- ``` -->
+
+<!-- ## Visualisation des résultats -->
+
+<!-- ```{r vizlin} -->
+
+<!-- ``` -->
+
+
+

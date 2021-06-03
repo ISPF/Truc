@@ -1,0 +1,159 @@
+---
+title: "Modèle de gravité/Panel"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## Variables 
+j pour le pays d'origine et t pour le mois entre 2007-2019
+
+### Variable Y
+
+  Y_{j,t} = nombre d'arrivées touristiques (j,t) \n
+  
+### Variables X 
+
+- Taux de change $/€, t \n
+  
+- Distance * prix de Brent, (j,t) \n
+  
+- Indices des cours des actions , (j,t) 
+
+Variable binaire : \n
+
+- Europe, Asie, Amerique, Pacific / Pacific --> référence\n
+  
+- 1er vol de French Bee en Mai 2018\n
+  
+- Hub : France, USA, Japon et NZ\n
+
+- Mois --> Tendance et saison / Mois de janvier --> référence\n
+
+- Expedia, accord entre Tahiti Tourism et Expedia depuis Mai 2012
+  
+  
+
+
+
+```{r library, results="hide", include=FALSE}
+#library 
+library(dplyr)
+library(gravity)
+library(caret)
+library(tidyverse)
+library(ggplot2)
+library(plotly)
+library(reshape2) 
+library(zoo)
+library("gridExtra")
+library(lmtest) 
+
+
+```
+
+
+```{r import, echo = TRUE}
+#importation donnees panel 
+path_base <- "data_gravity.csv"
+df <- read.csv(path_base,  sep=";", header = TRUE )
+df$period <- as.yearmon(df$period,format="%m/%Y")
+```
+
+## Graphique avec ggplot2 
+
+```{r graphique, echo=FALSE}
+graph1<- ggplot(data = df[df$id=="USA"|df$id=="Italie"|df$id=="Japon"
+                 |df$id=="France",], 
+       aes(x = period, y = nb_tourism, group = id, colour = id)) +
+  geom_line()+
+  labs(title = "Fréquentation Touristiques",
+       subtitle = "Données ISPF, 15 avril 2021",
+       y = "nb de touriste", x = "date")
+#ggplotly()
+
+graph2 <- ggplot(data = df[df$id=="USA"|df$id=="Italie"|df$id=="Japon"
+                 |df$id=="France",], 
+       aes(x = period, y = price, group = id, colour = id)) +
+  geom_line()+
+  labs(title = "Indices des cours des actions",
+       subtitle = "Données OECD, 25 avril 2021",
+       y = "Share prices", x = "date")
+
+graph3 <- ggplot(data = df[df$id=="USA"|df$id=="Italie"|df$id=="Japon"
+                           |df$id=="France",], 
+                 aes(x = period, y = dist_oil, group = id, colour = id)) +
+  geom_line()+
+  labs(title = "Distance * brent_j",
+       subtitle = "Données Brent, 15 avril 2021",
+       y = "", x = "date")
+#ggplotly()
+
+
+grid.arrange(graph1, graph2,graph3,
+             ncol=1, nrow=3)
+#ggplotly()
+```
+
+
+```{r graphique_plotly, echo=FALSE}
+graph1<- ggplot(data = df[df$id=="USA"|df$id=="Italie"|df$id=="Japon"
+                 |df$id=="France",], 
+       aes(x = period, y = nb_tourism, group = id, colour = id)) +
+  geom_line()+
+  labs(title = "Fréquentation Touristiques",
+       subtitle = "Données ISPF, 15 avril 2021",
+       y = "nb de touriste", x = "date")
+ggplotly()
+```
+
+# Régression MCO simple 
+```{r}
+#---modele MCO simple
+fit_mco <- lm(log(nb_tourism+1)~ log(dist_oil)+log(price)+Tx_change+
+                as.factor(mois)+ europe+asia+america+
+                hub,data=df) 
+summary(fit_mco)
+
+```
+
+```{r}
+#Vérification des hypothèses statistiques 
+
+#Si les résidus suivent une loi normal 
+shapiro.test(resid(fit_mco)) #p-value < 5% on accepte la normalité des residus 
+
+#test de RAMSEY --> RESET : consiste à vérifier si le modèle sélectionné est linéaire ou non
+reset(fit_mco)
+#p_value 7.801e-05<0.05 le test de linearite est valide 
+
+#verifier l'hypothèse d'homoscédacticité 
+bptest(fit_mco) #pvalue<0.05
+#Refus de l’hypothèse d’homoscédacticité des résidus au seuil de risque de 5%
+#----
+```
+\n
+\n
+# Régression modèle Gravité / Panel 
+
+```{r}
+#---- Modele de gravite ----
+#Poisson pseudo maximum likelihood W/ fixed effects
+#modele de gravite avec ppml avec regression sous forme log-log
+fit <- ppml(
+  dependent_variable = "lnb_tourism",
+  distance = "dist_oil",
+  additional_regressors = c("lprice","Tx_change","europe","asia",
+                            "america","hub","french_bee","expedia",
+                            "fev","mar","avr","mai","jui","juil",
+                            "aou","sep","oct","nov","dec"),
+  data = df
+)
+summary(fit)
+
+```
+
