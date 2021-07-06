@@ -1,0 +1,18 @@
+---
+title: "Liens RMD"
+author: "Laurent PELLET"
+date: "06/07/2021"
+output: html_document
+---
+
+## Liens R Markdown
+
+<https://rmarkdown.rstudio.com/>
+
+[Rapports automatisés (FR)](http://larmarange.github.io/analyse-R/rmarkdown-les-rapports-automatises.html)
+
+[Démarrage en RMD](https://delladata.fr/guide-de-demarrage-en-r-markdown/)
+
+[eBook](https://bookdown.org/yihui/rmarkdown/)
+
+[CV](https://github.com/mitchelloharawild/vitae)
