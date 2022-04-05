@@ -1,0 +1,89 @@
+---
+title: "Démo"
+author : Hubert LEVIEL
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(ggplot2)
+library(DT)
+```
+
+Iris
+======================================================================
+
+Row
+-----------------------------------------------------------------------
+
+### Dataset Iris
+
+```{r}
+datatable(iris)
+```
+
+Row
+-----------------------------------------------------------------------
+
+### Largeur des pétales en fonction de leur longueur, par espèce
+
+```{r}
+ggplot(iris, aes(x = Petal.Length, y = Petal.Width, color = Species)) +
+  geom_point(alpha = 0.5, size = 2) +
+  labs(color = "Espèces", 
+       x = "Longueur des pétales",
+       y = "Largeur des pétales") +
+  theme_minimal()
+```
+
+### Largeur des sépales en fonction de leur longueur, par espèce
+
+```{r}
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
+  geom_point(alpha = 0.5, size = 2) +
+  labs(color = "Espèces", 
+       x = "Longueur des sépales",
+       y = "Largeur des sépales") +
+  theme_minimal()
+```
+
+
+MPG
+======================================================================
+
+Row
+-----------------------------------------------------------------------
+
+### Dataset MPG
+
+```{r}
+datatable(mpg)
+```
+
+Row
+-----------------------------------------------------------------------
+
+### Consommation en ville en fonction de la consommation sur autoroute par cylindrée
+
+```{r}
+ggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +
+  geom_point(alpha = 0.5, size = 2) +
+  labs(color = "Cylindrée", 
+       x = "Miles par gallon sur autoroute",
+       y = "Miles par gallon en ville") +
+  theme_minimal()
+```
+
+### Consommation en ville en fonction de la consommation sur autoroute par déplacement
+
+```{r}
+ggplot(mpg, aes(x = hwy, y = cty, color = displ)) +
+  geom_point(alpha = 0.5, size = 2) +
+  labs(color = "Déplacement", 
+       x = "Miles par gallon sur autoroute",
+       y = "Miles par gallon en ville") +
+  theme_minimal()
+```
