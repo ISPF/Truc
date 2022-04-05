@@ -6,10 +6,11 @@
   2. [<img src="https://pkgs.rstudio.com/flexdashboard/articles/images/plotly.png" width="200">](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-ggplotly-geoms/htmlwidgets-ggplotly-geoms.html)
   3. [<img src="https://pkgs.rstudio.com/flexdashboard/articles/images/shiny-biclust.png" width="200">](https://jjallaire.shinyapps.io/shiny-biclust/)
 - [Plus d'exemples](https://pkgs.rstudio.com/flexdashboard/articles/examples.html)
+- [Plusieurs layouts](https://pkgs.rstudio.com/flexdashboard/articles/layouts.htm)
 - install.packages("flexdashboard")
 - Utilisation dans RStudio : 
   - Menu *Nouveau fichier* 
-  - *RMarkdown...*
+  - *R Markdown...*
   - *A partir d'un template*
   - *Flex Dashboard*
 ![](https://pkgs.rstudio.com/flexdashboard/reference/figures/NewRMarkdown.png)
