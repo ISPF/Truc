@@ -128,3 +128,67 @@ Code et données (retravaillées) dispo dans sur GitHub
 
 
 # S01E04 - Modèle linéaires - Mathieu Géraldine
+
+
+
+# Saison 2
+
+Ce mardi 7 décembre s'est tenu à la Polynesian Factory de Pirae la dernière session de la communauté TRUC pour cette année 2021. Merci aux participants pour leur présence.
+
+Avant cette rencontre, un vote à un tour avait été proposé pour définir les sujets à aborder lors des sessions 2022. Il en est ressorti les scores suivants :
+1. Package flexdashboard ... 13 points
+2. Les meilleurs graphes ggplot ... 12 points
+3. Date et time series : BDD sous R ... 12points
+4. Package shiny avec golem ... 9 points
+5. R et intelligence artificielle (Raspberry Pi) ... 9 points
+6. Travail d'équipe: Coupe du Monde de foot 2022 : quelle équipe va la gagner ?... 8 points
+7. Plumber et présentation de l'API de l'ISPF ... 6 points
+8. Le package Rspotify : analyser les playlists ... 6 points
+9. Création de site ou blog avec le package distill ... 5 points
+10. Rocker ... 5 points
+11. Data table, viz gganimate, série chronologique (stl,; arima, décomposition)... 5 points
+12. Package eurostat ... 1 point
+13. Apply/map & co ... 1 point
+14. Les modèles de prédiction sur le Covid ... 1 point
+15. Les modèles de prédiction sur les élections ... 0 point
+
+Les discussions autour de ces résultats lors de la session d'hier ont permis d'établir une ébauche de planning pour les prochains mois. Ces programmations sont à titre indicatif et peuvent être amenées à évoluer ; les événements programmés sur LinkedIn feront foi.
+L'ISPF propose d'héberger ces sessions, mais reste ouvert à toute proposition extérieure (CPS, Polynesian Factory, autres). Les sessions sont pour le moment toujours prévues le premier mardi de chaque mois de 14 à 16h. 
+
+## Janvier 2022 : Pas de session prévue
+
+## Février 2022 : 
+ - date / heure : mardi 2 février 2022 à 14h 
+ - sujet : les meilleurs graphiques avec ggplot
+ - intervenant(s) : mode collaboratif, chacun propose un ou plusieurs graphes original(ux)
+ - thème avec le 2e plus gros score lors du vote
+ - en fin de séance, Laurent P et Hubert aborderont également le package rocker (conteneurs dockers en environnement R)
+ 
+ EDIT : **thème annulé**
+ 
+
+## Avril 2022 : 
+ - date / heure : mardi 5 avril 2022 à 14h    
+ - sujet : flexdashboard, dont le principe est de créer des tableaux de bord interactifs facilement à partir de R markdown
+ - intervenant(s) : présentation par Hubert
+ - thème ayant obtenu le plus gros score lors du vote
+
+## Mai 2022 : 
+ - date / heure : mardi 3 mai 2022 à 14h    
+ - sujet : time series
+ - intervenant(s) : Mathieu et Benjamin (stagiaire ISPF)
+
+
+## Juin 2022 : 
+ - date / heure : mardi 7 juin 2022 à 14h    
+ - sujet : data.table / dplyr / tibble
+ - intervenant(s) : Mathieu
+ - Mathieu a déjà présenté data.table lors de la session d'hier (merci à lui), le but est donc d'aller un peu plus loin sur ces packages
+
+ET/OU
+
+ - sujet : Coupe du Monde de foot 2022 : quelle équipe va la gagner ?
+ - intervenant(s) : Florence et Laurent R
+ - mode collaboratif : deux modèles vont être proposés ; deux groupes seront définis, chacun appliquant un modèle
+    
+## Juillet / Août / Septembre 2022 : Pas de session planifiée pour le moment. La charge de travail sera importante à l'ISPF avec le recensement de la population, mais d'autres intervenants sont les bienvenus pour reprendre la main au moins durant cette période.
