@@ -14,7 +14,7 @@ data("midwest", package = "ggplot2")
 
 # Init Ggplot
 ggplot(midwest, aes(x=area, y=poptotal)) 
-ggplot(midwest, aes(x=area, y=poptotal)) + geom_point()
+ggplot(midwest, aes(x=area, y=poptotal)) + geom_point()+ geom_line()
 g <- ggplot(midwest, aes(x=area, y=poptotal)) + geom_point()+ geom_smooth(method="lm") 
 
 g+ xlim(c(0, 0.1)) + ylim(c(0, 1000000))

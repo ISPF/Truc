@@ -1,0 +1,252 @@
+---
+title: "TRUC S02E02 - Séries chronologiques"
+author: |
+  | Par Benjamin BERNARD (ISPF), Mathieu BOLDUC (ISPF)
+  
+date: "Le 03 mai 2022"
+output:
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scoll: no
+  word_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.path="Figs/",dev="png",echo=T, warning=F, message=F)
+
+```
+
+
+Référence pour les séries chronologique :   
+
+https://otexts.com/fpp2/  
+
+Hyndman, R.J., & Athanasopoulos, G. (2018) Forecasting: principles and practice, 2nd edition, OTexts: Melbourne, Australia. OTexts.com/fpp2. Accessed on 2 may 2022   
+
+
+# Le jeu de données
+
+Source : enquête fréquentation touristiques (https://www.ispf.pf/bases/Tourisme/EFT.aspx)
+
+```{r ImportData}
+library(data.table)
+library(ggplot2)
+library(hts)
+library(plotly)
+
+data = fread("SerieTourisme.csv")
+
+# la structure
+str(data)
+
+# quelques statistiques
+data[,Region:=as.factor(fifelse(Region=="",NA_character_,Region))]
+data[,PaysDiff:=as.factor(fifelse(PaysDiff=="",NA_character_,PaysDiff))]
+summary(data)
+
+# la série sous format TS 
+Touristes    <- data[,lapply(.SD,sum,na.rm=T),.SDcols="Touristes", by="date"]
+Touristes.ts <- ts(Touristes$Touristes, 
+                   frequency = 12, 
+                   start = Touristes[date==min(date), c(year(date),month(date))],
+                   end = Touristes[date==max(date), c(year(date),month(date))])
+print(Touristes.ts)
+derAnnee <- floor(max(time(Touristes.ts)))
+derMois  <- round((max(time(Touristes.ts)) %% 1)*12 + 1)
+
+ggplotly(
+  autoplot(Touristes.ts, ylab="", xlab="", main="Evolution du nombre de touristes") +
+    geom_point(data=window(Touristes.ts,c(derAnnee,derMois),c(derAnnee,derMois)), size=2,color="red",show.legend=F))
+```
+
+
+# Etude de la saisonnalité {.tabset .tabset-fade .tabset-pills}
+
+## Brute
+```{r Etude la saisonnalité brute}
+ggplotly(
+  ggseasonplot(Touristes.ts, ylab="", xlab="") + 
+    ggtitle("Evolution du nombre de touristes par mois") +
+    guides(colour=guide_legend(title="Années",ncol=2)))
+
+ggplotly(
+  ggmonthplot(Touristes.ts, ylab="", xlab="") +
+    ggtitle("Moyenne des variations annuelles par mois du nombre de touristes"))
+
+```
+
+## Sur fenêtre de temps
+```{r Etude la saisonnalité fenêtre}
+
+FirstAnnee    <- floor(min(time(Touristes.ts)))
+FirstMois     <- round((min(time(Touristes.ts)) %% 1)*12 + 1)
+LastAnnee     <- 2019
+LastMois      <- 12
+Touristes.ts2 <- window(Touristes.ts,c(FirstAnnee,FirstMois),c(LastAnnee,LastMois))
+
+ggplotly(
+  ggseasonplot(Touristes.ts2, ylab="", xlab="") + 
+  ggtitle("Evolution du nombre de touristes par mois") +
+  guides(colour=guide_legend(title="Années",ncol=2)))
+ggplotly(
+  ggmonthplot(Touristes.ts2, ylab="", xlab="") +
+  ggtitle("Moyenne des variations annuelles par mois du nombre de touristes"))
+```
+
+
+
+# Décompostion de la série {.tabset .tabset-fade .tabset-pills}
+
+L'hypothèse retenue sur la saisonnalité est qu'elle ne varie pas au cours du temps. Le résidus est le résultat de la série d'origine à laquelle on soustrait la saisonnalité et la tendance estimées.
+
+## Décompostion additive, multiplicative (classique)
+```{r decomposition classique}
+library(dplyr)
+ggplotly(
+  Touristes.ts2 %>% decompose(type="additive") %>%
+    autoplot() + xlab("Année") +
+    ggtitle("Décomposition saisonnière classique")
+)
+```
+
+## Seasonal and trend decomposition using Loess STL (modèle par régression locale)
+
+Les fonctions à retenir :  
+    * stl()  
+    * seasonal()  
+    * trendcycle()  
+    * remainder()  
+    * seasadj ()  
+
+```{r decomposition STL}
+Touristes.stl <- stl(Touristes.ts2, s.window="periodic", robust=TRUE) 
+
+remain.ts     <- remainder(Touristes.stl)
+remain.temps  <- time(remain.ts)[which(abs(remain.ts)>quantile(abs(remain.ts),probs=0.95))]
+remain.valeur <- remain.ts[which(abs(remain.ts)>quantile(abs(remain.ts),probs=0.95))]
+remain.dt     <- data.table(datetime=remain.temps,y=remain.valeur,parts=factor("remainder"))
+
+ggplotly(
+  autoplot(Touristes.stl) + ggtitle("Décomposition de la série (data = seasonal + trend + remainder)") +
+    geom_point(data=remain.dt,aes(x=datetime, y=y), size=2,color="red",show.legend=F) +
+    xlab("") + ylab("Touristes")
+)
+
+```
+
+## Série CVS (Corrigée des Variations Saisonnières)
+
+La fonction seasadj peut prendre différents objets TS, comme la décomposition classique
+
+```{r CVS}
+ggplotly(
+  autoplot(cbind(brute=Touristes.ts2,CVS=seasadj(Touristes.stl)), ylab="Touristes") + 
+  ggtitle("Série corrigée des variations saisonnières") + 
+  scale_colour_manual(values = c("dark gray","blue")) +
+  xlab("")+
+  theme_bw() + 
+  theme(legend.position = "bottom")
+)
+
+```
+
+# Analyse multivariée par décompostion hiérarchique de la série {.tabset .tabset-fade .tabset-pills}
+## TS multivariées
+
+```{r TS mult}
+# les séries sous format TS 
+data[,Region2:=Region]
+data[Region %in% c("France","Europe (hors France)"),Region2:="Europe"]
+PaysImp <- data[,.(Touristes=sum(Touristes)),.(PaysDiff,Region2)][Touristes>=50000, .(PaysDiff,Region2)]
+data[, c("Region3","PaysDiff2"):=.("Autre","Autre")]
+data[PaysImp, c("Region3","PaysDiff2"):=.(i.Region2,i.PaysDiff), on=.(Region2,PaysDiff)]
+data[,c("Region3","PaysDiff2"):=.(sprintf("%10s",abbreviate(Region3,10)),
+                                  sprintf("%7s",abbreviate(PaysDiff2,7)))]
+print(data[,.(Touristes=sum(Touristes)),.(Region3,PaysDiff2)])
+
+
+TouristesParPays    <- dcast(data, date ~ Region3 + PaysDiff2, fun.aggregate = sum, value.var = "Touristes",sep="")
+TouristesParPays.ts <- ts(TouristesParPays[,-1], 
+                          frequency = 12,
+                          start = TouristesParPays[date==min(date), c(year(date),month(date))],
+                          end = TouristesParPays[date==max(date), c(year(date),month(date))])
+
+ggplotly(autoplot(TouristesParPays.ts, ylab="", xlab="",colour = T,facets = T,
+                  main="Evolution du nombre de touristes par pays",
+                  space="free_y") + theme(strip.text.y = element_blank()))
+
+```
+
+## HTS (série hiérarchique)
+
+```{r HTS}
+TouristesParPays.hts <- hts(TouristesParPays.ts, characters = c(10,7))
+str(TouristesParPays.hts)
+
+ggplotly(autoplot(aggts(TouristesParPays.hts,levels = 0), ylab="", xlab=""))
+ggplotly(autoplot(aggts(TouristesParPays.hts,levels = 1), ylab="", xlab="",colour = T,facets = T) + theme(legend.position="none"))
+
+TouristesParPays1.stl.list   <- lapply(aggts(TouristesParPays.hts,levels = 1), FUN = function(x) stl(x, s.window = "periodic", robust = T))
+TouristesParPays1.trend.list <- lapply(TouristesParPays1.stl.list, FUN = function(x) trendcycle(x))
+
+ggplotly(autoplot(
+  ts(as.data.table(TouristesParPays1.trend.list),
+     frequency = 12,
+     start = TouristesParPays[date==min(date), c(year(date),month(date))],
+     end = TouristesParPays[date==max(date), c(year(date),month(date))]),
+  main="Tendance du nombre de touristes par région", ylab="", xlab=""))
+
+
+```
+
+
+# Projection du nombre de touristes {.tabset .tabset-fade .tabset-pills}
+## Projection selon un modèle ARIMA
+Projections sur les 12 mois à venir issues d'un modèle ARIMA. Le modèle a été élaboré suite à l'analyse des graphes d'autocorrélation et d'autocorrélation partielle. Le modèle a été testé sur plusieurs échantillons tests et mis en compétition avec un modèle de sélection automatique des paramètres. 
+
+```{r ProjectionArima}
+# Autocorrélation et Autocorrélation partiel
+Touristes.ts2 %>% ggtsdisplay(main="")
+
+# Autocorrélation et Autocorrélation partiel sur série désaisonnalisée
+Touristes.ts2 %>% diff(lag=12) %>% ggtsdisplay(main="Série désaisonnalisée")
+
+# Autocorrélation et Autocorrélation partiel sur série désaisonnalisée et sans tendance
+Touristes.ts2 %>% diff(lag=12) %>% diff() %>% ggtsdisplay(main="Série désaisonnalisée et sans tendance")
+
+# Modèle arima
+fitarima <- arima(Touristes.ts2, order=c(0,1,4), seasonal = list(order=c(0,1,1), period=12)) 
+checkresiduals(fitarima)
+
+# AIC pour comparer les modèles
+AIC(fitarima)
+
+# Projection
+fc       <- forecast(fitarima, h=12 , level=c(95))
+
+autoplot(fc) +
+  ggtitle("Projection du nombre de touristes selon un modèle ARIMA",
+          subtitle = "Paramètres du modèle p=0, d=1, q=4, P=0, D=1, Q=1, s=12") +
+  guides(fill=guide_legend(title = "Intervalle \nde confiance" )) +
+  ylab("") + 
+  xlab("")
+
+```
+
+## Projection hiérarchique
+Projections sur les 12 mois à venir issues d'un modèle hierarchique à 2 niveaux (pays et régions). Pour chaque série de la hierarchie les projections de base sont obtenues à l'aide d'un modèle automatique ARIMA. Les projections de base sont révisées de telle sorte que les aggrégations par niveau soient conséquentes. Par exemple, l'aggrégat des projections des pays d'une région correspond aux projections de la région en question.
+
+```{r HTS forecast}
+library(parallel)
+TouristesParPays2.hts <- hts(window(TouristesParPays.ts,c(FirstAnnee,FirstMois),c(LastAnnee,LastMois)) , characters = c(10,7))
+fc.hts                <- forecast(TouristesParPays2.hts, h=12, fmethod="arima", parallel = T, num.cores=detectCores())
+
+ggplotly(
+  autoplot(allts(fc.hts, forecasts = T), ylab="", xlab="")
+  )
+
+```
+

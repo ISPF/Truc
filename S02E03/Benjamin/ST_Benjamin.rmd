@@ -1,0 +1,247 @@
+---
+title: "Séries Temporelles - TRUC S02 E02"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+library(forecast)
+library(ggplot2)
+```
+
+## Prédictions avec les séries temporelles
+
+### 1. Pourquoi utiliser des méthodes spécifiques ?
+
+Voici un exemple :
+```{r}
+data=read.table(file="http://eric.univ-lyon2.fr/~jjacques/Download/DataSet/serie1.txt")
+plot(data$V1,type='l',xlim=c(1,120),ylim=c(1,80),xlab='time',ylab='')
+```
+
+Comment prédire les 20 prochaines minutes ?
+Nous pouvons utiliser une régression linéaire :
+```{r}
+t=1:100 #nous avons 100 valeurs dans notre série temporelle
+x=data$V1 #V1 est la colonne contenant les données
+model=lm(x~t) #nous créons un modèle de regression linéaire de x en fonction de t
+newt=data.frame(t=101:120) # créons un nouveau dataframe pour les valuers de 101 à 120 
+p=predict(model,newt) # pour chaque t R prédit une valeur de x...
+plot(t,x,type='l',xlim=c(1,120),ylim=c(1,80),xlab='time',ylab='') 
+lines(newt$t,p,col=2)#... que nous affichons en rouge
+```
+
+La prédiction n'est pas mauvaise... mais qu'en serait il avec ces données là :
+```{r}
+data=read.table(file="http://eric.univ-lyon2.fr/~jjacques/Download/DataSet/serie2.txt")
+plot(data$V1,type='l',xlim=c(1,120),ylim=c(1,80),xlab='time',ylab='')
+```
+```{r}
+t=1:100;x=data$V1
+model=lm(x~t)
+newt=data.frame(t=101:120)
+p=predict(model,newt)
+plot(t,x,type='l',xlim=c(1,120),ylim=c(1,80),xlab='time',
+ylab='')
+lines(newt$t,p,col=2)
+```
+
+La prédiction est bien moins bonne. La regression linéaire considère que chaque donnée a le même 'poids', c'est à dire que pour prédire la valeur en rouge, la donnée au temps 20 est aussi importante que la donnée au temps 100.
+Les prédictions en série temporelle donnent plus de poids (l'importance des données) au fur et à mesure que le temps avance, en proportion de la durée que l'on veut prédire (pour prédire 20 minutes, les 20 dernières minutes connues auront plus d'importance que les précédentes).
+
+### 2. Comment se définit une série temporelle ?
+
+Une série temporelle se décompose en 3 parties :
+
+- La tendance
+
+- La saisonalité
+
+- La partie résiduelle.
+
+Voici un exemple pour la série temporelle co2 :
+
+```{r}
+autoplot(decompose(co2,type="additive"))+
+  xlab('Year')
+```
+
+### 3. Méthodes de prediction de séries temporelles en R
+
+- **Etape 1 :** On charge les données depuis une source (csv par exemple).
+
+Les données ici représentent les cas de varicelle depuis janvier 1931 jusqu'à Juin 1972 avec une valeur pour chaque mois.
+
+```{r}
+data=read.csv(file="http://eric.univ-lyon2.fr/~jjacques/Download/DataSet/varicelle.csv")
+plot(data$x)
+```
+
+- **Etape 2 :** définir les paramètres de notre série temporelle :
+-> date de début (Janvier 1931)
+-> date de fin (Juin 1972)
+-> saisonalité (12)
+
+On choisit 12 pour la saisonalité car la donnée est par mois, que l'on souhaite faire une prédiction sur une année et qu'il y a 12 mois dans une année.
+
+```{r}
+varicelle<-ts(data$x,start=c(1931,1),end=c(1972,6),freq=12)
+plot(varicelle)
+print(varicelle)
+```
+
+La librairie forecast permet grace à la fonction autoplot() d'afficher les graphiques de série temporelle facilement :
+
+```{r}
+autoplot(varicelle) + #autoplot crée un objet ggplot auquel on peut par exemple ajouter des paramètres
+  geom_line(color='blue')+
+  ggtitle('Cas de varicelle par mois')+
+  xlab('Années')+
+  ylab('Cas de varicelle')
+```
+
+La fonction ggseasonplot() permet de s'assurer de la saisonalité d'une série temporelle en générant un graphique par année en fonction du mois :
+
+```{r}
+ggseasonplot(varicelle,year.labels= TRUE,year.labels.left=TRUE)+ # comme autoplot, elle génère un objet ggplot
+  ggtitle('Cas de varicelle par mois')+
+  xlab('Mois')+
+  ylab('Cas de varicelle')
+```
+
+Il est aussi possible de générer un graphique polaire en ajoutant l'option polar=TRUE :
+
+```{r}
+ggseasonplot(varicelle,polar=TRUE)+ # comme autoplot, elle génère un objet ggplot
+  ggtitle('Cas de varicelle par mois')+
+  xlab('Mois')+
+  ylab('Cas de varicelle')
+```
+
+- **Etape 3 :** Tester plusieur modèles de prédiction
+
+Nous avons tout en main pour effectuer une bonne prédiction. Voici un catalogue de plusieurs modèles. Comme pour toute opération de machine learning, il nous faudra définir une portion de données d'entrainement, et une portion de données de test. En général nous choisirons une periode de test égale à la periode que nous souhaitons prédire. Nous tenterons ainsi de prédire les données de tests et nous comparerons le résultat avec les données réelles.
+
+Nous ferons la prédiction **sur les 18 prochains mois**
+
+
+<ins>*Exponential smoothing*</ins>
+
+Nous avons vu que la régression linéaire n'est pas suffisante pour un effectuer une prédiction correcte. Le l'Exponential smoothing permet de diminuer l'importance des données observées en fonction de leur age (les données plus anciennes auront moins d'importance que les récentes).
+
+D'autre part nous avons plusieurs types d'exponential smoothing à notre disposition :
+- Simple Exponential Smoothing : prévisions en fonction d'une constante entre 0 et 1 (au plus on s'approche de 1 au plus on diminue l'importance des données en fonction de l'age)
+- Non seasonal Hold Winters : prévision sur une série temporelle linéaire (qui augmente ou diminue de manière contante dans le temps, par exemple une population)
+- Additive seasonal Holt Winters : prévisions sur une série temporelle linéaire ET saisonière (la saisonalité est ajoutée à la tendance)
+- Multiplicative seasonal Holt Winters : prévisions sur une série temporelle linéaire ET saisonière (la saisonalité est multipliée par la tendance)
+
+Notre série temporelle étant saisonière nous allons tester les deux derniers types d'exponential smooting :
+
+```{r}
+vari_train<-ts(data$x[1:480],start=c(1931,1),end=c(1970,12),freq=12) #serie temporelle d'entrainement
+vari_test<-ts(data$x[481:498],start=c(1971,1),end=c(1972,6),freq=12) #serie temporelle de test
+fit1=hw(vari_train,seasonal='additive',h=18)
+fit2=hw(vari_train,seasonal='multiplicative',h=18)
+autoplot(vari_test,series='Valeurs réelles') +
+  autolayer(fit1,series='HW add.',PI=FALSE) +
+  autolayer(fit2,series='HW mult.',PI=FALSE)
+```
+
+Il est aussi possible d'afficher un intervale dans lequel est sensé se situer la valeur à prédire. Par exemple si nous choisissons le premier modèle en rouge (Additive seasonal Holt Winters) :
+
+```{r}
+autoplot(vari_test) +
+  autolayer(fit1,series='HW add.',PI=TRUE)+
+  autolayer(vari_test,series='Valeurs réelles')
+```
+
+<ins>*ARIMA Model*</ins>
+
+Dans ce modèle, nous devons utiliser des données stationnaires. Une série temporaire stationnaire est une série sans tendance (toute la série monte ou descends de manière continue) ni saisonalité (le même comportement ne se reproduit pas sur une même periode)
+
+Heureusement R est capable de faire tout ce travail seul grace à L'auto (S)ARIMA ((Seasonal) Auto Regression Integrated Moving Average). Tout d'abord nous créons le modèle :
+
+```{r}
+model <- auto.arima(vari_train)
+```
+
+Ensuite nous l'appliquons aux données que nous avons pour générer notre forecast :
+
+```{r}
+fit3 <- forecast(model,h=18)
+autoplot(vari_test) +
+  autolayer(fit3,series='Auto ARIMA',PI=TRUE)+
+  autolayer(vari_test,series='Valeurs réelles')
+```
+
+- **Etape 4 :** Comparer les résultats
+
+Il est possible de faire un graphique avec toutes les predictions et juger visuellement :
+```{r}
+autoplot(vari_test,series='Valeurs réelles',size=1) +
+  autolayer(fit1,series='HW add.',PI=FALSE) +
+  autolayer(fit2,series='HW mult.',PI=FALSE) +
+  autolayer(fit3,series='Auto Sarima',PI=FALSE)
+```
+
+Il semble que l'Auto Sarima soit le plus proche. Mais pour en être sur nous pouvons calculer la Root Mean Square Error grace à la fonction RMSE :
+```{r}
+library (Metrics)
+print(sprintf("1. Auto SARIMA RMSE : %s",rmse(vari_test,fit3$mean)))
+print(sprintf("2. HoltWinters Additive RMSE : %s",rmse(vari_test,fit1$mean)))
+print(sprintf("3. HoltWinters Multiplicative RMSE : %s",rmse(vari_test,fit2$mean)))
+```
+
+Ces résultats confirment ce que nous dit le graphique.
+
+- **Etape 6 :** Prédiction
+
+Nous allons donc utiliser notre modèle d'Auto SARIMA pour prédire les cas de varicelle sur les 18 prochains mois :
+
+```{r}
+model <- auto.arima(varicelle)
+pred <- forecast(model,h=18)
+
+#prediction <- ts(pred$mean,start=c(1972,7),freq=12)
+```
+
+Il ne nous reste plus qu'à faire un graphique de nos résultats. La solution de facilité est d'utiliser les methodes de traçage vues plus haut :
+
+```{r}
+autoplot(varicelle, serie='valeurs réelles')+
+  autolayer(pred$mean, serie='valeurs estimées')
+```
+
+Il est aussi possible d'afficher les valeurs prédites :
+
+```{r}
+pred$mean
+```
+Mais il est aussi possible d'en faire un traçage dynamique :
+
+```{r}
+library(plotly)
+dates = seq(from = as.Date("1931-01-01"), to = as.Date("1972-06-30"), by = 'month')
+dates = as.data.frame(dates)
+values = as.data.frame(varicelle)
+varicelle.df = cbind(dates,values)
+
+dates = seq(from = as.Date("1972-07-01"), to = as.Date("1973-12-31"), by = 'month')
+dates = as.data.frame(dates)
+values = as.data.frame(pred$mean)
+prediction.df = cbind(dates,values)
+
+fig <- plot_ly(data=varicelle.df, x=~dates, y=~x, name="Valeurs réelles",type = 'scatter', mode = 'lines')
+fig <- fig %>%
+  add_trace(data=prediction.df, x=~dates, y=~x, name="Valeurs estimées",type = 'scatter', mode = 'lines')
+fig <- fig %>% layout(separators = ',',
+                    yaxis = list(title = 'Cas de Varicelle',
+                                 hoverformat = '.0f'), 
+                    xaxis = list(title = '',
+                                  type = 'date',
+                                  tickformat = "%b %Y"))
+fig
+```
+
+
