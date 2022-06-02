@@ -44,97 +44,23 @@ ggplotly(ggplot(probaCroisees %>% filter(Groupe.x==Groupe.y & Equipe.x != Equipe
   labs(title = "Probabilités croisées de victoire", x = "Equipe 1", y = "Equipe 2") +
   facet_grid(Groupe.y ~ Groupe.x, scales="free"))
 
-# sélection des matches de poule
-matchesPoules <- matches %>% filter(Tour %in% c(1,2,3))
+# simulation d'un nombre donné de tournois
+anneeDebut <- 2022
+nbTournois <- 3
+palmares <- simulationTournois(anneeDebut, nbTournois, probaCroisees, nbSimulations) 
 
-# simulation de chaque match de poules
-simulationsPoules <- simulationMatches(matchesPoules, probaCroisees, nbSimulations)
+# classement historique des équipes par nombre de victoires, puis nombre de finales, etc
+histo <- palmares %>% 
+    group_by(Equipe, Classement, Rang) %>%
+    summarize(n()) %>%
+    arrange(Classement, n()) %>%
+    rename("Nombre" = "n()")
 
-# calcul des classements par poule selon le nombre de victoires décroissantes
-classementsPoules <- rbind(
-  simulationsPoules[,c('Groupe','Equipe1','Resultat')] %>% rename(Equipe=Equipe1), 
-  simulationsPoules[,c('Groupe','Equipe2','Resultat')] %>% rename(Equipe=Equipe2) %>% mutate(Resultat = 1-Resultat)
-) %>%
-  group_by(Groupe, Equipe) %>% 
-  summarise(NbVictoires = sum(Resultat)) %>%
-  setorder(Groupe, -NbVictoires)
+histo
 
-# visualisation graphique des classements de chaque groupe
-ggplotly(ggplot(classementsPoules, aes(x = reorder(Equipe, -NbVictoires), y = NbVictoires)) + 
+# affichage du barplot des probabilités de victoire finale par équipe
+ggplotly(ggplot(data=histo, aes(x = reorder(Equipe, Classement), y=Nombre, fill=Rang)) + 
            geom_bar(stat="identity") +
            theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5)) +
-           labs(title = "Classements de chaque groupe", x = "Equipe", y = "Nombre de victoires") +
-           facet_wrap(. ~ Groupe, scales="free"))
-
-# calcul des rangs de chaque équipe par poule selon le nombre de victoires décroissantes
-setDT(classementsPoules)[, Rang := 1:.N, by = list(Groupe)]
-classementsPoules <- classementsPoules %>% 
-  mutate(RangGroupe=paste0(Rang,Groupe))
-
-# détermination des confrontations pour les 1/8 de finale
-matchesHuitiemes <- matches %>% 
-  filter(Tour=="1/8 de finale") %>%
-  merge(classementsPoules, by.x = "Equipe1", by.y = "RangGroupe") %>%
-  merge(classementsPoules, by.x = "Equipe2", by.y = "RangGroupe") %>%
-  mutate(Equipe1 = Equipe.x) %>%
-  mutate(Equipe2 = Equipe.y)
-
-# simulation de chaque match des 1/8 de finale
-simulationsHuitiemes <- simulationMatches(matchesHuitiemes, probaCroisees, nbSimulations) %>%
-  mutate(Gagnant=ifelse(Resultat,Equipe1,Equipe2))
-
-# détermination des confrontations pour les 1/4 de finale
-matchesQuarts <- matches %>%
-  filter(Tour=="1/4 de finale") %>%
-  merge(simulationsHuitiemes %>% select(c("Id","Gagnant")), by.x = "Equipe1", by.y = "Id") %>%
-  merge(simulationsHuitiemes %>% select(c("Id","Gagnant")), by.x = "Equipe2", by.y = "Id") %>%
-  mutate(Equipe1 = Gagnant.x) %>%
-  mutate(Equipe2 = Gagnant.y)
-
-# simulation de chaque match des 1/4 de finale
-simulationsQuarts <- simulationMatches(matchesQuarts, probaCroisees, nbSimulations) %>%
-  mutate(Qualifie=ifelse(Resultat,Equipe1,Equipe2))
-
-# détermination des confrontations pour les 1/2 finale
-matchesDemies <- matches %>%
-  filter(Tour=="1/2 finale") %>%
-  merge(simulationsQuarts %>% select(c("Id","Qualifie")), by.x = "Equipe1", by.y = "Id") %>%
-  merge(simulationsQuarts %>% select(c("Id","Qualifie")), by.x = "Equipe2", by.y = "Id") %>%
-  mutate(Equipe1 = Qualifie.x) %>%
-  mutate(Equipe2 = Qualifie.y)
-
-# simulation de chaque match des 1/2 finale
-simulationsDemies <- simulationMatches(matchesDemies, probaCroisees, nbSimulations)
-
-# détermination des confrontations pour la petite finale
-matchPetiteFinale <- matches %>%
-  filter(Tour=="Finale 3e place") %>%
-  merge(simulationsDemies %>% select(c("Id","Perdant")), by.x = "Equipe1", by.y = "Id") %>%
-  merge(simulationsDemies %>% select(c("Id","Perdant")), by.x = "Equipe2", by.y = "Id") %>%
-  mutate(Equipe1 = Perdant.x) %>%
-  mutate(Equipe2 = Perdant.y)
-
-# simulation de la petite finale
-simulationPetiteFinale <- simulationMatches(matchPetiteFinale, probaCroisees, nbSimulations)
-
-# détermination des confrontations pour la finale
-matchFinale <- matches %>%
-  filter(Tour=="Finale") %>%
-  merge(simulationsDemies %>% select(c("Id","Gagnant")), by.x = "Equipe1", by.y = "Id") %>%
-  merge(simulationsDemies %>% select(c("Id","Gagnant")), by.x = "Equipe2", by.y = "Id") %>%
-  mutate(Equipe1 = Gagnant.x) %>%
-  mutate(Equipe2 = Gagnant.y)
-
-# simulation de la finale
-simulationFinale <- simulationMatches(matchFinale, probaCroisees, nbSimulations)
-
-message(paste0("
-************** CLASSEMENT FINAL **************
-| Champion du monde    | ", simulationFinale[,"Gagnant"], "
-| Finaliste malheureux | ", simulationFinale[,"Perdant"], "
-| Lot de consolation   | ", simulationPetiteFinale[,"Gagnant"], "
-| Médaille en chocolat | ", simulationPetiteFinale[,"Perdant"]))
-
-
-
+           labs(title = "Palmarès du tournoi", x = "Equipe"))
 
