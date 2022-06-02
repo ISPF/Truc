@@ -90,13 +90,10 @@ matchesQuarts <- matches %>%
   merge(simulationsHuitiemes %>% select(c("Id","Gagnant")), by.x = "Equipe2", by.y = "Id") %>%
   mutate(Equipe1 = Gagnant.x) %>%
   mutate(Equipe2 = Gagnant.y)
-matchesQuarts
 
 # simulation de chaque match des 1/4 de finale
 simulationsQuarts <- simulationMatches(matchesQuarts, probaCroisees, nbSimulations) %>%
   mutate(Qualifie=ifelse(Resultat,Equipe1,Equipe2))
-
-simulationsQuarts
 
 # détermination des confrontations pour les 1/2 finale
 matchesDemies <- matches %>%
@@ -107,11 +104,7 @@ matchesDemies <- matches %>%
   mutate(Equipe2 = Qualifie.y)
 
 # simulation de chaque match des 1/2 finale
-simulationsDemies <- simulationMatches(matchesDemies, probaCroisees, nbSimulations) %>%
-  mutate(Gagnant=ifelse(Resultat,Equipe1,Equipe2)) %>%
-  mutate(Perdant=ifelse(Resultat,Equipe2,Equipe1))
-
-simulationsDemies
+simulationsDemies <- simulationMatches(matchesDemies, probaCroisees, nbSimulations)
 
 # détermination des confrontations pour la petite finale
 matchPetiteFinale <- matches %>%
@@ -122,11 +115,7 @@ matchPetiteFinale <- matches %>%
   mutate(Equipe2 = Perdant.y)
 
 # simulation de la petite finale
-simulationPetiteFinale <- simulationMatches(matchPetiteFinale, probaCroisees, nbSimulations) %>%
-  mutate(Gagnant=ifelse(Resultat,Equipe1,Equipe2)) %>%
-  mutate(Perdant=ifelse(Resultat,Equipe2,Equipe1))
-
-simulationPetiteFinale
+simulationPetiteFinale <- simulationMatches(matchPetiteFinale, probaCroisees, nbSimulations)
 
 # détermination des confrontations pour la finale
 matchFinale <- matches %>%
@@ -137,11 +126,7 @@ matchFinale <- matches %>%
   mutate(Equipe2 = Gagnant.y)
 
 # simulation de la finale
-simulationFinale <- simulationMatches(matchFinale, probaCroisees, nbSimulations) %>%
-  mutate(Gagnant=ifelse(Resultat,Equipe1,Equipe2)) %>%
-  mutate(Perdant=ifelse(Resultat,Equipe2,Equipe1))
-
-simulationFinale
+simulationFinale <- simulationMatches(matchFinale, probaCroisees, nbSimulations)
 
 message(paste0("
 ************** CLASSEMENT FINAL **************

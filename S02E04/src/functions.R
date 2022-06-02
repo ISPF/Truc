@@ -4,5 +4,11 @@ simulationMatches <- function (listeMatches, probaCroisees, nbSimulations) {
   
   simu <- listeMatches %>% 
     merge(probaCroisees, by.x = c("Equipe1","Equipe2"), by.y = c("Equipe.x","Equipe.y")) %>%
-    dplyr::mutate(Resultat = ifelse(rbinom(n(), nbSimulations, Proba1)/nbSimulations > 0.5, 1, 0))
+    dplyr::mutate(Resultat = ifelse(rbinom(n(), nbSimulations, Proba1)/nbSimulations > 0.5, 1, 0)) %>%
+    mutate(Gagnant=ifelse(Resultat,Equipe1,Equipe2)) %>%
+    mutate(Perdant=ifelse(Resultat,Equipe2,Equipe1))
+  
+  print(simu[, c("Tour","Date","Gagnant","Perdant")])
+  
+  return(simu)
 }
