@@ -8,7 +8,7 @@ simulationMatches <- function (listeMatches, probaCroisees, nbSimulations) {
     mutate(Gagnant=ifelse(Resultat,Equipe1,Equipe2)) %>%
     mutate(Perdant=ifelse(Resultat,Equipe2,Equipe1))
   
-  print(simu[, c("Tour","Date","Gagnant","Perdant")])
+  # print(simu[, c("Tour","Date","Gagnant","Perdant")])
   
   return(simu)
 }
@@ -17,6 +17,8 @@ simulationMatches <- function (listeMatches, probaCroisees, nbSimulations) {
 # simulation d'un tournoi complet
 simulationTournoi <- function (annee, probaCroisees, nbSimulations) {
 
+  print(paste0("Simulation du tournoi ", annee))
+  
   # sélection des matches de poule
   matchesPoules <- matches %>% filter(Tour %in% c(1,2,3))
   
@@ -29,7 +31,7 @@ simulationTournoi <- function (annee, probaCroisees, nbSimulations) {
     simulationsPoules[,c('Groupe','Equipe2','Resultat')] %>% rename(Equipe=Equipe2) %>% mutate(Resultat = 1-Resultat)
   ) %>%
     group_by(Groupe, Equipe) %>% 
-    summarise(NbVictoires = sum(Resultat)) %>%
+    summarise(NbVictoires = sum(Resultat), .groups="rowwise") %>%
     setorder(Groupe, -NbVictoires)
   
   # visualisation graphique des classements de chaque groupe
@@ -53,8 +55,7 @@ simulationTournoi <- function (annee, probaCroisees, nbSimulations) {
     mutate(Equipe2 = Equipe.y)
   
   # simulation de chaque match des 1/8 de finale
-  simulationsHuitiemes <- simulationMatches(matchesHuitiemes, probaCroisees, nbSimulations) %>%
-    mutate(Gagnant=ifelse(Resultat,Equipe1,Equipe2))
+  simulationsHuitiemes <- simulationMatches(matchesHuitiemes, probaCroisees, nbSimulations)
   
   # détermination des confrontations pour les 1/4 de finale
   matchesQuarts <- matches %>%
@@ -103,15 +104,15 @@ simulationTournoi <- function (annee, probaCroisees, nbSimulations) {
   
   palmares <- rbind(
     data.frame(Annee = annee, Classement = 1, Rang = "Vainqueur", Equipe = simulationFinale[,c("Gagnant")]),
-    data.frame(Annee = annee, Classement = 2, Rang = "Finaliste", Equipe = simulationFinale[,c("Perdant")]),
-    data.frame(Annee = annee, Classement = 3, Rang = "1/2 finaliste", Equipe = simulationsDemies[,c("Perdant")]),
+    data.frame(Annee = annee, Classement = 2, Rang = "Finaliste malheureux", Equipe = simulationFinale[,c("Perdant")]),
+    data.frame(Annee = annee, Classement = 3, Rang = "Lot de consolation", Equipe = simulationPetiteFinale[,c("Gagnant")]),
+    data.frame(Annee = annee, Classement = 4, Rang = "Médaille en chocolat", Equipe = simulationPetiteFinale[,c("Perdant")]),
     data.frame(Annee = annee, Classement = 5, Rang = "1/4 finaliste", Equipe = simulationsQuarts[,c("Perdant")]),
     data.frame(Annee = annee, Classement = 9, Rang = "1/8 finaliste", Equipe = simulationsHuitiemes[,c("Perdant")]),
     data.frame(Annee = annee, Classement = 17, Rang = "Eliminé en poule", Equipe = classementsPoules[Rang>2,c("Equipe")])
   )
   
-  print(paste0("************** CLASSEMENT FINAL ", annee," **************"))
-  print(palmares)
+  print(palmares %>% filter(Classement<5))
   
   return(palmares)
 }
