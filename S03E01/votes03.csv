@@ -1,0 +1,22 @@
+ [Les meilleurs graphiques avec ggplot]; [Package rocker (conteneurs dockers en environnement R)]; [dplyr, dtplyr, data.table, Substitute2, en mode TD ]; [Package shiny avec golem]; [R et intelligence artificielle]; [Rétrospective sur nos prédictions : Travail d'équipe: Coupe du Monde de foot 2022 : quelle équipe va la gagner ?]; [Plumber et présentation de l'API de l'ISPF]; [Comment scraper du web]; [Analyse des réseaux sociaux avec R]; [Analyse textuelle]; [Le package Rspotify : analyser les playlists]; [algorithme génétique]; [Ecrire un jeu sous R]; [Imputer des données manquantes (Missmda, tirage aléatoire, ...)]; [Calage sur marge (pour redresser les poids d'une enquête)]; [Tirage équilibré (pour respecter les totaux à priori)]; [Shiny et reactlog]; [Création de site ou blog avec le package distill]; [gganimate]; [Apply/map/Purrr]; [Les modèles de prédiction sur les élections]; [Théorie des graphes]; [Métadonnées];" [""data.table Cube Tricks"" : les consolidations additives et non-additives avec cube.data.table()+weighted.mean()+data.table.melt()]"; [Random Forest]
+;4;3;;;;1;;;;2;;;;;;;;;;;;;;
+;;1;4;3;;2;;;;;;;;;;;;;;;;;;
+4;3;;;3;;;1;4;;1;2;2;;;;;;;;;;;;
+2;;3;;;;4;1;;;;;;;;;;;;;;;;;
+2;1;3;1;1;2;4;2;1;2;2;2;1;4;4;;;;;;;;;;
+1;3;4;2;2;4;1;3;1;2;2;2;2;3;2;;;;;;;;;;
+;;;;1;4;;;;;3;;2;;;;;;;;;;;;
+;;4;1;2;;;;3;;;4;;3;3;;;;;;;;;;
+2;2;2;1;1;1;3;2;1;1;1;2;1;3;3;;;;;;;;;;
+;;;1;;;4;;2;;;;;;3;;;;;;;;;;
+4;1;1;1;1;3;1;2;1;4;1;2;2;3;3;;;;;;;;;;
+;;;;;;;;;3;;4;;;;;;;;;;1;;;2
+;;;;1;;;;;;;;;;;;;;;;;2;;;
+1;;;;;4;;;;;;;;;;3;;;;;;2;;;
+4;;3;;;;;;;;;;;2;;;;;;1;;;;;2
+;;;;;;;1;4;;;;;2;;;;;;;;3;;;
+1;4;2;3;2;4;2;1;1;2;3;3;2;2;2;2;3;2;2;1;2;3;3;3;3
+;1;;;;;;;4;3;2;;;;;;;;;;;;;;
+2;1;4;1;4;3;3;2;3;3;3;3;3;4;4;3;1;2;3;1;4;3;3;2;2
+2;;;;;;;1;;;;;;4;;;3;;;;;;;;
+;;4;;;;;;;3;;;1;;;;;;;2;;;;;
