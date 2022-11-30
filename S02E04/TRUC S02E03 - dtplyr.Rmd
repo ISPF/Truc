@@ -1,0 +1,67 @@
+---
+title: "TRUC S02E03 - dtplyr : dplyr utilisant data.table"
+author: |
+  | Mathieu BOLDUC (ISPF)
+  
+date: "Le 07 juin 2022"
+output:
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scoll: no
+  word_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.path="Figs/",dev="png",echo=T, warning=F, message=F)
+
+```
+
+
+# Ecrire en dplyr en utilisant la puissance de data.table 
+
+Référence pour dtplyr :   
+
+https://dtplyr.tidyverse.org/  
+
+```{r leslibrairies}
+library(data.table)
+library(dtplyr)
+library(dplyr)
+```
+
+ATTENTION : certains équivalent data.table n'existe pas avec dtplyr (exemple cross joins et rolling joins)  
+
+Une telle écriture prends un peu plus de temps pour être lu (négligeable sur des jeux de données importants)
+
+
+# Exemple d'utilisation {.tabset .tabset-fade .tabset-pills}
+
+## Le data
+
+Pour modifier par référencement (comportement par défaut de data.table) => paramétrer lazy_dt(..., immutable=FALSE)
+
+```{r lazy}
+mtcars2 <- lazy_dt(mtcars)
+```
+
+## La requête dplyr et son équivalent data.table
+```{r requetedplyr}
+mtcars2 %>% 
+  filter(wt < 5) %>% 
+  mutate(l100k = 235.21 / mpg) %>% # liters / 100 km
+  group_by(cyl) %>% 
+  summarise(l100k = mean(l100k))
+
+```
+## La requête dplyr et son retour en format tibble
+```{r tibble}
+mtcars2 %>% 
+  filter(wt < 5) %>% 
+  mutate(l100k = 235.21 / mpg) %>% # liters / 100 km
+  group_by(cyl) %>% 
+  summarise(l100k = mean(l100k)) %>% 
+  as_tibble()
+```
