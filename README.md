@@ -15,6 +15,25 @@ Le lieu de rencontre est modulable : ISPF - CPS - CHPF
 
 Horaires : dépendants des lieux de rencontre
 
+#Saison 03
+
+Agenda 2023
+
+- Décembre 2022 - Advent of code ( Advent of Code 2022 )
+- 17 Janvier - Les meilleurs graphiques avec ggplot : chacun un graphique différent - (Nathalie)
+- 7 Février - Comment scraper du web + présentation Json (Hubert)
+- 7 Mars - R et intelligence artificielle (tensorflow) (Laurent P et Benjamin)
+- 4 Avril - Analyse des réseaux sociaux avec R (Florence)
+- 2 Mai - Écrire un jeu sous R (Laurent R)
+- Juin - dplyr, dtplyr, data.table, Substitute2, en mode TD (Serge)
+- Juillet - OFF
+- Août -  OFF
+- 5 Septembre - Analyse textuelle (Mathieu)
+- 3 Octobre -  Calage sur marge (pour redresser les poids d'une enquête) (Julie)
+- 7 Novembre - algorithme génétique (Mathieu)
+- Décembre - OFF
+
+
 
 
 # S01E01 - Première rencontre
