@@ -15,7 +15,7 @@ Le lieu de rencontre est modulable : ISPF - CPS - CHPF
 
 Horaires : dépendants des lieux de rencontre
 
-#Saison 03
+# Saison 03
 
 Agenda 2023
 
