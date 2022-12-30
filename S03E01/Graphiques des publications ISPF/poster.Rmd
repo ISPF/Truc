@@ -1,0 +1,47 @@
+---
+title: "Untitled"
+author: "Laurent PELLET"
+date: "29/12/2022"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(data.table)
+library(DT)
+library(knitr)
+
+publicationsPath <- 'J:/Diffusion/2 - Groupe/metis/Publications'
+pdfFile <- list.files(path=publicationsPath, pattern="graphe[1-9].pdf", recursive = T, full.names = T)
+# achanger en svg si on veut un affichage knitr html
+#pdfFile <- list.files(path=publicationsPath, pattern="graphe[1-9].svg", recursive = T, full.names = T)
+
+dt <- as.data.table(pdfFile)
+dt[,path:=normalizePath(pdfFile)]
+dt[,dir:=dirname(pdfFile)]
+dt[,shortName:=basename(pdfFile)]
+dt[,shortDir:=substring(dir,44,300)]
+#dt <- dt[1:10][order(shortDir)]
+dt <- dt[order(shortDir)]
+
+afficheImages <- function(){
+  listDir <- unique(dt$shortDir)
+  lapply(listDir, FUN = function(x){
+    cat(sprintf("## %s\n",x))
+    x <- dt[shortDir==x]
+    for(i in 1:nrow(x)){
+      cat(sprintf("![%s](%s)\n", x[i,shortName], x[i,path]))
+    }
+    cat("\n")
+  })
+}
+
+```
+
+
+```{r, results='asis', echo=FALSE}
+invisible(afficheImages())
+```
