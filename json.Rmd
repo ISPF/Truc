@@ -1,0 +1,103 @@
+---
+title: "Le JSON"
+author: "Hubert LEVIEL"
+date: "06/02/2023"
+output: html_document
+---
+
+```{r, warning=FALSE}
+library(tidyverse)
+library(jsonlite)
+```
+
+# Le JSON (JavaScript Object Notation)
+
+-   Format de fichier textuel conçu pour l'échange de données structurées
+
+-   Les données sont présentées sous forme de paires clé/valeur.\
+    `"key":"value"`
+
+-   Les éléments de données sont séparés par des virgules\
+    `"prenom":"Hubert", "nom":"LEVIEL"`
+
+-   Les accolades {} désignent les objets\
+    `"personne":{"prenom":"Hubert", "nom":"LEVIEL"}`
+
+-   Les crochets \[\] désignent des tableaux\
+    `{`
+
+    `"students":[`
+
+    `{"firstName":"Tom", "lastName":"Jackson"},`
+
+    `{"firstName":"Linda", "lastName":"Garner"},`
+
+    `{"firstName":"Adam", "lastName":"Cooper"}`
+
+    `]`
+
+    `}`
+
+# Naviguer dans la structure
+
+## Charger et parser un JSON
+
+```{r cars}
+json <- fromJSON("https://www.ispf.pf/content/api/datasets/1070")
+
+class(json)
+```
+
+## Descendre dans la hiérarchie
+
+```{r}
+donnees <- json$data
+
+names(donnees)
+```
+
+```{r}
+attributs <- donnees$attributes
+
+names(attributs)
+```
+
+## Récupérer une valeur
+
+```{r}
+nom <- attributs$nom
+
+nom
+```
+
+```{r}
+explication <- attributs$explication
+
+explication
+```
+
+```{r}
+date_publication <- attributs$publishedAt
+
+date_publication
+```
+
+## Récupérer un data.frame
+
+```{r}
+evolution_df <- attributs$data
+
+head(evolution_df)
+```
+
+## Directement exploitable
+
+```{r}
+evolution_df %>%
+  mutate(Periode = as.Date(Periode)) %>%
+  ggplot(aes(x=Periode, y=Valeur)) +
+  geom_line()+
+  labs(title = nom, 
+       subtitle = as.Date(date_publication),
+       caption = explication)
+```
