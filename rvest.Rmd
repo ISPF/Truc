@@ -1,0 +1,189 @@
+---
+title: "Scraper le WEB avec R et rvest"
+output:
+  html_document:
+    df_print: paged
+---
+
+rvest est un package périphérique du tidyverse pour scraper le web
+
+```{r warning=FALSE}
+library(tidyverse)
+library(rvest)
+```
+
+# Balise HTML
+
+-   Commence par \< et se termine par >\
+    `<h1>`
+
+-   \<balise>Encadre le texte à décorer / structurer\</balise>\
+    `<h1>Titre de niveau 1</h1>`
+
+-   Peut être imbriqué pour créer une hiérarchie\
+    `<p>Paragraphe avec quelque chose <b>d'important écrit en gras</b>.</p>`
+
+-   Comporte optionnellement des attributs (nom="valeur")\
+    `<a href="https://rvest.tidyverse.org">rvest home page</a>`
+
+    -   class\
+        `<div class="tabs">`
+
+    -   id\
+        `<div id="tab1">`
+
+
+# Naviguer dans la structure
+
+## Charger une page HTML
+
+```{r}
+btp_dashboard <- read_html("https://www.ispf.pf/dashboards/BTP.html")
+
+btp_dashboard
+```
+
+## Descendre dans la hiérarchie
+
+```{r}
+page_html <- btp_dashboard %>% html_children() 
+
+page_html
+```
+
+```{r}
+page_head <- page_html[1] %>% html_children()
+
+page_head
+```
+```{r}
+titre <- page_head[4] %>% html_text()
+```
+## Accès direct par balise
+```{r}
+titre <- btp_dashboard %>% 
+  html_element("title")%>%
+  html_text()
+
+titre
+```
+## Accès direct par id
+
+```{r}
+index_btp <- btp_dashboard %>% 
+  html_element("#valeur-de-lindex-btp") %>% 
+  html_element("span") %>% 
+  html_text()
+
+index_btp
+```
+
+# Scraper des listes
+
+Plusieurs balises sont répétées avec une même structure
+
+## Liste par balise
+
+```{r}
+tous_les_h3 <- btp_dashboard %>% 
+  html_elements("h3") %>% 
+  html_text()
+
+tous_les_h3
+```
+
+## Liste par style
+```{r}
+liste_de_level3 <- btp_dashboard %>% 
+  html_elements(".level3")
+
+liste_de_level3
+```
+
+## Decendre et lister
+```{r}
+titres_value_box <- btp_dashboard %>% 
+  html_element("#row") %>%
+  html_elements("h3") %>% 
+  html_text()
+
+titres_value_box
+```
+
+## Lister et descendre
+```{r}
+valeurs_value_box <- btp_dashboard %>% 
+  html_element("#row") %>% 
+  html_elements(".level3") %>% 
+  html_element("span") %>% 
+  html_text()
+
+valeurs_value_box
+```
+
+## Récupérer la valeur d'un attribut
+
+```{r}
+legendes_value_box <- btp_dashboard %>% 
+  html_element("#row") %>% 
+  html_elements(".level3") %>% 
+  html_element("span") %>% 
+  html_attr("data-caption")
+
+legendes_value_box
+```
+
+
+```{r}
+dataset <- tibble(Titre = titres_value_box, 
+                  Légende = legendes_value_box, 
+                  Valeur = valeurs_value_box)
+knitr::kable(dataset)
+```
+
+# Scraper un tableau
+
+## Le deuxième tableau de la page
+
+```{r}
+polynesie_wikipedia <- read_html(
+  "https://fr.wikipedia.org/wiki/Polyn%C3%A9sie_fran%C3%A7aise")
+
+liste_tables <- polynesie_wikipedia %>%
+  html_elements("table")
+
+liste_tables[[2]] %>%
+  html_table()
+```
+
+## Accès direct par style
+
+```{r}
+tourisme_wikipedia <- read_html(
+  "https://fr.wikipedia.org/wiki/Tourisme_en_Polyn%C3%A9sie_fran%C3%A7aise")
+
+touristes <- tourisme_wikipedia %>%
+  html_element(".wikitable")%>% 
+  html_table()
+
+touristes
+```
+
+## Le gros boulot, comme toujours : le nettoyage
+
+```{r}
+names(touristes) <- c("Annee", "Touristes", "Touristes_Payants")
+
+touristes_long <- touristes %>% 
+  mutate(
+    across(
+      starts_with("Touristes"),
+      ~as.numeric(
+        gsub(" ", "", 
+             gsub( substr( .[24], 3,3), "",.))))) %>%
+  pivot_longer(-Annee, names_to = "Type", values_to = "Nombre") 
+
+touristes_long%>%
+  ggplot(aes(x = Annee, y = Nombre, col = Type)) +
+  geom_line()
+```
